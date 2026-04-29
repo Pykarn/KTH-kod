@@ -1,0 +1,50 @@
+model = createpde();
+
+%skapa geometrin
+R1 = [1,0,0,1]';
+C1 = [1,0,0,0.1]';
+gm = [R1,C1];
+sf = 'R1-C1';
+
+ns = char('R1','C1');
+ns = ns';
+g = decsg(gm,sf,ns);
+
+geometryFromEdges(model,g);
+%plotta geometrin
+pdegplot(model,EdgeLabels="on")
+axis equal
+
+%dirichlet villkor för inre och yttre rand
+applyBoundaryCondition(model,"dirichlet", "Edge",1:4, "u",0);
+applyBoundaryCondition(model,"dirichlet", "Edge",5:8, "u",1);
+
+%koefficienter för uppgift 4
+specifyCoefficients(model,"m",0,"d",0,"c",1,"a",0,"f",0);
+
+%plotta mesh
+hmax = 0.1;
+generateMesh(model,"Hmax",hmax);
+figure
+pdemesh(model); 
+axis equal
+
+results = solvepde(model);
+u = results.NodalSolution;
+
+%plotta lösning
+figure
+pdeplot(model,XYData=u)
+title("Numerical Solution");
+xlabel("x")
+ylabel("y")
+axis equal
+
+%plotta 3d lösning
+figure
+pdeplot(model,XYData=u,ZData=u)
+title("Numerical Solution, 3D");
+xlabel("x")
+ylabel("y")
+zlabel("u")
+axis equal

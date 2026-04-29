@@ -1,0 +1,53 @@
+
+epsilon = 0.1;
+N = 100;
+h = (1 - epsilon)/N;
+
+x = linspace(epsilon,1,N+1)';
+
+D  = zeros(N-1,1);   
+D1 = zeros(N-2,1);    
+
+for i = 1:N-1
+    D(i) = 1/(2*h^2)*(x(i+2)^2-x(i)^2);
+end 
+
+for i = 1:N-2
+    D1(i) = -(x(i+2)^2 - x(i+1)^2)/(2*h^2);
+end
+
+A = diag(D) + diag(D1,1) + diag(D1,-1);
+
+
+L = zeros(N-1,1);
+
+L(1) = (x(2)^2 - x(1)^2)/(2*h^2);  % u0=1
+
+u_FEM = A \ L;
+
+lambda_max = eigs(A,1);
+lambda_max
+%Gradientmetoden
+u = zeros(N-1,1);        %gissning
+delta = 2.0/lambda_max;          %stabilt val:delta < 2/lambda_max
+iterationer = 0;
+while norm(u - u_FEM) > 1e-2
+    iterationer = iterationer + 1;
+    u = u - delta*(A*u - L);
+end
+
+iterationer
+u_full = [1; u; 0];
+
+%plot
+figure
+plot(x,u_full,'LineWidth',2)
+xlabel('r')
+ylabel('u(r)')
+title('Gradientmetod')
+
+u_exact = @(r) log(r)/log(epsilon);
+hold on
+plot(x,u_exact(x),'--','LineWidth',2)
+
+legend('Gradientmetod','FEM')
