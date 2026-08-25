@@ -1,0 +1,25 @@
+Här kommer några förslag på vilka sidor man skulle kunna sätta bokmärken på. Man behöver verkligen inte alla, utan man får känna efter vilka man tror sig ha svårt att hitta utan bokmärke. 
+
+BOKMÄRKEN:
+
+Första ordningens system (identifering av förstärkning och tidskonstant): Sida 35
+Andra ordningens system (relativ dämpning): Sida 37
+PID-regulator: Sida 54
+Felkoefficienter (e0, e1, e2...): Sida 62
+Rotort: Sida 66
+Förenklade Nyquistkriteriet: Sida 78
+Frekvenssvar (sinus-in sinus-ut): Sida 82
+Marginaler: Sida 94
+Banbredd och resonanstopp: Sida 98
+Lead-lag: Sida 106 (utspridd över flera sidor däromkring)
+Känslighetsfunktioner: Sida 122
+Robusthetskriteriet: Sida 125
+Kanoniska former: Sida 158
+Tillståndsrepresentation till överföringsfunktion: Sida 162
+Styrbarhet och observerbarhet: Sida 173
+Statisk förstärkning för tillståndsmodeller: Sida 183
+Observatör: Sida 193
+Återkoppling från rekonstuerat tillstånd: Sida 200
+Tillståndsåterkoppling med konstant störning: Sida 204
+Tustins approximationsformel: Sida 211
+
