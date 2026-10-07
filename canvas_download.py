@@ -32,6 +32,13 @@ Setup:
 4. Add each course to COURSE_IDS below with a friendly folder name.
 5. Run:  pip install requests
          python canvas_download.py
+
+
+kurser tidigare använda: 
+ "DD1385": 63900,
+ "SF1930": 65047,
+ "EL1000": 64209,
+
 """
 
 import os
@@ -45,8 +52,6 @@ CANVAS_TOKEN = os.environ.get("CANVAS_TOKEN", "PASTE_YOUR_TOKEN_HERE")
 
 # Add one entry per course you want to pull down.
 COURSE_IDS = {
-        "DD1385": 63900,
-        "SF1930": 65047,
         "EL1000": 64209,
 }
 
