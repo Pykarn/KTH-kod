@@ -1,0 +1,162 @@
+{
+ "ESS11_SE.csv": {
+  "dest": "exercise/ESS11_SE_1.csv",
+  "own": true,
+  "sha1": "ab9a74d59f534a6147e8ddb53c87cccd7229ae4c"
+ },
+ "anteckningar_ht26.pdf": {
+  "dest": "lecture/anteckningar_ht26.pdf",
+  "own": false,
+  "sha1": "4da5651fd9fd99321bdc761a756784dc162ef475"
+ },
+ "ess_dataaccessguide.pdf": {
+  "dest": "other/ess_dataaccessguide.pdf",
+  "own": false,
+  "sha1": "3b953cc184612753e8270ed6cefa1c0a999e3f93"
+ },
+ "exempelnotebook.ipynb": {
+  "dest": "exercise/exempelnotebook_1.ipynb",
+  "own": true,
+  "sha1": "8e4a6a7981b80ac81d3f14b5609c49e3af01ae4d"
+ },
+ "fls01.ipynb": {
+  "dest": "exercise/fls01_1.ipynb",
+  "own": true,
+  "sha1": "65e9c31d810c9c2e8498681eda52cce62fae2d85"
+ },
+ "fls05.ipynb": {
+  "dest": "exercise/fls05_1.ipynb",
+  "own": true,
+  "sha1": "54a316b25830e034976de2cafaa1fca9d4e7b17f"
+ },
+ "fls08.ipynb": {
+  "dest": "exercise/fls08_1.ipynb",
+  "own": true,
+  "sha1": "efc74fe5a560aaf379d51282a6f61807c8a6b2a9"
+ },
+ "fls09.ipynb": {
+  "dest": "exercise/fls09_1.ipynb",
+  "own": true,
+  "sha1": "72dfb11184411aa52474a7f8ed93c8ff0e5f1e33"
+ },
+ "fls09_data.zip": {
+  "dest": "exercise/fls09_data.zip",
+  "own": false,
+  "sha1": "109b4d37146c99282201f02bf6fc1e954d3f8702"
+ },
+ "fls12.ipynb": {
+  "dest": "exercise/fls12_1.ipynb",
+  "own": true,
+  "sha1": "efca69992a11c0ceb7bf69a8ebd2f15a7605559f"
+ },
+ "fls14.ipynb": {
+  "dest": "exercise/fls14_1.ipynb",
+  "own": true,
+  "sha1": "b57202da12ce8a038da7cb6143d7b1a4c8066e48"
+ },
+ "fls_sf1918_ht24.pdf": {
+  "dest": "lecture/fls_sf1918_ht24.pdf",
+  "own": false,
+  "sha1": "bea867f1d527cde83d97517e7547a29369be4ca8"
+ },
+ "formler_tabeller_ht25.pdf": {
+  "dest": "literature/formler_tabeller_ht25.pdf",
+  "own": false,
+  "sha1": "57fcf9f1f9395c3ee174d621064edeee71388323"
+ },
+ "formler_tabeller_ht26.pdf": {
+  "dest": "literature/formler_tabeller_ht25.pdf",
+  "own": false,
+  "sha1": "57fcf9f1f9395c3ee174d621064edeee71388323"
+ },
+ "händelser.pdf": {
+  "dest": "other/händelser.pdf",
+  "own": false,
+  "sha1": "eedc1b7076389f78780c385b657fb3ab8a8aa18c"
+ },
+ "inlämningsuppgift_ht26.pdf": {
+  "dest": "exercise/inlämningsuppgift_ht26.pdf",
+  "own": false,
+  "sha1": "b2baa403e61415a311a57dcf8870d20c9a5bd6c7"
+ },
+ "projektuppgift.pdf": {
+  "dest": "literature/projektuppgift.pdf",
+  "own": false,
+  "sha1": "b25db87fa6582296ec35ed7aa16181e36d075a0e"
+ },
+ "sf1930-ks-2609.pdf": {
+  "dest": "exam/sf1930-ks-2609.pdf",
+  "own": false,
+  "sha1": "f5bc7363292bfb86b9be8594ce9cb52caaa6e97a"
+ },
+ "sf1930_intro_ht26.pdf": {
+  "dest": "other/sf1930_intro_ht26.pdf",
+  "own": false,
+  "sha1": "c5ef76ecedf201f54c8800c8d5c3c304bb37f8ed"
+ },
+ "solutions01.pdf": {
+  "dest": "exercise/solutions01.pdf",
+  "own": false,
+  "sha1": "01d66b543e2946ccd17defa5c5f47c65d1add008"
+ },
+ "solutions02.pdf": {
+  "dest": "exercise/solutions02.pdf",
+  "own": false,
+  "sha1": "b488df3238f635b162269acaeb27238306324f85"
+ },
+ "solutions03.pdf": {
+  "dest": "exercise/solutions03.pdf",
+  "own": false,
+  "sha1": "069a45eb27d9647e9bf4fc8c8deb8d85331d6d0a"
+ },
+ "solutions04.pdf": {
+  "dest": "literature/solutions04.pdf",
+  "own": false,
+  "sha1": "7fbe10c1a227f93fed1b89d0c83b0c15a695a383"
+ },
+ "solutions05.pdf": {
+  "dest": "exercise/solutions05.pdf",
+  "own": false,
+  "sha1": "91a9d5f66cb0534a4b45b5c6268fd30c3438bd41"
+ },
+ "solutions06.pdf": {
+  "dest": "exercise/solutions06.pdf",
+  "own": false,
+  "sha1": "ac9c0b68a64b37bb44b8618d7ed9b98a4005f056"
+ },
+ "solutions07.pdf": {
+  "dest": "exercise/solutions07.pdf",
+  "own": true,
+  "sha1": "d4aecf87aed39019ea602cbbbef82710acf23ce9"
+ },
+ "solutions08.pdf": {
+  "dest": "exercise/solutions08.pdf",
+  "own": true,
+  "sha1": "64f57274ce66345180fdbac7f3ce8e6bb7381273"
+ },
+ "solutions09.pdf": {
+  "dest": "literature/solutions09.pdf",
+  "own": true,
+  "sha1": "4be53f7fa5469b12e10a85805333718c1739a49e"
+ },
+ "solutions10.pdf": {
+  "dest": "exercise/solutions10.pdf",
+  "own": true,
+  "sha1": "b1bd5e982fb2c2b26718488a1401c49db60681f8"
+ },
+ "solutions11.pdf": {
+  "dest": "exercise/solutions11.pdf",
+  "own": true,
+  "sha1": "42fbdbb984926efd845c4d9c0477f0806cee255d"
+ },
+ "solutions12.pdf": {
+  "dest": "literature/solutions12.pdf",
+  "own": true,
+  "sha1": "59fe644d7096959e3ef85be33dab938da868c26f"
+ },
+ "öv-14.ipynb": {
+  "dest": "exercise/öv-14_1.ipynb",
+  "own": true,
+  "sha1": "0b3b16f53a91eed4b1acf11a623ebb020387c1bc"
+ }
+}

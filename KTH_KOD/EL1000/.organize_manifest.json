@@ -1,0 +1,582 @@
+{
+ "EL1000_C2.m": {
+  "dest": "exercise/EL1000_C2.m",
+  "own": false,
+  "sha1": "503d278558c9c0a65c30a0ca982f8baa8e7de56b"
+ },
+ "EL1000_F10_AF.pdf": {
+  "dest": "lecture/EL1000_F10_AF.pdf",
+  "own": false,
+  "sha1": "83c9ad99e9e3065e39d3444a659cf7f0456e034f"
+ },
+ "EL1000_F11_AF.pdf": {
+  "dest": "lecture/EL1000_F11_AF.pdf",
+  "own": false,
+  "sha1": "58187c2c1d4320c17b6dbdb7d0c5ee414d4feedc"
+ },
+ "EL1000_F12_AF.pdf": {
+  "dest": "lecture/EL1000_F12_AF.pdf",
+  "own": false,
+  "sha1": "0c7e620ad1fd5248e4622a1e36ddfd807da35533"
+ },
+ "EL1000_F1_AF.pdf": {
+  "dest": "lecture/EL1000_F1_AF.pdf",
+  "own": false,
+  "sha1": "d6349c12cc9dc4c38a450bb8dcb82fdd926dc29e"
+ },
+ "EL1000_F1_intro_AF.pdf": {
+  "dest": "lecture/EL1000_F1_intro_AF.pdf",
+  "own": false,
+  "sha1": "3ba15002443c62fbd2754f00ad6600d0b7982b1f"
+ },
+ "EL1000_F2_AF.pdf": {
+  "dest": "lecture/EL1000_F2_AF.pdf",
+  "own": false,
+  "sha1": "b79fa6ebdb7f3d6ca7f41b62018c18a9a0e6b61d"
+ },
+ "EL1000_F3_AF.pdf": {
+  "dest": "lecture/EL1000_F3_AF.pdf",
+  "own": false,
+  "sha1": "f00b8d4fd8268e23fbc5fbeb3881cb6709078f3b"
+ },
+ "EL1000_F4_AF.pdf": {
+  "dest": "lecture/EL1000_F4_AF.pdf",
+  "own": false,
+  "sha1": "abe46254f8e0502b700595aad88178c58fc2df64"
+ },
+ "EL1000_F5.pdf": {
+  "dest": "exercise/EL1000_F5.pdf",
+  "own": false,
+  "sha1": "b097ca260eab51a4fd52eb9492eaecd098c7b8c6"
+ },
+ "EL1000_F5_AF.pdf": {
+  "dest": "lecture/EL1000_F5_AF.pdf",
+  "own": false,
+  "sha1": "41a6da2688fef987f1820261d7488d48a11b3b87"
+ },
+ "EL1000_F6_AF.pdf": {
+  "dest": "lecture/EL1000_F6_AF.pdf",
+  "own": false,
+  "sha1": "ff7782a98d752f50a32ad4bf60537cebbefdc948"
+ },
+ "EL1000_F7_AF.pdf": {
+  "dest": "lecture/EL1000_F7_AF.pdf",
+  "own": false,
+  "sha1": "cbd32f9021cdcdd8a255d21e01fbf41e1eff72e2"
+ },
+ "EL1000_F7notes_AF.pdf": {
+  "dest": "lecture/EL1000_F7notes_AF.pdf",
+  "own": false,
+  "sha1": "d7db0d1cddd34fa95f16a1166b23f61c53493a6c"
+ },
+ "EL1000_F8_AF.pdf": {
+  "dest": "lecture/EL1000_F8_AF.pdf",
+  "own": false,
+  "sha1": "cd6b309ee46050e63b3282633d62bcbf3bc69039"
+ },
+ "EL1000_F8notes_AF.pdf": {
+  "dest": "lecture/EL1000_F8notes_AF.pdf",
+  "own": false,
+  "sha1": "a5e78229cb57b4fb39edb0da48ec08ecb67ae989"
+ },
+ "EL1000_F9_AF.pdf": {
+  "dest": "lecture/EL1000_F9_AF.pdf",
+  "own": false,
+  "sha1": "2417ddf488acda586c123b97babe64633439c807"
+ },
+ "EL1000_F9notes_AF.pdf": {
+  "dest": "lecture/EL1000_F9notes_AF.pdf",
+  "own": false,
+  "sha1": "3e6fa94fd6f82a1d9a4d19e503c105278e74e5eb"
+ },
+ "EL1000_Lab3_2021.pdf": {
+  "dest": "other/EL1000_Lab3_2021.pdf",
+  "own": false,
+  "sha1": "dee2991579d2e72d67bb015aecf09a895cf34b72"
+ },
+ "EL1000_bokmärken.txt": {
+  "dest": "exercise/EL1000_bokmärken.txt",
+  "own": false,
+  "sha1": "d12fd878f62b6b6a97c07e57e33ef8d3b029d70d"
+ },
+ "EL1010_Lab2_oct2023.pdf": {
+  "dest": "exercise/EL1010_Lab2_oct2023.pdf",
+  "own": false,
+  "sha1": "19ab6999ca7211f41c7210fd1cc73d4e0c1c34e2"
+ },
+ "Exam_problem_overview.xlsx": {
+  "dest": "exercise/Exam_problem_overview.xlsx",
+  "own": false,
+  "sha1": "a3f3ffc1ad938b12d766bd0a81db14db0751a0c2"
+ },
+ "Exercise Session 10 Highlights.pdf": {
+  "dest": "exercise/Exercise Session 10 Highlights.pdf",
+  "own": false,
+  "sha1": "0ed53c1818aeb9797ca01df6ca2c795d69761d17"
+ },
+ "Exercise Session 6 Highlights.pdf": {
+  "dest": "exercise/Exercise Session 6 Highlights.pdf",
+  "own": false,
+  "sha1": "25bfb4b48488d1dcf42e22ddb368489171e8eb4f"
+ },
+ "Exercise Session 8 Highlights.pdf": {
+  "dest": "exercise/Exercise Session 8 Highlights.pdf",
+  "own": false,
+  "sha1": "932fb048c6b85994ff8786199f8279a7ca315696"
+ },
+ "Exercise Session 9 Highlights.pdf": {
+  "dest": "exercise/Exercise Session 9 Highlights.pdf",
+  "own": false,
+  "sha1": "71e40704c7c368a5adef815214f893f1f4e4a38c"
+ },
+ "Exercises_EL1000-Aug_2023.pdf": {
+  "dest": "exercise/Exercises_EL1000-Aug_2023.pdf",
+  "own": false,
+  "sha1": "cefa442f06deebdda29cd73b909b553884e4d72f"
+ },
+ "Extra_nollställe_stegsvar.pdf": {
+  "dest": "literature/Extra_nollställe_stegsvar.pdf",
+  "own": false,
+  "sha1": "c14100b4faadb7e398f46540871f5c1014e15c02"
+ },
+ "F10_2023.pdf": {
+  "dest": "lecture/F10_2023.pdf",
+  "own": false,
+  "sha1": "171176f3a8e95f3716369879738994a02425a95f"
+ },
+ "F11_2023.pdf": {
+  "dest": "lecture/F11_2023.pdf",
+  "own": false,
+  "sha1": "f1f3885c21489b9f51654082bf6932ed12c45b40"
+ },
+ "F12_2023.pdf": {
+  "dest": "lecture/F12_2023.pdf",
+  "own": false,
+  "sha1": "7c67a2808bc6a804a56eb94ab717e7e86acbd276"
+ },
+ "F1_2023.pdf": {
+  "dest": "lecture/F1_2023.pdf",
+  "own": false,
+  "sha1": "72f9b0e1ccfabbce5545b227d6509a8527725241"
+ },
+ "F2_2023.pdf": {
+  "dest": "lecture/F2_2023.pdf",
+  "own": false,
+  "sha1": "c9f7a8bec9e3333bb07f28f46975ec661ecc4f9e"
+ },
+ "F3_2023.pdf": {
+  "dest": "lecture/F3_2023.pdf",
+  "own": false,
+  "sha1": "fcd78e321cebd121265bda8b88ebc6379d3fe51c"
+ },
+ "F4_2023.pdf": {
+  "dest": "lecture/F4_2023.pdf",
+  "own": false,
+  "sha1": "cc391894b947e8601116ad094a0bf6684a461b99"
+ },
+ "F6_2023.pdf": {
+  "dest": "lecture/F6_2023.pdf",
+  "own": false,
+  "sha1": "fdcd1c454cab6dfd72d8fa01d6d14d33673078d4"
+ },
+ "F7_2023.pdf": {
+  "dest": "lecture/F7_2023.pdf",
+  "own": false,
+  "sha1": "f48e5e49ab174fa5356153db0f912e294e35a90f"
+ },
+ "F8_2023.pdf": {
+  "dest": "lecture/F8_2023.pdf",
+  "own": false,
+  "sha1": "e2f4a67cd364efe7729623a5dfd9f242a5874fe9"
+ },
+ "F9_2023.pdf": {
+  "dest": "lecture/F9_2023.pdf",
+  "own": false,
+  "sha1": "c39540f5e9d6411aa4fef52d5661ab21dc41d146"
+ },
+ "IMCkomp.pdf": {
+  "dest": "literature/IMCkomp.pdf",
+  "own": false,
+  "sha1": "8ed7c755fcf309f89335d0ba57479d823c83e9a2"
+ },
+ "Lab1 2017_version 2.pdf": {
+  "dest": "exercise/Lab1 2017_version 2.pdf",
+  "own": false,
+  "sha1": "b7781b158cc7b3151818e12385725ec71e63d407"
+ },
+ "Lab2 test1.pdf": {
+  "dest": "exercise/Lab2 test1.pdf",
+  "own": false,
+  "sha1": "ec3ad7a83be705f72e8eacc0c0124aa2523b2043"
+ },
+ "Lab2 test2.pdf": {
+  "dest": "exercise/Lab2 test2.pdf",
+  "own": false,
+  "sha1": "8b96ad32930279301f53d6127133afb80cb78089"
+ },
+ "Lab2 test3.pdf": {
+  "dest": "exercise/Lab2 test3.pdf",
+  "own": false,
+  "sha1": "51aee5fd0438342491fa57d10f9a728d98a8dc03"
+ },
+ "Lab2 test4.pdf": {
+  "dest": "exercise/Lab2 test4.pdf",
+  "own": false,
+  "sha1": "1dd33f876c4c7948952a528b0a227322a4cd441e"
+ },
+ "Lab2 test5 version2.pdf": {
+  "dest": "exercise/Lab2 test5 version2.pdf",
+  "own": false,
+  "sha1": "100b3c1646e9d1d76fb5b1af74a3abab5e5a4d11"
+ },
+ "MATLAB_Control_Systems_Toolbox_Introduction.pdf": {
+  "dest": "literature/MATLAB_Control_Systems_Toolbox_Introduction.pdf",
+  "own": false,
+  "sha1": "14cb71829b41c6066d397cf1c33383d86e905c22"
+ },
+ "Matlab watertanks 2017_version1.zip": {
+  "dest": "other/Matlab watertanks 2017_version1.zip",
+  "own": false,
+  "sha1": "3a57aa62c73db6600f3bc4541e5c849373f1e01e"
+ },
+ "Matlab_watertanks_2021.zip": {
+  "dest": "exercise/Matlab_watertanks_2021.zip",
+  "own": false,
+  "sha1": "92cc0ef75a3021d7f1cd74fba88b8342c2e791bc"
+ },
+ "Notes_Exercise1_MAGS-1.pdf": {
+  "dest": "exercise/Notes_Exercise1_MAGS-1.pdf",
+  "own": false,
+  "sha1": "da154901dabab995d2c20ac48dbb788403103f42"
+ },
+ "Notes_Exercise2_MAGS.pdf": {
+  "dest": "exercise/Notes_Exercise2_MAGS.pdf",
+  "own": false,
+  "sha1": "245c6bf6efba055892cc66b61772138bd4fceb22"
+ },
+ "Notes_Exercise3_MAGS.pdf": {
+  "dest": "exercise/Notes_Exercise3_MAGS.pdf",
+  "own": false,
+  "sha1": "553f98c7c0aef46f0c8d8306fbc726bf3a2a09e9"
+ },
+ "Notes_Exercise5_MAGS.pdf": {
+  "dest": "exercise/Notes_Exercise5_MAGS.pdf",
+  "own": false,
+  "sha1": "a0c8f6a98b0f4fceab32b4898bc32b6bc22ac38a"
+ },
+ "NyUpplaga.pdf": {
+  "dest": "literature/NyUpplaga.pdf",
+  "own": false,
+  "sha1": "5c19695ad95d6d713a32cd10b3265155e9fe96a2"
+ },
+ "Ordlista.pdf": {
+  "dest": "literature/Ordlista.pdf",
+  "own": false,
+  "sha1": "affdfa52b83339502ae42bac422c86b4aafad465"
+ },
+ "Session6.pdf": {
+  "dest": "literature/Session6.pdf",
+  "own": false,
+  "sha1": "06a49c0bd0a96a8a626bb34d9daee9e876259332"
+ },
+ "Session9.pdf": {
+  "dest": "lecture/Session9.pdf",
+  "own": false,
+  "sha1": "942cc82e8e533defc7a2935be581082ee5b8b1cf"
+ },
+ "SummaryBasicControl.pdf": {
+  "dest": "literature/SummaryBasicControl.pdf",
+  "own": false,
+  "sha1": "da1aa0a076af5b76a7f019cc6115926c1884e0d9"
+ },
+ "ak150109-1.pdf": {
+  "dest": "exam/ak150109-1.pdf",
+  "own": false,
+  "sha1": "5b428249875d8e52682a7cd6bf865c5e086a542b"
+ },
+ "ak151030-1.pdf": {
+  "dest": "exam/ak151030-1.pdf",
+  "own": false,
+  "sha1": "08df38391ae6ca612a26ac34591f9412946856e0"
+ },
+ "ak160108-1.pdf": {
+  "dest": "exam/ak160108-1.pdf",
+  "own": false,
+  "sha1": "7f586cca692d342dd443167139e5c3273c2eefcd"
+ },
+ "ak161022-1.pdf": {
+  "dest": "exam/ak161022-1.pdf",
+  "own": false,
+  "sha1": "0a1efaad9f0624a04eb3ed8513940dcfe1b18076"
+ },
+ "ak161221-1.pdf": {
+  "dest": "exam/ak161221-1.pdf",
+  "own": false,
+  "sha1": "e4f5ef21568767ca07edc04577e1d30e8ac7765b"
+ },
+ "ak171027.pdf": {
+  "dest": "exam/ak171027.pdf",
+  "own": false,
+  "sha1": "1f53415e676f0d1b5c074244c78a6c640b86aecf"
+ },
+ "ak171220.pdf": {
+  "dest": "exam/ak171220.pdf",
+  "own": false,
+  "sha1": "2c899cb6ca59003f415795c0fc38e2ff18a850be"
+ },
+ "ak181019.pdf": {
+  "dest": "exam/ak181019.pdf",
+  "own": false,
+  "sha1": "05f1f0a24f16ebbde64236a1ad09eb995f5bac32"
+ },
+ "ak181220.pdf": {
+  "dest": "exam/ak181220.pdf",
+  "own": false,
+  "sha1": "da32ba41528b23f758a245a9d546099b9d30ef90"
+ },
+ "ak191021.pdf": {
+  "dest": "exam/ak191021.pdf",
+  "own": false,
+  "sha1": "2d76e79e7a1876a9b02ea409261db3e99bd59fea"
+ },
+ "ak191218.pdf": {
+  "dest": "exam/ak191218.pdf",
+  "own": false,
+  "sha1": "7db3151f11ada4aa1c1293a38730eafe906c4c55"
+ },
+ "ak201015.pdf": {
+  "dest": "exam/ak201015.pdf",
+  "own": false,
+  "sha1": "9f24d52c15feafe10b81642c1dedd12a92fe9b07"
+ },
+ "ak201217.pdf": {
+  "dest": "exam/ak201217.pdf",
+  "own": false,
+  "sha1": "4f0a7ec18454be2a4b155d18f26151e0150438c9"
+ },
+ "ak211026.pdf": {
+  "dest": "exam/ak211026.pdf",
+  "own": false,
+  "sha1": "79ff2bbb43af6adc44be8cda6bec73e241e007fc"
+ },
+ "ak211220.pdf": {
+  "dest": "exam/ak211220.pdf",
+  "own": false,
+  "sha1": "46d8602fe54137242df05d880e27930651c2a221"
+ },
+ "ak221025.pdf": {
+  "dest": "exam/ak221025.pdf",
+  "own": false,
+  "sha1": "86bfa0008b7af9009107fb2ab03e9c2256ceb843"
+ },
+ "ak221219.pdf": {
+  "dest": "exam/ak221219.pdf",
+  "own": false,
+  "sha1": "7a1c22ecfd77abb284066c00da0671868c044ce0"
+ },
+ "ak231024_final.pdf": {
+  "dest": "literature/ak231024_final.pdf",
+  "own": false,
+  "sha1": "d46eb9c8f5b4ac600fd717cd98cd149d5f47acaf"
+ },
+ "ak231218.pdf": {
+  "dest": "literature/ak231218.pdf",
+  "own": false,
+  "sha1": "497bb0d49c86df6b6333f7805c8464ab44ce97a0"
+ },
+ "ak241017.pdf": {
+  "dest": "other/ak241017.pdf",
+  "own": false,
+  "sha1": "5e9fb59f0cbf023320248a77f6c9aae36e204ffc"
+ },
+ "ak241217.pdf": {
+  "dest": "other/ak241217.pdf",
+  "own": false,
+  "sha1": "416ce85180465887cc54f24f5f67c3f9b1803835"
+ },
+ "ak251016.pdf": {
+  "dest": "other/ak251016.pdf",
+  "own": false,
+  "sha1": "88ed1cb2260cd43d14c33f7b0e55b379995eadd6"
+ },
+ "ak251216.pdf": {
+  "dest": "other/ak251216.pdf",
+  "own": false,
+  "sha1": "d1644576fe77e6ee05067ba9433222e95287187f"
+ },
+ "ex1.m": {
+  "dest": "exercise/ex1.m",
+  "own": false,
+  "sha1": "9c3e2c425e423162014ee17b5e113c5ab9035daa"
+ },
+ "ex2.m": {
+  "dest": "exercise/ex2.m",
+  "own": false,
+  "sha1": "9116d485077f9d111fbac06e2be501d46212f54c"
+ },
+ "ex3.m": {
+  "dest": "exercise/ex3.m",
+  "own": false,
+  "sha1": "063f592923dd22eafd3948ef1cd61283c0fcc2f6"
+ },
+ "ex4.m": {
+  "dest": "exercise/ex4.m",
+  "own": false,
+  "sha1": "c6748c9be517526e552b1edc301c12b04a21b760"
+ },
+ "ex7.m": {
+  "dest": "exercise/ex7.m",
+  "own": false,
+  "sha1": "fd5495832f7eaddc76a6cd62fbbf926f7553f43f"
+ },
+ "intro.pdf": {
+  "dest": "literature/intro.pdf",
+  "own": false,
+  "sha1": "fe3c95f3228b93dd8ab117b0052e7b2d2d363a18"
+ },
+ "komplexatal.pdf": {
+  "dest": "literature/komplexatal.pdf",
+  "own": false,
+  "sha1": "400cac87c43d5dba939830602af85d3ea5037966"
+ },
+ "lab3robot-unix.zip": {
+  "dest": "exercise/lab3robot-unix.zip",
+  "own": false,
+  "sha1": "ddf3fe0d977ae01a1dd28591a88333b31ffe9fa3"
+ },
+ "lab3robot.zip": {
+  "dest": "exercise/lab3robot.zip",
+  "own": false,
+  "sha1": "306bc3b0585041d87788037985cc7d9df0be9b2f"
+ },
+ "lab3robot_linux.zip": {
+  "dest": "exercise/lab3robot_linux.zip",
+  "own": false,
+  "sha1": "6095f2674cc638592cbdf2ca8c60302e8044d801"
+ },
+ "laplace3.pdf": {
+  "dest": "literature/laplace3.pdf",
+  "own": false,
+  "sha1": "a0dd624b894b0f3fcf4030a299ecdd7ffea58821"
+ },
+ "session8.pdf": {
+  "dest": "literature/session8.pdf",
+  "own": false,
+  "sha1": "860d1fd1d7e1463da9ce2fb056d33a091c61647a"
+ },
+ "sol151030-1.pdf": {
+  "dest": "exercise/sol151030-1.pdf",
+  "own": false,
+  "sha1": "697fb19633b7cba69097be4abb9257def8080157"
+ },
+ "sol160108-1.pdf": {
+  "dest": "exercise/sol160108-1.pdf",
+  "own": false,
+  "sha1": "a2615a540b7ef5554c7e4474b6124afd3bb22e1b"
+ },
+ "sol161022-1.pdf": {
+  "dest": "exercise/sol161022-1.pdf",
+  "own": false,
+  "sha1": "e1b589da1fdf19147ada86cccbf3f1090ac809f6"
+ },
+ "sol161221-1.pdf": {
+  "dest": "exercise/sol161221-1.pdf",
+  "own": false,
+  "sha1": "d1b60fecd0e55c17382195f9eec88354e3427cd4"
+ },
+ "sol171027_final.pdf": {
+  "dest": "exercise/sol171027_final.pdf",
+  "own": false,
+  "sha1": "65558894f3e36daf6c99f4dac7d319d42387d7d1"
+ },
+ "sol171220.pdf": {
+  "dest": "exercise/sol171220.pdf",
+  "own": false,
+  "sha1": "6fac5b60bd6c71fa5cc3ded16ea4e10ba211ac6d"
+ },
+ "sol181019.pdf": {
+  "dest": "exercise/sol181019.pdf",
+  "own": false,
+  "sha1": "f788aa243acafc4504b2c9fc4f2a4a6e921294ef"
+ },
+ "sol181220.pdf": {
+  "dest": "exercise/sol181220.pdf",
+  "own": false,
+  "sha1": "a0e2e84f761df18fb98ff78c1cf73ac730d18ec3"
+ },
+ "sol191021.pdf": {
+  "dest": "exercise/sol191021.pdf",
+  "own": false,
+  "sha1": "b3527de66c693e60cea016576262599297b0b9ce"
+ },
+ "sol191218.pdf": {
+  "dest": "exercise/sol191218.pdf",
+  "own": false,
+  "sha1": "b3b524de3f73aeda24a34de848b8f284b6c868c4"
+ },
+ "sol201015.pdf": {
+  "dest": "exercise/sol201015.pdf",
+  "own": false,
+  "sha1": "6932f2862106c2327f819c291457c727a04371d8"
+ },
+ "sol201217.pdf": {
+  "dest": "exercise/sol201217.pdf",
+  "own": false,
+  "sha1": "3c0382bee92279441101235a7de809e391df1393"
+ },
+ "sol211026.pdf": {
+  "dest": "exercise/sol211026.pdf",
+  "own": false,
+  "sha1": "df65024fd488014f579caba11958e8a048c28801"
+ },
+ "sol211220.pdf": {
+  "dest": "exercise/sol211220.pdf",
+  "own": false,
+  "sha1": "a596ea101453c0fff35dd7689fe45e57d2e973a9"
+ },
+ "sol221025.pdf": {
+  "dest": "exercise/sol221025.pdf",
+  "own": false,
+  "sha1": "44be08bd5c7458363beeee95dbfc015837540fc4"
+ },
+ "sol221219.pdf": {
+  "dest": "exercise/sol221219.pdf",
+  "own": false,
+  "sha1": "d3e075d8821c5e7274ef0afde228202764c21c2d"
+ },
+ "sol231024.pdf": {
+  "dest": "exercise/sol231024.pdf",
+  "own": false,
+  "sha1": "4de5880937205b679e3bc5ae38c8fd67212d6bce"
+ },
+ "sol231218.pdf": {
+  "dest": "exercise/sol231218.pdf",
+  "own": false,
+  "sha1": "6ee09de110492656e9eb9eeb646f35c11fad43c6"
+ },
+ "sol241017.pdf": {
+  "dest": "literature/sol241017.pdf",
+  "own": false,
+  "sha1": "53a38908df6ad8211cbb2fcda67cb091ed69f995"
+ },
+ "sol241217.pdf": {
+  "dest": "exercise/sol241217.pdf",
+  "own": false,
+  "sha1": "5d73160eeed64b051f17f4732ec6652eacc9aa61"
+ },
+ "sol251016.pdf": {
+  "dest": "exercise/sol251016.pdf",
+  "own": false,
+  "sha1": "36db054e83cb5f0cf4b3af0aac9725a24c32de05"
+ },
+ "sol251216.pdf": {
+  "dest": "literature/sol251216.pdf",
+  "own": false,
+  "sha1": "cfe69fe8e00a707ebf13e7fd82ddab521efc95cc"
+ },
+ "uHKEfE-sol-1.pdf": {
+  "dest": "exercise/uHKEfE-sol-1.pdf",
+  "own": false,
+  "sha1": "156a62cd8c863dd81555d33bb05e3bf48a0f3315"
+ }
+}

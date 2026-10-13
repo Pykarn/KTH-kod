@@ -1,0 +1,1852 @@
+{
+ "93784371.png": {
+  "dest": "exercise/93784371.png",
+  "own": false,
+  "sha1": "f6383ad12108cd7b1519b53eb1227d40cdbbe341"
+ },
+ "AbstraktKlass.java": {
+  "dest": "exercise/AbstraktKlass.java",
+  "own": true,
+  "sha1": "ae1ff768bb34b758a14e2076498a39e33ba8a92b"
+ },
+ "Active.java": {
+  "dest": "exercise/Active_1.java",
+  "own": true,
+  "sha1": "ee82c7f8cc50eb70d160c01f08df6710f6e53b40"
+ },
+ "AllTests.java": {
+  "dest": "exercise/AllTests_1.java",
+  "own": true,
+  "sha1": "9f2f081c334fd4656ea86810b54b4668a33318a1"
+ },
+ "AwtDemo.java": {
+  "dest": "exercise/AwtDemo_1.java",
+  "own": true,
+  "sha1": "95a9dbaadfad67fb2df622d478d496c02821bb06"
+ },
+ "AwtDemo1.java": {
+  "dest": "other/AwtDemo1.java",
+  "own": true,
+  "sha1": "2d836b592501da3c55452ace45487eb67198c8ae"
+ },
+ "AwtDemo2.java": {
+  "dest": "exercise/AwtDemo2_1.java",
+  "own": true,
+  "sha1": "cd2ecc639ce97e6682a113a61545abedf4c18ad3"
+ },
+ "AwtDemo3.java": {
+  "dest": "exercise/AwtDemo3_1.java",
+  "own": true,
+  "sha1": "6dcbcd07bba3b45b75dfb20771238032fbefb801"
+ },
+ "AwtDemo4.java": {
+  "dest": "exercise/AwtDemo4_1.java",
+  "own": true,
+  "sha1": "a7097aac2d65318b5c162c0de0f71c9c9c71aa04"
+ },
+ "BarView.java": {
+  "dest": "exercise/BarView.java",
+  "own": true,
+  "sha1": "8c84676b5aa4da156dca62dbfebb1960ecb64e33"
+ },
+ "Calc.java": {
+  "dest": "exercise/Calc_1.java",
+  "own": true,
+  "sha1": "84ff4155428d496536a4ad647a0862a2f0de4757"
+ },
+ "Calc2.java": {
+  "dest": "exercise/Calc2_1.java",
+  "own": true,
+  "sha1": "639bfc39e6d5669694e83edb57e54b870bd25539"
+ },
+ "CalcTest.java": {
+  "dest": "exercise/CalcTest_1.java",
+  "own": true,
+  "sha1": "5978b4345bd9d7ff1a0953825651d60890928f34"
+ },
+ "CalcTest2.java": {
+  "dest": "exercise/CalcTest2_1.java",
+  "own": true,
+  "sha1": "2a6ce9ce0b447d4fbfafcf93742b87f43a793bfe"
+ },
+ "ColorAndView.java": {
+  "dest": "exercise/ColorAndView_1.java",
+  "own": true,
+  "sha1": "d6930637c1485a358df5671a18e12e765be10b86"
+ },
+ "ColorMix.java": {
+  "dest": "exercise/ColorMix_1.java",
+  "own": true,
+  "sha1": "338ea85477872638cb2ba45019fdc6c801c768aa"
+ },
+ "ControlPanel.java": {
+  "dest": "exercise/ControlPanel_1.java",
+  "own": true,
+  "sha1": "818212afe25e1b192440e92a661b15bd754a43e1"
+ },
+ "DynamicVsStatic.java": {
+  "dest": "exercise/DynamicVsStatic.java",
+  "own": true,
+  "sha1": "8f3c0d8a58ad4c95589e387c39ea74232cd1457a"
+ },
+ "F01_dd1385.pdf": {
+  "dest": "lecture/F01_dd1385.pdf",
+  "own": false,
+  "sha1": "4ed8207454bbcc95d2f600aefdcaebead8ea8651"
+ },
+ "F2_DD1385.pdf": {
+  "dest": "lecture/F2_DD1385.pdf",
+  "own": false,
+  "sha1": "ee30c316b501999ef359aed19cadcd75c9628e64"
+ },
+ "F2_DD1385.pptx": {
+  "dest": "lecture/F2_DD1385.pptx",
+  "own": false,
+  "sha1": "0f59a2ee85ee0958e5d14d2b583559dc73b7f370"
+ },
+ "F3.pdf": {
+  "dest": "lecture/F3.pdf",
+  "own": false,
+  "sha1": "ce3dff0fc3a79d508f1345e6d19211fd0c8d4df6"
+ },
+ "F4.pdf": {
+  "dest": "lecture/F4.pdf",
+  "own": false,
+  "sha1": "0ac48e0c763aed302c69e961e46f284c87e180a6"
+ },
+ "F5.pdf": {
+  "dest": "lecture/F5.pdf",
+  "own": true,
+  "sha1": "8f013be9c17800d13fa21851f51d3d2c02ff1e1b"
+ },
+ "Generera.java": {
+  "dest": "exercise/Generera_1.java",
+  "own": true,
+  "sha1": "519913bdd0a3112e38374823fc092128505b5873"
+ },
+ "Generera_iterator.java": {
+  "dest": "exercise/Generera_iterator_1.java",
+  "own": true,
+  "sha1": "89f772792fa7700a7936b008e1dfb020684e8e89"
+ },
+ "LooseCoupling.java": {
+  "dest": "exercise/LooseCoupling.java",
+  "own": true,
+  "sha1": "7e5464a14c817d2229f779565b2362e459ca060f"
+ },
+ "MyButton_Timer.java": {
+  "dest": "other/MyButton_Timer.java",
+  "own": true,
+  "sha1": "35de96e02bde63c41c30852783453c4c88bbe988"
+ },
+ "NumberButton.java": {
+  "dest": "exercise/NumberButton.java",
+  "own": true,
+  "sha1": "f3ff4183c376fbf6eef0b61640fae96028ed4655"
+ },
+ "PieView.java": {
+  "dest": "exercise/PieView.java",
+  "own": true,
+  "sha1": "c7d477cc5f573e36d87233ebc4058fb188fd2e00"
+ },
+ "S1.java": {
+  "dest": "exercise/S1_1.java",
+  "own": true,
+  "sha1": "16771bdd2d7555dc823ac176d44fc6a6dc3651f1"
+ },
+ "S2.java": {
+  "dest": "exercise/S2_1.java",
+  "own": true,
+  "sha1": "ca984d9635ecfa0f578b81a849a3b80d81f58c0f"
+ },
+ "S3.java": {
+  "dest": "exercise/S3_1.java",
+  "own": true,
+  "sha1": "f4fc50e8e3e111741980d36d116b16582572a8b2"
+ },
+ "S4.java": {
+  "dest": "exercise/S4_1.java",
+  "own": true,
+  "sha1": "efe34d91b1940224e3a20d68f1ee59482573e6de"
+ },
+ "S5.java": {
+  "dest": "exercise/S5_1.java",
+  "own": true,
+  "sha1": "db4c065fc8794b9d55c413fed101dfe2f6448383"
+ },
+ "Schackpjas.java": {
+  "dest": "exercise/Schackpjas.java",
+  "own": true,
+  "sha1": "5d9214883258fa2abce4250e9f8f9cc73675332c"
+ },
+ "Server.java": {
+  "dest": "exercise/Server_1.java",
+  "own": true,
+  "sha1": "2ee6de9ee9c77486c1f02c5ee8289485139ba51d"
+ },
+ "ShowSinus.java": {
+  "dest": "exercise/ShowSinus_1.java",
+  "own": true,
+  "sha1": "524318fa3f6aeb6cf811253197d97be502319b39"
+ },
+ "Sinuscontrol.java": {
+  "dest": "exercise/Sinuscontrol_1.java",
+  "own": true,
+  "sha1": "f7a7680c6d280c57023ad8e5dc3f6069ec9b712a"
+ },
+ "Sinusmodel.java": {
+  "dest": "exercise/Sinusmodel_1.java",
+  "own": true,
+  "sha1": "50acbfd03354a60f1de617cb55383b00171314d2"
+ },
+ "Sinusview.java": {
+  "dest": "exercise/Sinusview_1.java",
+  "own": true,
+  "sha1": "d5cf410cbc79e9e5de91b68e48860b1d737a8f57"
+ },
+ "Skärmavbild 2019-09-01 kl. 23.00.42.png": {
+  "dest": "exercise/Skärmavbild 2019-09-01 kl. 23.00.42.png",
+  "own": false,
+  "sha1": "5b4e4ea62bf89e66cfce53ac2cbdf986035e0397"
+ },
+ "TextView.java": {
+  "dest": "exercise/TextView.java",
+  "own": true,
+  "sha1": "e2d8b90f8149e419c39dc9d1cf9780304f9ae980"
+ },
+ "Upplaggsfat.java": {
+  "dest": "exercise/Upplaggsfat_1.java",
+  "own": true,
+  "sha1": "085a92985769f6c870adc5a3ce8858f88fbb5c14"
+ },
+ "Vaffelatare.java": {
+  "dest": "exercise/Vaffelatare_1.java",
+  "own": true,
+  "sha1": "e9957f60e98d94255cb7a8cccc339d9782268b12"
+ },
+ "Vaffelgraddare.java": {
+  "dest": "exercise/Vaffelgraddare_1.java",
+  "own": true,
+  "sha1": "09b41aebb730ed4a2bbaf9d587e349af56b2d794"
+ },
+ "Vaffelkalas.java": {
+  "dest": "exercise/Vaffelkalas_1.java",
+  "own": true,
+  "sha1": "c84dd51b1a352c2d8f2b97e1f421f4bffac6b85d"
+ },
+ "VotesDemo.java": {
+  "dest": "exercise/VotesDemo.java",
+  "own": true,
+  "sha1": "d229f4763bd6a7137548471880b33859aa0fcf90"
+ },
+ "VotesInput.java": {
+  "dest": "exercise/VotesInput.java",
+  "own": true,
+  "sha1": "9e631814bfa836da773aa59ed1d7833807596c0f"
+ },
+ "VotesModel.java": {
+  "dest": "exercise/VotesModel.java",
+  "own": true,
+  "sha1": "1f301a0655d05e50285a910bedaf92b7c9705234"
+ },
+ "github_junit4/CODING_STYLE.txt": {
+  "dest": "exercise/CODING_STYLE.txt",
+  "own": false,
+  "sha1": "35f6622f6370cec6d14723879700ec6c5bb64437"
+ },
+ "github_junit4/CONTRIBUTING.md": {
+  "dest": "exercise/CONTRIBUTING.md",
+  "own": false,
+  "sha1": "49233aff4e3f9d78078d9fe81d87e4f608f123d9"
+ },
+ "github_junit4/LEGACY_CODING_STYLE.txt": {
+  "dest": "exercise/LEGACY_CODING_STYLE.txt",
+  "own": false,
+  "sha1": "6a11dc1590e7035b2c87e082414adb8e6b82b847"
+ },
+ "github_junit4/LICENSE-junit.txt": {
+  "dest": "other/LICENSE-junit.txt",
+  "own": false,
+  "sha1": "c5ad241dc5b44cae69e48c5253b7a3fede415ea1"
+ },
+ "github_junit4/NOTICE.txt": {
+  "dest": "exercise/NOTICE.txt",
+  "own": false,
+  "sha1": "1402b5d782165162f95d5fc8b001cac204501bf5"
+ },
+ "github_junit4/README.md": {
+  "dest": "exercise/README.md",
+  "own": false,
+  "sha1": "643cc8fffea3083b05ba00d793720e98b6e1634c"
+ },
+ "github_junit4/SECURITY.md": {
+  "dest": "other/SECURITY.md",
+  "own": false,
+  "sha1": "1512a7a367e1afeddcfcac09d639aa09bb5797a2"
+ },
+ "github_junit4/acknowledgements.txt": {
+  "dest": "exercise/acknowledgements.txt",
+  "own": false,
+  "sha1": "2a222045829c11e17ec1395b4d165b80758d637d"
+ },
+ "github_junit4/doc/ReleaseNotes4.10.md": {
+  "dest": "other/ReleaseNotes4.10.md",
+  "own": false,
+  "sha1": "43093211af284a7307e0789fb0f20f328f3a0e95"
+ },
+ "github_junit4/doc/ReleaseNotes4.10.txt": {
+  "dest": "other/ReleaseNotes4.10.txt",
+  "own": false,
+  "sha1": "16762e57d58a949f220d82b6ef562769db8d34b9"
+ },
+ "github_junit4/doc/ReleaseNotes4.11.md": {
+  "dest": "other/ReleaseNotes4.11.md",
+  "own": false,
+  "sha1": "a3a3e1ee6812fbba7bb3e21ce23ab1cac8373fd0"
+ },
+ "github_junit4/doc/ReleaseNotes4.11.txt": {
+  "dest": "other/ReleaseNotes4.11.txt",
+  "own": false,
+  "sha1": "f90a6830e56aef67984912789882caea3c01b88c"
+ },
+ "github_junit4/doc/ReleaseNotes4.12.md": {
+  "dest": "other/ReleaseNotes4.12.md",
+  "own": false,
+  "sha1": "6b75feb4ea8dc2aabd4a34ab03c680da48908fc2"
+ },
+ "github_junit4/doc/ReleaseNotes4.13.1.md": {
+  "dest": "other/ReleaseNotes4.13.1.md",
+  "own": false,
+  "sha1": "5eb417796ed35efc242a7884ccd64ffc9aee01e9"
+ },
+ "github_junit4/doc/ReleaseNotes4.13.2.md": {
+  "dest": "other/ReleaseNotes4.13.2.md",
+  "own": false,
+  "sha1": "5960ba1b8c4f0ce91aea32051733940d6cafaa15"
+ },
+ "github_junit4/doc/ReleaseNotes4.13.md": {
+  "dest": "other/ReleaseNotes4.13.md",
+  "own": false,
+  "sha1": "188722aa26853e19a41d878cfccc80edc0ec5d77"
+ },
+ "github_junit4/doc/ReleaseNotes4.4.md": {
+  "dest": "other/ReleaseNotes4.4.md",
+  "own": false,
+  "sha1": "28b7d7cc47edf80ee77006c241e7d96618dd500e"
+ },
+ "github_junit4/doc/ReleaseNotes4.4.txt": {
+  "dest": "other/ReleaseNotes4.4.txt",
+  "own": false,
+  "sha1": "372e62dc57a509583ca976a003421bb608914c9c"
+ },
+ "github_junit4/doc/ReleaseNotes4.5.md": {
+  "dest": "other/ReleaseNotes4.5.md",
+  "own": false,
+  "sha1": "56821b48f33c02f8eb210b5d3ce16094bb621462"
+ },
+ "github_junit4/doc/ReleaseNotes4.5.txt": {
+  "dest": "other/ReleaseNotes4.5.txt",
+  "own": false,
+  "sha1": "0c98eaf731e85bbd8cf6658ab589dbdcfe932c20"
+ },
+ "github_junit4/doc/ReleaseNotes4.6.md": {
+  "dest": "other/ReleaseNotes4.6.md",
+  "own": false,
+  "sha1": "5ef9d8d71c56b6c24493dce28ad5eefdf4a64121"
+ },
+ "github_junit4/doc/ReleaseNotes4.6.txt": {
+  "dest": "other/ReleaseNotes4.6.txt",
+  "own": false,
+  "sha1": "32596ab86fbb5088b3331152459d2caa7e69c95a"
+ },
+ "github_junit4/doc/ReleaseNotes4.7.md": {
+  "dest": "other/ReleaseNotes4.7.md",
+  "own": false,
+  "sha1": "5e53a71b4e139cc6edeecfbfa6109147dff6eb6f"
+ },
+ "github_junit4/doc/ReleaseNotes4.7.txt": {
+  "dest": "other/ReleaseNotes4.7.txt",
+  "own": false,
+  "sha1": "586bfa55812de2846b6524e31f72dd1a8d0b0c32"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.1.md": {
+  "dest": "other/ReleaseNotes4.8.1.md",
+  "own": false,
+  "sha1": "04709a76bce027d526dd09a8b51c6a744277c8dc"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.1.txt": {
+  "dest": "other/ReleaseNotes4.8.1.txt",
+  "own": false,
+  "sha1": "abe9986a4e00faf9f7fa31f33575737f6e76332b"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.2.md": {
+  "dest": "other/ReleaseNotes4.8.2.md",
+  "own": false,
+  "sha1": "9d91923e7c98821775a9719f80458b3c09540199"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.2.txt": {
+  "dest": "other/ReleaseNotes4.8.2.txt",
+  "own": false,
+  "sha1": "efd443b77bef0f4e7cc3786525b136f2d7a12a2a"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.md": {
+  "dest": "other/ReleaseNotes4.8.md",
+  "own": false,
+  "sha1": "4ce8185a41e338ff711510fe959f19b963e3e4f1"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.txt": {
+  "dest": "other/ReleaseNotes4.8.txt",
+  "own": false,
+  "sha1": "d2e98c6612412f77544c2558529515ac1d1b61d9"
+ },
+ "github_junit4/doc/ReleaseNotes4.9.1.md": {
+  "dest": "other/ReleaseNotes4.9.1.md",
+  "own": false,
+  "sha1": "da074632a2aac3d8bc5cca382631288769a7c0f1"
+ },
+ "github_junit4/doc/ReleaseNotes4.9.1.txt": {
+  "dest": "other/ReleaseNotes4.9.1.txt",
+  "own": false,
+  "sha1": "9a22416b1d3f8a26ea01dd8e59b997278f25cf3c"
+ },
+ "github_junit4/doc/ReleaseNotes4.9.md": {
+  "dest": "other/ReleaseNotes4.9.md",
+  "own": false,
+  "sha1": "55f25806d8e21f9b66b56798309e455ee8df155e"
+ },
+ "github_junit4/doc/ReleaseNotes4.9.txt": {
+  "dest": "other/ReleaseNotes4.9.txt",
+  "own": false,
+  "sha1": "4eb9c978ac969668de5874e54ab4e3801fd93e2e"
+ },
+ "github_junit4/doc/building-junit.txt": {
+  "dest": "exercise/building-junit.txt",
+  "own": false,
+  "sha1": "063c1c86e4f058d3f122b5cbd7cb9b4e883280e4"
+ },
+ "github_junit4/doc/cookstour/Image1.gif": {
+  "dest": "other/Image1.gif",
+  "own": true,
+  "sha1": "fa90758533d5a842bb6467f3537bb262884bea96"
+ },
+ "github_junit4/doc/cookstour/Image2.gif": {
+  "dest": "other/Image2.gif",
+  "own": true,
+  "sha1": "367c097611c5874a5986504fbdb8d80579633370"
+ },
+ "github_junit4/doc/cookstour/Image3.gif": {
+  "dest": "other/Image3.gif",
+  "own": true,
+  "sha1": "d0679ac8b7901c20f095dc4538231826e7de83e2"
+ },
+ "github_junit4/doc/cookstour/Image4.gif": {
+  "dest": "other/Image4.gif",
+  "own": true,
+  "sha1": "0f899aea76580a24cd22b77a673a400081765550"
+ },
+ "github_junit4/doc/cookstour/Image5.gif": {
+  "dest": "other/Image5.gif",
+  "own": true,
+  "sha1": "dae886b3085fd391614181232f90e53f57d4150c"
+ },
+ "github_junit4/doc/cookstour/Image6.gif": {
+  "dest": "other/Image6.gif",
+  "own": true,
+  "sha1": "0d463526fca87b8567db90773c1ecea5ee29173d"
+ },
+ "github_junit4/doc/cookstour/Image7.gif": {
+  "dest": "other/Image7.gif",
+  "own": true,
+  "sha1": "12aa8f60bcf6f5d656d7e587e1bb12e185458731"
+ },
+ "github_junit4/doc/testinfected/IMG00001.GIF": {
+  "dest": "other/IMG00001.GIF",
+  "own": true,
+  "sha1": "cb424a0cb0c8e61574ba5272672eae12705471e5"
+ },
+ "github_junit4/doc/testinfected/IMG00002.GIF": {
+  "dest": "other/IMG00002.GIF",
+  "own": true,
+  "sha1": "5bf77acf287892062dbd2ea4384143a244348b8f"
+ },
+ "github_junit4/doc/testinfected/IMG00003.GIF": {
+  "dest": "other/IMG00003.GIF",
+  "own": true,
+  "sha1": "0d80176b865b83a808c36d3cdbbf155bd2f0fd0b"
+ },
+ "github_junit4/doc/testinfected/logo.gif": {
+  "dest": "other/logo.gif",
+  "own": true,
+  "sha1": "26fc9aa1c1c1001b31091eab3dd9eef221f5583d"
+ },
+ "github_junit4/src/main/java/junit/extensions/ActiveTestSuite.java": {
+  "dest": "exercise/ActiveTestSuite.java",
+  "own": true,
+  "sha1": "a64e57f7c71273c24a2d3bab43dfc327d630e5ab"
+ },
+ "github_junit4/src/main/java/junit/extensions/RepeatedTest.java": {
+  "dest": "exercise/RepeatedTest.java",
+  "own": true,
+  "sha1": "7ae43d03c1711fec6b8a32dad7cee0d8d8afd421"
+ },
+ "github_junit4/src/main/java/junit/extensions/TestDecorator.java": {
+  "dest": "exercise/TestDecorator.java",
+  "own": true,
+  "sha1": "40d71bcc986df0891ce988494c7bcc2b85c4d9d6"
+ },
+ "github_junit4/src/main/java/junit/extensions/TestSetup.java": {
+  "dest": "exercise/TestSetup.java",
+  "own": true,
+  "sha1": "78a0c5aa4889386cd11f5283f420f0c8ab97bcb6"
+ },
+ "github_junit4/src/main/java/junit/extensions/package-info.java": {
+  "dest": "exercise/package-info.java",
+  "own": true,
+  "sha1": "1347eb87ab9efdd1ba8f4abc5bdb60cd58208f11"
+ },
+ "github_junit4/src/main/java/junit/framework/Assert.java": {
+  "dest": "exercise/Assert.java",
+  "own": true,
+  "sha1": "cb7d6aae1d3cfc69ec96f5c13c7bb8ab852cba9a"
+ },
+ "github_junit4/src/main/java/junit/framework/AssertionFailedError.java": {
+  "dest": "exercise/AssertionFailedError.java",
+  "own": true,
+  "sha1": "956c687f8d98f4d67595e5d6369337f4ca56d79e"
+ },
+ "github_junit4/src/main/java/junit/framework/ComparisonCompactor.java": {
+  "dest": "exercise/ComparisonCompactor.java",
+  "own": true,
+  "sha1": "42c310f728720e3c1a2f9e0e7b80487a81205a63"
+ },
+ "github_junit4/src/main/java/junit/framework/ComparisonFailure.java": {
+  "dest": "exercise/ComparisonFailure.java",
+  "own": true,
+  "sha1": "3ff2c3de9860df06e8fe3166bd51be99d12dd11c"
+ },
+ "github_junit4/src/main/java/junit/framework/JUnit4TestAdapter.java": {
+  "dest": "other/JUnit4TestAdapter.java",
+  "own": true,
+  "sha1": "34f56122963649a3047e5b4a04e9633afead88bf"
+ },
+ "github_junit4/src/main/java/junit/framework/JUnit4TestAdapterCache.java": {
+  "dest": "other/JUnit4TestAdapterCache.java",
+  "own": true,
+  "sha1": "7343f6f9c7d043f268303d1e17509e749c89c374"
+ },
+ "github_junit4/src/main/java/junit/framework/JUnit4TestCaseFacade.java": {
+  "dest": "other/JUnit4TestCaseFacade.java",
+  "own": true,
+  "sha1": "f5d7c1c58a4e93e6e4f5defc89473f565c9a9cc2"
+ },
+ "github_junit4/src/main/java/junit/framework/Protectable.java": {
+  "dest": "exercise/Protectable.java",
+  "own": true,
+  "sha1": "1b126316fbd9045bc860a3aea3a243d54e50da6f"
+ },
+ "github_junit4/src/main/java/junit/framework/Test.java": {
+  "dest": "exercise/Test.java",
+  "own": true,
+  "sha1": "a6bdf6fff8168fe2481575f6ec35f37130da2c3e"
+ },
+ "github_junit4/src/main/java/junit/framework/TestCase.java": {
+  "dest": "exercise/TestCase.java",
+  "own": true,
+  "sha1": "239ca0672fa4751488175bf120970455d9400838"
+ },
+ "github_junit4/src/main/java/junit/framework/TestFailure.java": {
+  "dest": "exercise/TestFailure.java",
+  "own": true,
+  "sha1": "560581d5f6e9838b586e096d045b49b3351071ec"
+ },
+ "github_junit4/src/main/java/junit/framework/TestListener.java": {
+  "dest": "exercise/TestListener.java",
+  "own": true,
+  "sha1": "95e4d8ab3fcdb9241435e2d58c95472d8db0a052"
+ },
+ "github_junit4/src/main/java/junit/framework/TestResult.java": {
+  "dest": "exercise/TestResult.java",
+  "own": true,
+  "sha1": "57d94e4692ac182af8d732ac9ef707f799e9360b"
+ },
+ "github_junit4/src/main/java/junit/framework/TestSuite.java": {
+  "dest": "exercise/TestSuite.java",
+  "own": true,
+  "sha1": "8be94d17c7f4fb1e5de0eac38b969f3500b50cdc"
+ },
+ "github_junit4/src/main/java/junit/framework/package-info.java": {
+  "dest": "exercise/package-info_1.java",
+  "own": true,
+  "sha1": "438a85e032fc2cdd17ee8ef0e9a77c89ad52527c"
+ },
+ "github_junit4/src/main/java/junit/runner/BaseTestRunner.java": {
+  "dest": "exercise/BaseTestRunner.java",
+  "own": true,
+  "sha1": "eb819f6e2cb1edf5544c2ad37c867d283c5312c5"
+ },
+ "github_junit4/src/main/java/junit/runner/TestRunListener.java": {
+  "dest": "exercise/TestRunListener.java",
+  "own": true,
+  "sha1": "5436373e6dc217332a76b90e9e3f8d0c210eec50"
+ },
+ "github_junit4/src/main/java/junit/runner/Version.java": {
+  "dest": "exercise/Version.java",
+  "own": true,
+  "sha1": "9f9e71525006f77183ac29c2cd60b10b62bfd84b"
+ },
+ "github_junit4/src/main/java/junit/runner/package-info.java": {
+  "dest": "exercise/package-info_2.java",
+  "own": true,
+  "sha1": "d2f325037935019bf97ffec4f67cde09d6a56363"
+ },
+ "github_junit4/src/main/java/junit/textui/ResultPrinter.java": {
+  "dest": "exercise/ResultPrinter.java",
+  "own": true,
+  "sha1": "e351e6be391a32b48b8df3f2fba299f66a6429a1"
+ },
+ "github_junit4/src/main/java/junit/textui/TestRunner.java": {
+  "dest": "exercise/TestRunner.java",
+  "own": true,
+  "sha1": "7dc01d4bbee8ba6c82a6dbb7a0fdd0b70bd5cf8f"
+ },
+ "github_junit4/src/main/java/junit/textui/package-info.java": {
+  "dest": "exercise/package-info_3.java",
+  "own": true,
+  "sha1": "828ad7ce3b38e0b22ed38a51481b20181bad33d4"
+ },
+ "github_junit4/src/main/java/org/junit/After.java": {
+  "dest": "exercise/After.java",
+  "own": true,
+  "sha1": "3f337d1ea2e6ecc81376a7419ca6ab5537dae698"
+ },
+ "github_junit4/src/main/java/org/junit/AfterClass.java": {
+  "dest": "exercise/AfterClass.java",
+  "own": true,
+  "sha1": "90d513e4c6f43ecd4d104cf545a0343b932f856d"
+ },
+ "github_junit4/src/main/java/org/junit/Assert.java": {
+  "dest": "exercise/Assert_1.java",
+  "own": true,
+  "sha1": "ce4b83609c4e4991ca770e29bdfa47f018e96cb4"
+ },
+ "github_junit4/src/main/java/org/junit/Assume.java": {
+  "dest": "exercise/Assume.java",
+  "own": true,
+  "sha1": "bd6d6cc592e71311c1180968552d5556fcc2da74"
+ },
+ "github_junit4/src/main/java/org/junit/AssumptionViolatedException.java": {
+  "dest": "exercise/AssumptionViolatedException.java",
+  "own": true,
+  "sha1": "ad737332ddc5e82e79f56eb9b302646ed13013bc"
+ },
+ "github_junit4/src/main/java/org/junit/Before.java": {
+  "dest": "exercise/Before.java",
+  "own": true,
+  "sha1": "82a9cbbcca0bbd7adcfe2a6a785d3cf077c10149"
+ },
+ "github_junit4/src/main/java/org/junit/BeforeClass.java": {
+  "dest": "exercise/BeforeClass.java",
+  "own": true,
+  "sha1": "5f874bcc240c4cdcc3c964a70830f9a28baf4f7d"
+ },
+ "github_junit4/src/main/java/org/junit/ClassRule.java": {
+  "dest": "exercise/ClassRule.java",
+  "own": true,
+  "sha1": "44328ba2c53f034456694f20b28248017c31229c"
+ },
+ "github_junit4/src/main/java/org/junit/ComparisonFailure.java": {
+  "dest": "exercise/ComparisonFailure_1.java",
+  "own": true,
+  "sha1": "1347736314276981c955c3ccf69b14abd1ae13e5"
+ },
+ "github_junit4/src/main/java/org/junit/FixMethodOrder.java": {
+  "dest": "exercise/FixMethodOrder.java",
+  "own": true,
+  "sha1": "cc2e462df9fa0ba35a26686194d376b5da90362a"
+ },
+ "github_junit4/src/main/java/org/junit/Ignore.java": {
+  "dest": "exercise/Ignore.java",
+  "own": true,
+  "sha1": "bd198b73f7fea6c5f0c1a9624c3cd14e813501bb"
+ },
+ "github_junit4/src/main/java/org/junit/Rule.java": {
+  "dest": "exercise/Rule.java",
+  "own": true,
+  "sha1": "8f82fdc613d629e511b719eea585da216cc5b3d3"
+ },
+ "github_junit4/src/main/java/org/junit/Test.java": {
+  "dest": "exercise/Test_1.java",
+  "own": true,
+  "sha1": "75b531c8338853efb650273cc5235fca9533e4eb"
+ },
+ "github_junit4/src/main/java/org/junit/TestCouldNotBeSkippedException.java": {
+  "dest": "other/TestCouldNotBeSkippedException.java",
+  "own": true,
+  "sha1": "d2e147cb5b7bae83ecd1a520f7daa2b0f11b2324"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/ParallelComputer.java": {
+  "dest": "exercise/ParallelComputer.java",
+  "own": true,
+  "sha1": "c42b1acd4f7b0f33d4726a5b33dc6edf9c796bff"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/categories/Categories.java": {
+  "dest": "exercise/Categories.java",
+  "own": true,
+  "sha1": "9ab46bb4b599f0b84b3301bbe022c9c71948b928"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/categories/Category.java": {
+  "dest": "exercise/Category.java",
+  "own": true,
+  "sha1": "1f1d0287bb8b2a037f71b5f5df4c78a7c2589d62"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/categories/CategoryFilterFactory.java": {
+  "dest": "exercise/CategoryFilterFactory.java",
+  "own": true,
+  "sha1": "14dabbcbd32f14d2cf5b9691e55bea2f6af8153a"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/categories/CategoryValidator.java": {
+  "dest": "exercise/CategoryValidator.java",
+  "own": true,
+  "sha1": "5e4ecff3e12fba0be81d53f1ceaab15c0a641166"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/categories/ExcludeCategories.java": {
+  "dest": "exercise/ExcludeCategories.java",
+  "own": true,
+  "sha1": "c883c5fd720da4cd026f92af0ba5a395d071539a"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/categories/IncludeCategories.java": {
+  "dest": "exercise/IncludeCategories.java",
+  "own": true,
+  "sha1": "8e4a7b9869c0bd1a56c12a4f24f438fa49b0fc93"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/max/CouldNotReadCoreException.java": {
+  "dest": "other/CouldNotReadCoreException.java",
+  "own": true,
+  "sha1": "19e4e5ad9c5acdf6b3cd28760db6c7d989ffa880"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/max/MaxCore.java": {
+  "dest": "exercise/MaxCore.java",
+  "own": true,
+  "sha1": "badddbc41e1da118443e63994949daebb27f0774"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/max/MaxHistory.java": {
+  "dest": "exercise/MaxHistory.java",
+  "own": true,
+  "sha1": "09b5a6e3ae82f4ff362319b0b027489a665c15ab"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/results/FailureList.java": {
+  "dest": "exercise/FailureList.java",
+  "own": true,
+  "sha1": "9824bbafae55f618d15848b3c562b75a9817e7b9"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/results/PrintableResult.java": {
+  "dest": "exercise/PrintableResult.java",
+  "own": true,
+  "sha1": "de983f2604d8fafd0cc8fbc5d6c5accb53df8629"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/results/ResultMatchers.java": {
+  "dest": "exercise/ResultMatchers.java",
+  "own": true,
+  "sha1": "48b6dbe3f08837e5ef555ed3abad3bff55cf8eeb"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/runners/Enclosed.java": {
+  "dest": "exercise/Enclosed.java",
+  "own": true,
+  "sha1": "cee8475742f5a47cbb37a134410c3b1371794e76"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/DataPoint.java": {
+  "dest": "exercise/DataPoint.java",
+  "own": true,
+  "sha1": "bcb32bad9ba32c79346410ac108661ea3992ad68"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/DataPoints.java": {
+  "dest": "exercise/DataPoints.java",
+  "own": true,
+  "sha1": "94eebfd627baa06de9277691f97fa02630bd415f"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/FromDataPoints.java": {
+  "dest": "exercise/FromDataPoints.java",
+  "own": true,
+  "sha1": "e3bd0ae64b8ca7dc76b5763c698155105c038c47"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/ParameterSignature.java": {
+  "dest": "exercise/ParameterSignature.java",
+  "own": true,
+  "sha1": "c6f62632fbd39ca7ceb57cacfa49cd0ba7fd6bb5"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/ParameterSupplier.java": {
+  "dest": "exercise/ParameterSupplier.java",
+  "own": true,
+  "sha1": "0c3df92cb6d3da3f703ff15c19be81aed1d4856c"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/ParametersSuppliedBy.java": {
+  "dest": "exercise/ParametersSuppliedBy.java",
+  "own": true,
+  "sha1": "08edbdd644a1b11354f7d92c877d61432638ed9f"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/PotentialAssignment.java": {
+  "dest": "exercise/PotentialAssignment.java",
+  "own": true,
+  "sha1": "5466f048f061a30083a7b429e62d1c1e68e943b6"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/Theories.java": {
+  "dest": "exercise/Theories.java",
+  "own": true,
+  "sha1": "621a44748b434ace0a18b2d1bcca9dc9379645b9"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/Theory.java": {
+  "dest": "exercise/Theory.java",
+  "own": true,
+  "sha1": "b8e2155b75f4ba23ea40ed86267728d264b62730"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier.java": {
+  "dest": "exercise/AllMembersSupplier.java",
+  "own": true,
+  "sha1": "495488752cc555ac8ed658696362c7dc3abda284"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/internal/Assignments.java": {
+  "dest": "exercise/Assignments.java",
+  "own": true,
+  "sha1": "429afb7fc030660c6e61853cb9b7d1fc7aca802d"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/internal/BooleanSupplier.java": {
+  "dest": "exercise/BooleanSupplier.java",
+  "own": true,
+  "sha1": "0f273ac31d7cf38a432de4216b820387d25e0fcd"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/internal/EnumSupplier.java": {
+  "dest": "exercise/EnumSupplier.java",
+  "own": true,
+  "sha1": "dbef43412916f765d04688ae8c300a7407ef07fd"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/internal/ParameterizedAssertionError.java": {
+  "dest": "exercise/ParameterizedAssertionError.java",
+  "own": true,
+  "sha1": "729e2bd0dba38c47a041c9105ce399004ac84c8a"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.java": {
+  "dest": "exercise/SpecificDataPointsSupplier.java",
+  "own": true,
+  "sha1": "5d25d2c2b7917f784319182b247ba16df31bbce5"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/suppliers/TestedOn.java": {
+  "dest": "exercise/TestedOn.java",
+  "own": true,
+  "sha1": "74e9ea2e5302c68878a8fc359c171201f4cc0e5a"
+ },
+ "github_junit4/src/main/java/org/junit/experimental/theories/suppliers/TestedOnSupplier.java": {
+  "dest": "exercise/TestedOnSupplier.java",
+  "own": true,
+  "sha1": "c15722cbc077cf4e8c9f1f9b6118207df1e32e20"
+ },
+ "github_junit4/src/main/java/org/junit/function/ThrowingRunnable.java": {
+  "dest": "exercise/ThrowingRunnable.java",
+  "own": true,
+  "sha1": "09b020e741cb5fd57b98d579d3776d35a1b404df"
+ },
+ "github_junit4/src/main/java/org/junit/internal/ArrayComparisonFailure.java": {
+  "dest": "exercise/ArrayComparisonFailure.java",
+  "own": true,
+  "sha1": "f2460822b15c4561bef275641f0aedeccc8f11ec"
+ },
+ "github_junit4/src/main/java/org/junit/internal/AssumptionViolatedException.java": {
+  "dest": "exercise/AssumptionViolatedException_1.java",
+  "own": true,
+  "sha1": "1737fbb1a73bd61d270a294beb34cc436e710647"
+ },
+ "github_junit4/src/main/java/org/junit/internal/Checks.java": {
+  "dest": "exercise/Checks.java",
+  "own": true,
+  "sha1": "0f9d78be7446337bfd7dcd8810594c70abdb99ab"
+ },
+ "github_junit4/src/main/java/org/junit/internal/Classes.java": {
+  "dest": "exercise/Classes.java",
+  "own": true,
+  "sha1": "a9a92222980ca85b4ee7df6f158447e1e2f0c3dd"
+ },
+ "github_junit4/src/main/java/org/junit/internal/ComparisonCriteria.java": {
+  "dest": "exercise/ComparisonCriteria.java",
+  "own": true,
+  "sha1": "c73ec5a957cf2e970e31f1ac4a67a9646098c646"
+ },
+ "github_junit4/src/main/java/org/junit/internal/ExactComparisonCriteria.java": {
+  "dest": "exercise/ExactComparisonCriteria.java",
+  "own": true,
+  "sha1": "365cc2ac0abacf424e975149827e1a03e364b3d9"
+ },
+ "github_junit4/src/main/java/org/junit/internal/InexactComparisonCriteria.java": {
+  "dest": "exercise/InexactComparisonCriteria.java",
+  "own": true,
+  "sha1": "bb871ced1b23d8149ed9074c199a4f745cd98da2"
+ },
+ "github_junit4/src/main/java/org/junit/internal/JUnitSystem.java": {
+  "dest": "exercise/JUnitSystem.java",
+  "own": true,
+  "sha1": "a39973b04089efbe642cd6e73808b4704063e7e8"
+ },
+ "github_junit4/src/main/java/org/junit/internal/MethodSorter.java": {
+  "dest": "exercise/MethodSorter.java",
+  "own": true,
+  "sha1": "d11ea69f2f8fc1c9af659f0275f0cec35a077dc7"
+ },
+ "github_junit4/src/main/java/org/junit/internal/RealSystem.java": {
+  "dest": "exercise/RealSystem.java",
+  "own": true,
+  "sha1": "beba5a17278c46e6830b8b1bc10e7d3b01de8134"
+ },
+ "github_junit4/src/main/java/org/junit/internal/SerializableMatcherDescription.java": {
+  "dest": "exercise/SerializableMatcherDescription.java",
+  "own": true,
+  "sha1": "3c05abc2644be8af20b08cff11510b94825ebff3"
+ },
+ "github_junit4/src/main/java/org/junit/internal/SerializableValueDescription.java": {
+  "dest": "exercise/SerializableValueDescription.java",
+  "own": true,
+  "sha1": "f3bce7e7d48d7e29a5a3e1716516fe48285eefd9"
+ },
+ "github_junit4/src/main/java/org/junit/internal/TextListener.java": {
+  "dest": "exercise/TextListener.java",
+  "own": true,
+  "sha1": "7bd9dff1ed93c679802d0eac608726555e188634"
+ },
+ "github_junit4/src/main/java/org/junit/internal/Throwables.java": {
+  "dest": "exercise/Throwables.java",
+  "own": true,
+  "sha1": "4bdd00d616d4ca0721ef0acd13504b5422269b84"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java": {
+  "dest": "exercise/AllDefaultPossibilitiesBuilder.java",
+  "own": true,
+  "sha1": "d7ac8187d87ea265d081852fafe362a098b2a681"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/AnnotatedBuilder.java": {
+  "dest": "exercise/AnnotatedBuilder.java",
+  "own": true,
+  "sha1": "121ef282601b42221812e76517eb10a2b37ff37d"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/IgnoredBuilder.java": {
+  "dest": "exercise/IgnoredBuilder.java",
+  "own": true,
+  "sha1": "e47a0c0a905c44deedab226e5c53f4572303c182"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/IgnoredClassRunner.java": {
+  "dest": "exercise/IgnoredClassRunner.java",
+  "own": true,
+  "sha1": "ae0d169e5b23192158e592d51d342f11df7bf87e"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/JUnit3Builder.java": {
+  "dest": "exercise/JUnit3Builder.java",
+  "own": true,
+  "sha1": "135e733d282a7534d04d7c49bb8f9d522f364c47"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/JUnit4Builder.java": {
+  "dest": "exercise/JUnit4Builder.java",
+  "own": true,
+  "sha1": "22b739dc6f8569d467f795f684e5ab38126f9001"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/NullBuilder.java": {
+  "dest": "exercise/NullBuilder.java",
+  "own": true,
+  "sha1": "13a8a255679f3931a67a15940d2632340484e997"
+ },
+ "github_junit4/src/main/java/org/junit/internal/builders/SuiteMethodBuilder.java": {
+  "dest": "exercise/SuiteMethodBuilder.java",
+  "own": true,
+  "sha1": "5b8e39c37c5b84efdcc279ef3503c5a22b4a8393"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/FakeRuntimeMXBean.java": {
+  "dest": "other/FakeRuntimeMXBean.java",
+  "own": true,
+  "sha1": "fdfc93e69d1817f783c74ef36612d61975924a54"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/FakeThreadMXBean.java": {
+  "dest": "other/FakeThreadMXBean.java",
+  "own": true,
+  "sha1": "26b68e77ab789436036dcc870f16fe66dcfe4321"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/ManagementFactory.java": {
+  "dest": "other/ManagementFactory.java",
+  "own": true,
+  "sha1": "8293c9bf3eb54ffb9058bb046fcafdc0d07a55ca"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/ReflectiveRuntimeMXBean.java": {
+  "dest": "other/ReflectiveRuntimeMXBean.java",
+  "own": true,
+  "sha1": "5b71fd849140759d5f2c3303fbe467801d85b029"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/ReflectiveThreadMXBean.java": {
+  "dest": "other/ReflectiveThreadMXBean.java",
+  "own": true,
+  "sha1": "76e632ba410c0c0144674c733e8d3f73b266f513"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/RuntimeMXBean.java": {
+  "dest": "other/RuntimeMXBean.java",
+  "own": true,
+  "sha1": "cdafd09fd8cb55a58d80932ae0e767e2467195db"
+ },
+ "github_junit4/src/main/java/org/junit/internal/management/ThreadMXBean.java": {
+  "dest": "other/ThreadMXBean.java",
+  "own": true,
+  "sha1": "11a256fde53f742dafb7a64f080da4b64ce0d855"
+ },
+ "github_junit4/src/main/java/org/junit/internal/matchers/StacktracePrintingMatcher.java": {
+  "dest": "exercise/StacktracePrintingMatcher.java",
+  "own": true,
+  "sha1": "e214b84ba27b93c867d8f2d9cef46c7822a019a6"
+ },
+ "github_junit4/src/main/java/org/junit/internal/matchers/ThrowableCauseMatcher.java": {
+  "dest": "exercise/ThrowableCauseMatcher.java",
+  "own": true,
+  "sha1": "219ebfacb452128a8afc4007d9ca738d1a7e6dcb"
+ },
+ "github_junit4/src/main/java/org/junit/internal/matchers/ThrowableMessageMatcher.java": {
+  "dest": "exercise/ThrowableMessageMatcher.java",
+  "own": true,
+  "sha1": "320a26013768a126df975bbcd0d8eb0044bc58a4"
+ },
+ "github_junit4/src/main/java/org/junit/internal/matchers/TypeSafeMatcher.java": {
+  "dest": "exercise/TypeSafeMatcher.java",
+  "own": true,
+  "sha1": "4aca98cdf9b57e89801e6d976c8e070e79989549"
+ },
+ "github_junit4/src/main/java/org/junit/internal/requests/ClassRequest.java": {
+  "dest": "exercise/ClassRequest.java",
+  "own": true,
+  "sha1": "2135fa28e39ca7929b63429ca5ce447a16a08f4c"
+ },
+ "github_junit4/src/main/java/org/junit/internal/requests/FilterRequest.java": {
+  "dest": "exercise/FilterRequest.java",
+  "own": true,
+  "sha1": "6f04211d5fa80cc5241ad83fe3849238cab3d81e"
+ },
+ "github_junit4/src/main/java/org/junit/internal/requests/MemoizingRequest.java": {
+  "dest": "exercise/MemoizingRequest.java",
+  "own": true,
+  "sha1": "40f42673284d66913d4670f9f3370c82d9fa5912"
+ },
+ "github_junit4/src/main/java/org/junit/internal/requests/OrderingRequest.java": {
+  "dest": "exercise/OrderingRequest.java",
+  "own": true,
+  "sha1": "903d3485145bbd78951f103168aeac3ecab18bc6"
+ },
+ "github_junit4/src/main/java/org/junit/internal/requests/SortingRequest.java": {
+  "dest": "exercise/SortingRequest.java",
+  "own": true,
+  "sha1": "186434462d784c14cf705d3290d091de2ab26ab7"
+ },
+ "github_junit4/src/main/java/org/junit/internal/requests/package-info.java": {
+  "dest": "exercise/package-info_5.java",
+  "own": true,
+  "sha1": "38f278a11efcd8df26ac9ab929b5ec2a2750625e"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/ClassRoadie.java": {
+  "dest": "exercise/ClassRoadie.java",
+  "own": true,
+  "sha1": "ec016049892e9397b5d4c223d60cf21db1f59b59"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/ErrorReportingRunner.java": {
+  "dest": "other/ErrorReportingRunner.java",
+  "own": true,
+  "sha1": "404420724315379e91d9182277b23b85615e898b"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/FailedBefore.java": {
+  "dest": "other/FailedBefore.java",
+  "own": true,
+  "sha1": "5323f05bede6ff8f0542544b9e4e931cd77e1f23"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/InitializationError.java": {
+  "dest": "other/InitializationError.java",
+  "own": true,
+  "sha1": "3a3bcd0b0cdc86f6c9054f4f9f684b4d1957a794"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/JUnit38ClassRunner.java": {
+  "dest": "other/JUnit38ClassRunner.java",
+  "own": true,
+  "sha1": "1daceb6634cf1b3c5bb01bb0d34f50a878eed4ae"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/JUnit4ClassRunner.java": {
+  "dest": "exercise/JUnit4ClassRunner.java",
+  "own": true,
+  "sha1": "32a732d6376769f62cc568d42928fa3bfbc01c98"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/MethodRoadie.java": {
+  "dest": "exercise/MethodRoadie.java",
+  "own": true,
+  "sha1": "a7c6948d9aebca1439969003e3e0c8f04561d35d"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/MethodValidator.java": {
+  "dest": "exercise/MethodValidator.java",
+  "own": true,
+  "sha1": "1daa8dc6b9f6a9339d2f38d3c317606de217cbfb"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/SuiteMethod.java": {
+  "dest": "exercise/SuiteMethod.java",
+  "own": true,
+  "sha1": "5a2f2ee8e530fb21c4c1c9e1368efe5dcb24c138"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/TestClass.java": {
+  "dest": "exercise/TestClass.java",
+  "own": true,
+  "sha1": "83ba9cc3a25b8ac7d473ea188040b73865c843df"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/TestMethod.java": {
+  "dest": "exercise/TestMethod.java",
+  "own": true,
+  "sha1": "5f268d990f1dff3118bbde1bd2a8c166f4e73780"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/model/EachTestNotifier.java": {
+  "dest": "exercise/EachTestNotifier.java",
+  "own": true,
+  "sha1": "a1e1e6c7d666c136bcd2c02c64f4d16b58012a9e"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/model/MultipleFailureException.java": {
+  "dest": "other/MultipleFailureException.java",
+  "own": true,
+  "sha1": "9e8b18f5ada23c63a698569774ab4b14a52c3a18"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/model/ReflectiveCallable.java": {
+  "dest": "exercise/ReflectiveCallable.java",
+  "own": true,
+  "sha1": "bc04072ebac93c61df9d8112ef0c7cbbb97cc0c6"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/package-info.java": {
+  "dest": "exercise/package-info_6.java",
+  "own": true,
+  "sha1": "91f627b4941e66c9dacd8a7a0b3ac47574bd3da0"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/rules/RuleMemberValidator.java": {
+  "dest": "exercise/RuleMemberValidator.java",
+  "own": true,
+  "sha1": "d27b36e9128b36fc72629223600f67005885b12a"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/rules/ValidationError.java": {
+  "dest": "exercise/ValidationError.java",
+  "own": true,
+  "sha1": "d8e16dd79540386a31c358a3079129806c2e1b46"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/statements/ExpectException.java": {
+  "dest": "exercise/ExpectException.java",
+  "own": true,
+  "sha1": "e0495dbd208b404df4ddd02d60e6090ba50c2b8f"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/statements/Fail.java": {
+  "dest": "exercise/Fail.java",
+  "own": true,
+  "sha1": "65368dc568180a57cba258063f05898e2c965227"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java": {
+  "dest": "other/FailOnTimeout.java",
+  "own": true,
+  "sha1": "cd7324cd75c32241702ca9c2efceb7662f1f928b"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/statements/InvokeMethod.java": {
+  "dest": "exercise/InvokeMethod.java",
+  "own": true,
+  "sha1": "73e51cce234d96679e5f5ee2abea58fd0ab13d33"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/statements/RunAfters.java": {
+  "dest": "exercise/RunAfters.java",
+  "own": true,
+  "sha1": "dbc0584ce22b1d35e2938cf4fb10a7635dc0e158"
+ },
+ "github_junit4/src/main/java/org/junit/internal/runners/statements/RunBefores.java": {
+  "dest": "exercise/RunBefores.java",
+  "own": true,
+  "sha1": "fe1a4293a53cbf6c7e7d5b6c141b992116b6a8b9"
+ },
+ "github_junit4/src/main/java/org/junit/matchers/JUnitMatchers.java": {
+  "dest": "exercise/JUnitMatchers.java",
+  "own": true,
+  "sha1": "76a2dd915cd7ea5a09bea3db99349a607860a8fc"
+ },
+ "github_junit4/src/main/java/org/junit/matchers/package-info.java": {
+  "dest": "exercise/package-info_7.java",
+  "own": true,
+  "sha1": "c0078abe65664485ecd379e1bb63f0c76ff7dbe6"
+ },
+ "github_junit4/src/main/java/org/junit/package-info.java": {
+  "dest": "exercise/package-info_4.java",
+  "own": true,
+  "sha1": "75c48efbeb9ac0126fdff4e1d54f9eec08527f94"
+ },
+ "github_junit4/src/main/java/org/junit/rules/DisableOnDebug.java": {
+  "dest": "exercise/DisableOnDebug.java",
+  "own": true,
+  "sha1": "1be40678cbc06e520aa89da078848d5f9a224488"
+ },
+ "github_junit4/src/main/java/org/junit/rules/ErrorCollector.java": {
+  "dest": "exercise/ErrorCollector.java",
+  "own": true,
+  "sha1": "d5cacb377a0feb840e54eba4da685766a88f2395"
+ },
+ "github_junit4/src/main/java/org/junit/rules/ExpectedException.java": {
+  "dest": "exercise/ExpectedException.java",
+  "own": true,
+  "sha1": "5fe1ad85e1638f08c5062c106032e1b2788df4ef"
+ },
+ "github_junit4/src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java": {
+  "dest": "exercise/ExpectedExceptionMatcherBuilder.java",
+  "own": true,
+  "sha1": "94e823139c9355d05d7a83c3c5705c2dfddee791"
+ },
+ "github_junit4/src/main/java/org/junit/rules/ExternalResource.java": {
+  "dest": "exercise/ExternalResource.java",
+  "own": true,
+  "sha1": "a8deb674602e56895358238030652e4cfd99bace"
+ },
+ "github_junit4/src/main/java/org/junit/rules/MethodRule.java": {
+  "dest": "exercise/MethodRule.java",
+  "own": true,
+  "sha1": "a3d8b0a7d7624ab79c468040dbdd0b85b4f4d5fe"
+ },
+ "github_junit4/src/main/java/org/junit/rules/RuleChain.java": {
+  "dest": "exercise/RuleChain.java",
+  "own": true,
+  "sha1": "bec09d0cc310e200c8361c2af9b25079d939b2ae"
+ },
+ "github_junit4/src/main/java/org/junit/rules/RunRules.java": {
+  "dest": "exercise/RunRules.java",
+  "own": true,
+  "sha1": "5424a76bca62ff292b415d8e393a8cb5354a1c6d"
+ },
+ "github_junit4/src/main/java/org/junit/rules/Stopwatch.java": {
+  "dest": "other/Stopwatch.java",
+  "own": true,
+  "sha1": "c6c0907047f27dc2bbca2ece73a4ebe3134d778a"
+ },
+ "github_junit4/src/main/java/org/junit/rules/TemporaryFolder.java": {
+  "dest": "exercise/TemporaryFolder.java",
+  "own": true,
+  "sha1": "ed335b212b8aafc809070056ff5c9c4fd0db8a4e"
+ },
+ "github_junit4/src/main/java/org/junit/rules/TestName.java": {
+  "dest": "exercise/TestName.java",
+  "own": true,
+  "sha1": "7d88ab7300093ab43b0508b5c5d1b9d249c3e768"
+ },
+ "github_junit4/src/main/java/org/junit/rules/TestRule.java": {
+  "dest": "exercise/TestRule.java",
+  "own": true,
+  "sha1": "d9ec1abca6bb58229e99b25256ed2f21e70f278b"
+ },
+ "github_junit4/src/main/java/org/junit/rules/TestWatcher.java": {
+  "dest": "exercise/TestWatcher.java",
+  "own": true,
+  "sha1": "e04219e0587e6bc9f08d003f54f9f2198fae9573"
+ },
+ "github_junit4/src/main/java/org/junit/rules/TestWatchman.java": {
+  "dest": "exercise/TestWatchman.java",
+  "own": true,
+  "sha1": "7d845071ee345f02b264ef798ac7b2cf538cc01a"
+ },
+ "github_junit4/src/main/java/org/junit/rules/Timeout.java": {
+  "dest": "exercise/Timeout.java",
+  "own": true,
+  "sha1": "2e3642df5c938f64c30cce613ad49b5224619c55"
+ },
+ "github_junit4/src/main/java/org/junit/rules/Verifier.java": {
+  "dest": "exercise/Verifier.java",
+  "own": true,
+  "sha1": "cd2422a96e0cfe8ead6e13dd77ee48aa6f10dcf8"
+ },
+ "github_junit4/src/main/java/org/junit/runner/Computer.java": {
+  "dest": "exercise/Computer.java",
+  "own": true,
+  "sha1": "0b2c6a92a16c411cdf36b5772600a9cbc0272486"
+ },
+ "github_junit4/src/main/java/org/junit/runner/Describable.java": {
+  "dest": "exercise/Describable.java",
+  "own": true,
+  "sha1": "290d02458263f375388f5b5d51a49ea4c72f1b9a"
+ },
+ "github_junit4/src/main/java/org/junit/runner/Description.java": {
+  "dest": "exercise/Description.java",
+  "own": true,
+  "sha1": "85912cecb4cd6642c7a21d86e59bc9cf36afd5d4"
+ },
+ "github_junit4/src/main/java/org/junit/runner/FilterFactories.java": {
+  "dest": "exercise/FilterFactories.java",
+  "own": true,
+  "sha1": "cc63cefef1d28426a5430e40b3be4385f9502cef"
+ },
+ "github_junit4/src/main/java/org/junit/runner/FilterFactory.java": {
+  "dest": "exercise/FilterFactory.java",
+  "own": true,
+  "sha1": "96a9601249998e1db046293b65fa61535a072357"
+ },
+ "github_junit4/src/main/java/org/junit/runner/FilterFactoryParams.java": {
+  "dest": "exercise/FilterFactoryParams.java",
+  "own": true,
+  "sha1": "e25afadfd96778380d0a890dad2398196f1fca37"
+ },
+ "github_junit4/src/main/java/org/junit/runner/JUnitCommandLineParseResult.java": {
+  "dest": "exercise/JUnitCommandLineParseResult.java",
+  "own": true,
+  "sha1": "f242175188f126ca570fa7f06ece488d2dd1f2dd"
+ },
+ "github_junit4/src/main/java/org/junit/runner/JUnitCore.java": {
+  "dest": "exercise/JUnitCore.java",
+  "own": true,
+  "sha1": "2ade0f54fd2f8b487241eaa565ff0c6f1bd79170"
+ },
+ "github_junit4/src/main/java/org/junit/runner/OrderWith.java": {
+  "dest": "exercise/OrderWith.java",
+  "own": true,
+  "sha1": "f1d663aff614f3e97d7bfd64d86ecd277071aea4"
+ },
+ "github_junit4/src/main/java/org/junit/runner/OrderWithValidator.java": {
+  "dest": "exercise/OrderWithValidator.java",
+  "own": true,
+  "sha1": "85681ea461ed301136c6169bada805d3fccd8ee6"
+ },
+ "github_junit4/src/main/java/org/junit/runner/Request.java": {
+  "dest": "exercise/Request.java",
+  "own": true,
+  "sha1": "d839ac71d1ed36c3ed510fb6e07fec8a552b8638"
+ },
+ "github_junit4/src/main/java/org/junit/runner/Result.java": {
+  "dest": "exercise/Result.java",
+  "own": true,
+  "sha1": "99b65c04ddb7d58ccf4c58c40a611380b38e4bb1"
+ },
+ "github_junit4/src/main/java/org/junit/runner/RunWith.java": {
+  "dest": "exercise/RunWith.java",
+  "own": true,
+  "sha1": "85813cb5930664050c3b23c7448714d85f59fa53"
+ },
+ "github_junit4/src/main/java/org/junit/runner/Runner.java": {
+  "dest": "exercise/Runner.java",
+  "own": true,
+  "sha1": "19dddc37ae73a46664b7296a1dae7c956c3dcb3f"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Alphanumeric.java": {
+  "dest": "exercise/Alphanumeric.java",
+  "own": true,
+  "sha1": "d3f2a573ad30bc6b66d8c0666f2c44d90ddaee21"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Filter.java": {
+  "dest": "exercise/Filter.java",
+  "own": true,
+  "sha1": "8c9686ee0878952a2de28203d0f59cd3c9c52c1e"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Filterable.java": {
+  "dest": "exercise/Filterable.java",
+  "own": true,
+  "sha1": "372a3ee9eee82d649f7f1412af1801adf3f3356f"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/InvalidOrderingException.java": {
+  "dest": "exercise/InvalidOrderingException.java",
+  "own": true,
+  "sha1": "cf414170f0e13c2fc11539780ffc5bc116696d93"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/NoTestsRemainException.java": {
+  "dest": "exercise/NoTestsRemainException.java",
+  "own": true,
+  "sha1": "e8bfb24064374dc24c81a070d38bf54ba706e2ce"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Orderable.java": {
+  "dest": "exercise/Orderable.java",
+  "own": true,
+  "sha1": "f2865c5ad6f3ceab5ccc821d60200b3717b241f9"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Orderer.java": {
+  "dest": "exercise/Orderer.java",
+  "own": true,
+  "sha1": "9a2f018a09c3c6717ea214f988bd47c16a25713e"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Ordering.java": {
+  "dest": "exercise/Ordering.java",
+  "own": true,
+  "sha1": "62e5d985024a3c9b87a40219469c5994c4c996d4"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Sortable.java": {
+  "dest": "exercise/Sortable.java",
+  "own": true,
+  "sha1": "c343b9428a47c14d881c0eef893b6250ea0a0f57"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/Sorter.java": {
+  "dest": "exercise/Sorter.java",
+  "own": true,
+  "sha1": "b05b0e3688749db9baa0faf6aeb42ab5562ea894"
+ },
+ "github_junit4/src/main/java/org/junit/runner/manipulation/package-info.java": {
+  "dest": "exercise/package-info_9.java",
+  "own": true,
+  "sha1": "6c4b1f471240d9bfb6883da03995306df2e459e6"
+ },
+ "github_junit4/src/main/java/org/junit/runner/notification/Failure.java": {
+  "dest": "other/Failure.java",
+  "own": true,
+  "sha1": "d419b1895af6cbba365262d355fa9c81cb9d2c34"
+ },
+ "github_junit4/src/main/java/org/junit/runner/notification/RunListener.java": {
+  "dest": "exercise/RunListener.java",
+  "own": true,
+  "sha1": "7fff9531778e70a9853688095569dac539b4194e"
+ },
+ "github_junit4/src/main/java/org/junit/runner/notification/RunNotifier.java": {
+  "dest": "exercise/RunNotifier.java",
+  "own": true,
+  "sha1": "1158dd958bc77abad5130b0d1000f53633af4768"
+ },
+ "github_junit4/src/main/java/org/junit/runner/notification/StoppedByUserException.java": {
+  "dest": "other/StoppedByUserException.java",
+  "own": true,
+  "sha1": "2a7f9c927bb4a5cd28dda0da4f37abf4d713009e"
+ },
+ "github_junit4/src/main/java/org/junit/runner/notification/SynchronizedRunListener.java": {
+  "dest": "exercise/SynchronizedRunListener.java",
+  "own": true,
+  "sha1": "633930b4637be0f7cfe53cc5fcfd1ac5279250dd"
+ },
+ "github_junit4/src/main/java/org/junit/runner/notification/package-info.java": {
+  "dest": "exercise/package-info_10.java",
+  "own": true,
+  "sha1": "099e9be96973dfe65dda55356e75442f59054903"
+ },
+ "github_junit4/src/main/java/org/junit/runner/package-info.java": {
+  "dest": "exercise/package-info_8.java",
+  "own": true,
+  "sha1": "b865bf9c8a7e013e6cec53c44aa7e91b01408f00"
+ },
+ "github_junit4/src/main/java/org/junit/runners/AllTests.java": {
+  "dest": "exercise/AllTests_2.java",
+  "own": true,
+  "sha1": "93147cadd4789cd48fed466b6602a77bfffd304e"
+ },
+ "github_junit4/src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java": {
+  "dest": "exercise/BlockJUnit4ClassRunner.java",
+  "own": true,
+  "sha1": "c075b34b5eec1790722e401849e382f6d02e20e9"
+ },
+ "github_junit4/src/main/java/org/junit/runners/JUnit4.java": {
+  "dest": "exercise/JUnit4.java",
+  "own": true,
+  "sha1": "2bc617029b9f11c15423f497b0648a8452c05ed4"
+ },
+ "github_junit4/src/main/java/org/junit/runners/MethodSorters.java": {
+  "dest": "exercise/MethodSorters.java",
+  "own": true,
+  "sha1": "d33dd85bea17be0a04404a72a37ba29b93528997"
+ },
+ "github_junit4/src/main/java/org/junit/runners/Parameterized.java": {
+  "dest": "exercise/Parameterized.java",
+  "own": true,
+  "sha1": "3b747940d98a8094d353b18e9602200c9e6adb7c"
+ },
+ "github_junit4/src/main/java/org/junit/runners/ParentRunner.java": {
+  "dest": "exercise/ParentRunner.java",
+  "own": true,
+  "sha1": "b90c514a4c74ce2af16b116cfe003af01b5262a1"
+ },
+ "github_junit4/src/main/java/org/junit/runners/RuleContainer.java": {
+  "dest": "exercise/RuleContainer.java",
+  "own": true,
+  "sha1": "91ff34431b7b0f707f0fb90c80dc88b79cbf65b2"
+ },
+ "github_junit4/src/main/java/org/junit/runners/Suite.java": {
+  "dest": "exercise/Suite.java",
+  "own": true,
+  "sha1": "68f5f433650e4ea609a84e2196dd910fcac8390a"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/Annotatable.java": {
+  "dest": "exercise/Annotatable.java",
+  "own": true,
+  "sha1": "22313f78cee5b760887e019980e37912857c0f56"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/FrameworkField.java": {
+  "dest": "exercise/FrameworkField.java",
+  "own": true,
+  "sha1": "a81e0eac258333354f04631e3850d9d3ed97e4cc"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/FrameworkMember.java": {
+  "dest": "exercise/FrameworkMember.java",
+  "own": true,
+  "sha1": "d6cab6566e507a27370ae4753533e6a7c6c302af"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/FrameworkMethod.java": {
+  "dest": "exercise/FrameworkMethod.java",
+  "own": true,
+  "sha1": "6a0d13acffac7d0edb341ea67c9fbcc68a16d8d5"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/InitializationError.java": {
+  "dest": "other/InitializationError_1.java",
+  "own": true,
+  "sha1": "1a630a98a017a5c74dc7c2b3c900df192e1c02e6"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/InvalidTestClassError.java": {
+  "dest": "exercise/InvalidTestClassError.java",
+  "own": true,
+  "sha1": "ddd641a48a4ee546d460b6f35131b72239cba82e"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/MemberValueConsumer.java": {
+  "dest": "exercise/MemberValueConsumer.java",
+  "own": true,
+  "sha1": "a60ececf712d328a3cb156709522afa43e9fbc1b"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/MultipleFailureException.java": {
+  "dest": "other/MultipleFailureException_1.java",
+  "own": true,
+  "sha1": "4855a62ca3e72a5f5481457a2ef156a019e8f616"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/NoGenericTypeParametersValidator.java": {
+  "dest": "exercise/NoGenericTypeParametersValidator.java",
+  "own": true,
+  "sha1": "c27defb394210e1d70cce05625e79001709e3199"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/RunnerBuilder.java": {
+  "dest": "exercise/RunnerBuilder.java",
+  "own": true,
+  "sha1": "8369d32b28b1bd23f335ee38c6ac64f9da9fce83"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/RunnerScheduler.java": {
+  "dest": "exercise/RunnerScheduler.java",
+  "own": true,
+  "sha1": "741ca991725f870e3eedcfd16fd27c70b1346762"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/Statement.java": {
+  "dest": "exercise/Statement.java",
+  "own": true,
+  "sha1": "5027395838f95b1f6251201eda5b135f14b7d286"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/TestClass.java": {
+  "dest": "exercise/TestClass_1.java",
+  "own": true,
+  "sha1": "bda56c24e2ffb4c99ca450419a12607937ae57c4"
+ },
+ "github_junit4/src/main/java/org/junit/runners/model/TestTimedOutException.java": {
+  "dest": "other/TestTimedOutException.java",
+  "own": true,
+  "sha1": "c132133463331fa9e29eae7e0072c57ea41fbc3f"
+ },
+ "github_junit4/src/main/java/org/junit/runners/package-info.java": {
+  "dest": "exercise/package-info_11.java",
+  "own": true,
+  "sha1": "14fde3609c0aeb0f38c6bac5b332dd6829ee817d"
+ },
+ "github_junit4/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java": {
+  "dest": "exercise/BlockJUnit4ClassRunnerWithParameters.java",
+  "own": true,
+  "sha1": "9ba758045cd93e8850698d00ba5699856b1b0bae"
+ },
+ "github_junit4/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersFactory.java": {
+  "dest": "exercise/BlockJUnit4ClassRunnerWithParametersFactory.java",
+  "own": true,
+  "sha1": "dfe04e1b70ede3c819d0e955aeba1f5d2ab87aa3"
+ },
+ "github_junit4/src/main/java/org/junit/runners/parameterized/ParametersRunnerFactory.java": {
+  "dest": "exercise/ParametersRunnerFactory.java",
+  "own": true,
+  "sha1": "c793dc25e1d9887d7475757144d11c7b1c414789"
+ },
+ "github_junit4/src/main/java/org/junit/runners/parameterized/TestWithParameters.java": {
+  "dest": "exercise/TestWithParameters.java",
+  "own": true,
+  "sha1": "f88b60791609eb6ac1deed8747a9ba8c5bd663fc"
+ },
+ "github_junit4/src/main/java/org/junit/validator/AnnotationValidator.java": {
+  "dest": "exercise/AnnotationValidator.java",
+  "own": true,
+  "sha1": "01a93cfa4b151f1731c6058c71397f1e0176e471"
+ },
+ "github_junit4/src/main/java/org/junit/validator/AnnotationValidatorFactory.java": {
+  "dest": "exercise/AnnotationValidatorFactory.java",
+  "own": true,
+  "sha1": "5874132f6a7fa07aa40338549f7283434bf434ae"
+ },
+ "github_junit4/src/main/java/org/junit/validator/AnnotationsValidator.java": {
+  "dest": "exercise/AnnotationsValidator.java",
+  "own": true,
+  "sha1": "1ba3e3634b162e86b4a4ef672d325098c376260a"
+ },
+ "github_junit4/src/main/java/org/junit/validator/PublicClassValidator.java": {
+  "dest": "exercise/PublicClassValidator.java",
+  "own": true,
+  "sha1": "15c3f42f2dfc578ff2e8fbe54f44a14fde4a041d"
+ },
+ "github_junit4/src/main/java/org/junit/validator/TestClassValidator.java": {
+  "dest": "exercise/TestClassValidator.java",
+  "own": true,
+  "sha1": "2bd111b2b3b4b7d4f0bbf4023dc5babb45e537d3"
+ },
+ "github_junit4/src/main/java/org/junit/validator/ValidateWith.java": {
+  "dest": "exercise/ValidateWith.java",
+  "own": true,
+  "sha1": "911a5ffdbda4562d6cd64d349b4786786f234cc5"
+ },
+ "github_junit4/src/main/resources/junit/runner/logo.gif": {
+  "dest": "other/logo.gif",
+  "own": false,
+  "sha1": "26fc9aa1c1c1001b31091eab3dd9eef221f5583d"
+ },
+ "github_junit4/src/main/resources/junit/runner/smalllogo.gif": {
+  "dest": "other/smalllogo.gif",
+  "own": true,
+  "sha1": "ed3682da09a3deac3555f31ffddf940bb08136f5"
+ },
+ "github_junit4/src/site/markdown/cookbook.md": {
+  "dest": "other/cookbook.md",
+  "own": false,
+  "sha1": "7fd299f93481178516d0b4843adc2abf551183b6"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/background.png": {
+  "dest": "other/background.png",
+  "own": true,
+  "sha1": "37a510e48931768b831426a765a894abed853c12"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/42talents.png": {
+  "dest": "other/42talents.png",
+  "own": true,
+  "sha1": "6d394e57a63d201b1694a802c4528df787f982e3"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/adnovum.png": {
+  "dest": "other/adnovum.png",
+  "own": true,
+  "sha1": "e2958b8a473bf4796d81ec52068972577a1bba88"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/arcbees.png": {
+  "dest": "other/arcbees.png",
+  "own": true,
+  "sha1": "667989cf0e972e9695d01942231f8186b99a6b54"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/autotrader.jpg": {
+  "dest": "other/autotrader.jpg",
+  "own": true,
+  "sha1": "c1189b8d56e9ff6cc2ea3999e181a19d9ae3c8ac"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/bol.jpg": {
+  "dest": "other/bol.jpg",
+  "own": true,
+  "sha1": "50d8171cbaaa8d55d7976e33a7e2bb1b5770b592"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/bouvet.png": {
+  "dest": "other/bouvet.png",
+  "own": true,
+  "sha1": "212cc73138546b0b4e70736b9c4d838900b8b7d9"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/devnexus.png": {
+  "dest": "other/devnexus.png",
+  "own": true,
+  "sha1": "0c3b7731dc655cbab1d8dae00f6edb0b948687ca"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/diffplug.png": {
+  "dest": "other/diffplug.png",
+  "own": true,
+  "sha1": "884e686e27d92d0b3ef43406ed92d9c7e6bc651a"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/disy.jpg": {
+  "dest": "other/disy.jpg",
+  "own": true,
+  "sha1": "33f13c84e1d6d0f5853922de1040d2580ec9a010"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/eclipse.png": {
+  "dest": "other/eclipse.png",
+  "own": true,
+  "sha1": "a300bcaddadb1f47118ea0dcb9c15f5c64427841"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/ergon.png": {
+  "dest": "other/ergon.png",
+  "own": true,
+  "sha1": "2b3ca231bfbd720dc19cbedea09beddb46b84eb7"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/gradle.png": {
+  "dest": "other/gradle.png",
+  "own": true,
+  "sha1": "bd9a5c8846f77ba96434a8a8c6e488da10fa4226"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/intellijidea.png": {
+  "dest": "other/intellijidea.png",
+  "own": true,
+  "sha1": "526abc08960be19c3f8476faf7bf532a48d9874f"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/klarna.png": {
+  "dest": "other/klarna.png",
+  "own": true,
+  "sha1": "a578152fcd45ce48fcc97a4968d60f2821692524"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/klosebrothers.png": {
+  "dest": "other/klosebrothers.png",
+  "own": true,
+  "sha1": "cabb4a5fd60106d92b163e87904a1d705bba488e"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/msgsystems.png": {
+  "dest": "other/msgsystems.png",
+  "own": true,
+  "sha1": "ed315d83467d267fe141a21853fd8a3cd60797fa"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/murex.jpg": {
+  "dest": "other/murex.jpg",
+  "own": true,
+  "sha1": "a5fcad3ac061b3b56d60dddaec2c58e1a9c3b2dd"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/netcetera.png": {
+  "dest": "other/netcetera.png",
+  "own": true,
+  "sha1": "3a7c457d20467dcb6afe093273ed20e5177aa380"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/novatec.png": {
+  "dest": "other/novatec.png",
+  "own": true,
+  "sha1": "f5330c0ee857b898676c8cef31fb666912a0ef65"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/ociweb.png": {
+  "dest": "other/ociweb.png",
+  "own": true,
+  "sha1": "7464440a208f238daf968438fd2f3648acc3ef72"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/oio.png": {
+  "dest": "other/oio.png",
+  "own": true,
+  "sha1": "fad54394111bb6883398fe655712adf863598ac6"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/red6-es.jpg": {
+  "dest": "other/red6-es.jpg",
+  "own": true,
+  "sha1": "97114018f5a1dd2a2ba45eb267f5b72f962adb1e"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/samuraism.png": {
+  "dest": "other/samuraism.png",
+  "own": true,
+  "sha1": "55fff4a944be42212f3d6986e298a9266f5fe9d9"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/siili.png": {
+  "dest": "other/siili.png",
+  "own": true,
+  "sha1": "1cd342f64fb1985646d13289040d980bb735366b"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/sipgate.png": {
+  "dest": "other/sipgate.png",
+  "own": true,
+  "sha1": "2b2ac7adfb9371955b8a011b4934401c2ad4ccc1"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/six.gif": {
+  "dest": "other/six.gif",
+  "own": true,
+  "sha1": "fa8643693a289e2eecb5a5b7f1640c7caa0052f0"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/sonrisa.png": {
+  "dest": "other/sonrisa.png",
+  "own": true,
+  "sha1": "3f99bb801075b6f1f20ef988f64f9b4e4f398742"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/squeed.png": {
+  "dest": "other/squeed.png",
+  "own": true,
+  "sha1": "120ffa757af74ef7eb81ebcac625a2ceae103fbe"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/structure101.png": {
+  "dest": "exercise/structure101.png",
+  "own": true,
+  "sha1": "2898af5556a157da892a3feefd788f4af99ca5d1"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/synyx.jpg": {
+  "dest": "other/synyx.jpg",
+  "own": true,
+  "sha1": "56f9daef7d9179b7e747e1940407823c184acac5"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/tng.png": {
+  "dest": "other/tng.png",
+  "own": true,
+  "sha1": "822a3b0b91a28eae800df44a96c41d4f0773a862"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/topdesk.png": {
+  "dest": "other/topdesk.png",
+  "own": true,
+  "sha1": "eb5879b74c63f49885c2a6e6c010719016a5ca74"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/vaddy.png": {
+  "dest": "other/vaddy.png",
+  "own": true,
+  "sha1": "c4c9c85b3e8b60c4d73d9f27852ca3a103b94dad"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/contributors/zenika.png": {
+  "dest": "other/zenika.png",
+  "own": true,
+  "sha1": "338f4caab45dbb16a7d58ced6d4785f2a8055174"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/junit-lambda-logo.png": {
+  "dest": "other/junit-lambda-logo.png",
+  "own": true,
+  "sha1": "bfe2b4c1eece5b0ddbae5bfcc3d549f1d556084b"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/sponsors/amex.png": {
+  "dest": "other/amex.png",
+  "own": true,
+  "sha1": "a8972bc3e5d2ca499c8cb8b08d1c37a6884d1671"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/sponsors/andrena.png": {
+  "dest": "other/andrena.png",
+  "own": true,
+  "sha1": "e55666750a45cbf2db524c50a889381f8f909a7b"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/sponsors/heidelberg-mobil.png": {
+  "dest": "other/heidelberg-mobil.png",
+  "own": true,
+  "sha1": "15a01a1d4553af7d32169d8549858782314d9d68"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/sponsors/namics.png": {
+  "dest": "other/namics.png",
+  "own": true,
+  "sha1": "e7f46f9119b5f9b5b43ba7e70c89f0c398dd9cdf"
+ },
+ "github_junit4/src/site/resources/images/junit-lambda/sponsors/pivotal.png": {
+  "dest": "other/pivotal.png",
+  "own": true,
+  "sha1": "63770e7088f81d62689012ab89921b7fcd0a0eb7"
+ },
+ "github_junit4/src/site/resources/images/junit-logo.png": {
+  "dest": "other/junit-logo.png",
+  "own": true,
+  "sha1": "46f92e0cef806642b0c1ecce1875af669b0a8c11"
+ },
+ "github_junit4/src/site/resources/images/junit-logo.svg": {
+  "dest": "other/junit-logo.svg",
+  "own": true,
+  "sha1": "adba95194e246caf31c8cdea007bd8272d59522d"
+ },
+ "github_junit4/src/site/resources/images/junit5-banner.png": {
+  "dest": "other/junit5-banner.png",
+  "own": true,
+  "sha1": "f821ae63d42123619568897948d3d218356189b2"
+ },
+ "github_junit4/to-do.txt": {
+  "dest": "exercise/to-do.txt",
+  "own": false,
+  "sha1": "a16beb6e2ce5538a5ef9353b24d7ebc56933bc7a"
+ },
+ "mock.java": {
+  "dest": "exercise/mock_1.java",
+  "own": true,
+  "sha1": "0d2cf90371d43335d7554de8355206e5dfcce157"
+ },
+ "package_example.zip": {
+  "dest": "exercise/package_example.zip",
+  "own": false,
+  "sha1": "c5e4934b1fee571b7748e37b66548dfda6dcdf0a"
+ },
+ "prutt24.png": {
+  "dest": "exercise/prutt24.png",
+  "own": false,
+  "sha1": "da2cbb47ce068d4ef81c1e2eb128d81c02228641"
+ },
+ "prutt25.png": {
+  "dest": "exercise/prutt25.png",
+  "own": false,
+  "sha1": "8e0b35341ca3d9e97e69d68814fee44784f2c052"
+ },
+ "ta_quiz.png": {
+  "dest": "exercise/ta_quiz.png",
+  "own": false,
+  "sha1": "ea82a34056fb9ad9d87ba21b8d1c9980bc1646e8"
+ },
+ "uppg1.jpeg": {
+  "dest": "exercise/uppg1.jpeg",
+  "own": false,
+  "sha1": "a52cd3e3b6a59d62836d283a3996e4407f721b39"
+ },
+ "uppg2.jpeg": {
+  "dest": "exercise/uppg2.jpeg",
+  "own": false,
+  "sha1": "8caad623ac4f9734a25ceb501a362f22f7b0ae9b"
+ }
+}
