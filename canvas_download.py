@@ -52,10 +52,9 @@ CANVAS_TOKEN = os.environ.get("CANVAS_TOKEN", "PASTE_YOUR_TOKEN_HERE")
 
 # Add one entry per course you want to pull down.
 COURSE_IDS = {
-        "DD1385": 63900,
- 	"SF1930": 65047,
- 	"EL1000": 64209,
-
+    "DD1385": 63900,
+    "DD1386": 65330,
+    "SF1811": 65491,
 }
 
 OUTPUT_DIR = "canvas_downloads"

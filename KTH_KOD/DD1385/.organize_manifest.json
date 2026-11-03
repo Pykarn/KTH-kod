@@ -79,6 +79,11 @@
   "own": true,
   "sha1": "338ea85477872638cb2ba45019fdc6c801c768aa"
  },
+ "CompareExample.java": {
+  "dest": "exercise/CompareExample.java",
+  "own": true,
+  "sha1": "5ae38d5f6118506c3a4c2d4c0507a6a97abbddcd"
+ },
  "ControlPanel.java": {
   "dest": "exercise/ControlPanel_1.java",
   "own": true,
@@ -119,6 +124,16 @@
   "own": true,
   "sha1": "8f013be9c17800d13fa21851f51d3d2c02ff1e1b"
  },
+ "F6.pdf": {
+  "dest": "exercise/F6.pdf",
+  "own": true,
+  "sha1": "0b8e8dfd012b341cb835ea7fdf5b5f6efc5bf942"
+ },
+ "FactoryPoint.java": {
+  "dest": "exercise/FactoryPoint.java",
+  "own": true,
+  "sha1": "c795f4fc1f40f3793cc1d9a4659d447f61c6e1d3"
+ },
  "Generera.java": {
   "dest": "exercise/Generera_1.java",
   "own": true,
@@ -128,6 +143,21 @@
   "dest": "exercise/Generera_iterator_1.java",
   "own": true,
   "sha1": "89f772792fa7700a7936b008e1dfb020684e8e89"
+ },
+ "Integrator.java": {
+  "dest": "exercise/Integrator.java",
+  "own": true,
+  "sha1": "a62d979d0d18e84eed7e3ef7d3d47a12165ecc1e"
+ },
+ "JamforSpelkortC.java": {
+  "dest": "exercise/JamforSpelkortC.java",
+  "own": true,
+  "sha1": "c6cd9b1de1245109b256d961ea3dc3c1531dd073"
+ },
+ "JamforSpelkortC2.java": {
+  "dest": "exercise/JamforSpelkortC2.java",
+  "own": true,
+  "sha1": "967dd377287ea0a9108ef9247dda782324b26fa6"
  },
  "LooseCoupling.java": {
   "dest": "exercise/LooseCoupling.java",
@@ -148,6 +178,11 @@
   "dest": "exercise/PieView.java",
   "own": true,
   "sha1": "c7d477cc5f573e36d87233ebc4058fb188fd2e00"
+ },
+ "Point.java": {
+  "dest": "exercise/Point.java",
+  "own": true,
+  "sha1": "a409e4407316a4dd8399c4db79541981332a2ab7"
  },
  "S1.java": {
   "dest": "exercise/S1_1.java",
@@ -189,6 +224,16 @@
   "own": true,
   "sha1": "524318fa3f6aeb6cf811253197d97be502319b39"
  },
+ "ShutTheBox.java": {
+  "dest": "exercise/ShutTheBox.java",
+  "own": true,
+  "sha1": "39a8bf33df4ef0c7e90f32440b51d18783501f6c"
+ },
+ "ShutTheBoxTest.java": {
+  "dest": "exercise/ShutTheBoxTest.java",
+  "own": true,
+  "sha1": "afea786bac110efd7ed1c7e9b73dfda9ab61b03b"
+ },
  "Sinuscontrol.java": {
   "dest": "exercise/Sinuscontrol_1.java",
   "own": true,
@@ -208,6 +253,21 @@
   "dest": "exercise/Skärmavbild 2019-09-01 kl. 23.00.42.png",
   "own": false,
   "sha1": "5b4e4ea62bf89e66cfce53ac2cbdf986035e0397"
+ },
+ "SpelkortC.java": {
+  "dest": "exercise/SpelkortC.java",
+  "own": true,
+  "sha1": "b6d90bc2642d2af447090714975428a7e4dac69c"
+ },
+ "SpelkortC2.java": {
+  "dest": "exercise/SpelkortC2.java",
+  "own": true,
+  "sha1": "c815d3e3475f993d538690dd8922026b8ba9d961"
+ },
+ "Template_example.java": {
+  "dest": "exercise/Template_example.java",
+  "own": true,
+  "sha1": "212168c79aa4aa258aeffaa3498ec0317fc836f0"
  },
  "TextView.java": {
   "dest": "exercise/TextView.java",
@@ -248,6 +308,11 @@
   "dest": "exercise/VotesModel.java",
   "own": true,
   "sha1": "1f301a0655d05e50285a910bedaf92b7c9705234"
+ },
+ "frl7.pdf": {
+  "dest": "lecture/frl7.pdf",
+  "own": true,
+  "sha1": "27ecfe945e367e715c5fe95b7b6cfcb281da8b88"
  },
  "github_junit4/CODING_STYLE.txt": {
   "dest": "exercise/CODING_STYLE.txt",

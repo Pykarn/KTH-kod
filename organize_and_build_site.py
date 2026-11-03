@@ -40,7 +40,7 @@ import requests
 # ----------------------------------------------------------------------
 
 # Only these course folders (inside SOURCE_DIR) will be organized.
-COURSES = ["EL1000","SF1930","DD1385"]
+COURSES = ["DD1385", "DD1386", "SF1811"]
 
 SOURCE_DIR = "canvas_downloads"   # where canvas_download.py saved the files
 SITE_DIR = "KTH_KOD"              # output folder (the one you push to GitHub)

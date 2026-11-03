@@ -1,0 +1,77 @@
+{
+ "Case Study 2025.pdf": {
+  "dest": "other/Case Study 2025.pdf",
+  "own": true,
+  "sha1": "904f5385a6c79b04775d2ef53059a7acb02e650f"
+ },
+ "Case Study 2026.pdf": {
+  "dest": "other/Case Study 2026.pdf",
+  "own": true,
+  "sha1": "6000e0d1b3e912139840590a32821dd623d77ed5"
+ },
+ "DB module.jpg": {
+  "dest": "other/DB module.jpg",
+  "own": true,
+  "sha1": "8735cc02c1a2460407c88e18c22df5847639b723"
+ },
+ "Homework rubric 3.jpg": {
+  "dest": "other/Homework rubric 3.jpg",
+  "own": true,
+  "sha1": "3eb2cf8f7124c0f9f08a388819ae13bc80768d3e"
+ },
+ "INST_ 2025 Homework 3.docx (1).pdf": {
+  "dest": "exercise/INST_ 2025 Homework 3.docx (1).pdf",
+  "own": true,
+  "sha1": "af8a6d06a6ebb177a9341e6a1dd838cc5c259732"
+ },
+ "INST_ 2026 Homework 1.docx.pdf": {
+  "dest": "exercise/INST_ 2026 Homework 1.docx.pdf",
+  "own": true,
+  "sha1": "42a73ed49d6b940cb2572702e8758232341eb548"
+ },
+ "INST_ 2026 Homework 2.docx.pdf": {
+  "dest": "exercise/INST_ 2026 Homework 2.docx.pdf",
+  "own": true,
+  "sha1": "fa658ef383e7c0dc5db2f30f63e8feb7ee537bc3"
+ },
+ "INST_ 2026 Homework 4.docx.pdf": {
+  "dest": "exercise/INST_ 2026 Homework 4.docx.pdf",
+  "own": true,
+  "sha1": "483796b99a65606d7fdee08fc7a8f8b7aeba3299"
+ },
+ "Lab 2 - New.pdf": {
+  "dest": "exercise/Lab 2 - New.pdf",
+  "own": true,
+  "sha1": "2294aea881c014f943fcf4d44821282bfbf92728"
+ },
+ "Lab1 - NEW.pdf": {
+  "dest": "exercise/Lab1 - NEW.pdf",
+  "own": true,
+  "sha1": "ee7bfbfd0f854a6ed45c6a9e41594e25680de805"
+ },
+ "Local Lab Setup-1.pdf": {
+  "dest": "other/Local Lab Setup-1.pdf",
+  "own": true,
+  "sha1": "12360ba6868e26a1583dd32de060fc5f734683b7"
+ },
+ "Modeling Techniques FAQ’s.pdf": {
+  "dest": "literature/Modeling Techniques FAQ’s.pdf",
+  "own": true,
+  "sha1": "96d77694dfa1a34532668c96e67b2fe5592f5a77"
+ },
+ "PostgreSQL Installation Guide.docx.pdf": {
+  "dest": "other/PostgreSQL Installation Guide.docx.pdf",
+  "own": true,
+  "sha1": "f276bb13d4bd5309d06caa109aeed5c1cb902d0a"
+ },
+ "grading system-2.png": {
+  "dest": "other/grading system-2.png",
+  "own": true,
+  "sha1": "f66d8d5eabed7b96eae9a8a581c5410c18141b9a"
+ },
+ "lab rubric.jpg": {
+  "dest": "other/lab rubric.jpg",
+  "own": true,
+  "sha1": "a1295298985867407bd19d52627d5674fcc57fd6"
+ }
+}

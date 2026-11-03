@@ -1,0 +1,187 @@
+{
+ " Lecture 1 with annotations.pdf": {
+  "dest": "lecture/ Lecture 1 with annotations.pdf",
+  "own": true,
+  "sha1": "112ec83c6e33be45041e29e35d814c74c26a9a34"
+ },
+ "Exercise session 1.pdf": {
+  "dest": "exercise/Exercise session 1.pdf",
+  "own": true,
+  "sha1": "c5a3d6da9c80763a76c9b88b3ed060bed0bb8962"
+ },
+ "Exercise session 2.pdf": {
+  "dest": "exercise/Exercise session 2.pdf",
+  "own": true,
+  "sha1": "b8e81b7b689fa2b590237f2214d2f7b77689d779"
+ },
+ "Exercise session 3.pdf": {
+  "dest": "exercise/Exercise session 3.pdf",
+  "own": true,
+  "sha1": "507133c120da5e643b635e402800f29ab39ca5a4"
+ },
+ "Exercise session 4.pdf": {
+  "dest": "exercise/Exercise session 4.pdf",
+  "own": true,
+  "sha1": "5cc9b075ce9c79bc3450f3d61fcd46ce2d13b429"
+ },
+ "Exercise session 5 old.pdf": {
+  "dest": "exercise/Exercise session 5 old.pdf",
+  "own": true,
+  "sha1": "98be471bc8ee6554517401bf5fd13c8657f4315f"
+ },
+ "Exercise session 6.pdf": {
+  "dest": "exercise/Exercise session 6.pdf",
+  "own": true,
+  "sha1": "80f0c0c7a92681b557a5a049cfebc637e6e6d594"
+ },
+ "Exercise session 7.pdf": {
+  "dest": "exercise/Exercise session 7.pdf",
+  "own": true,
+  "sha1": "594b7b59617e7a7336f87ad835fc3a90b54d3eb7"
+ },
+ "Exercise session 8.pdf": {
+  "dest": "exercise/Exercise session 8.pdf",
+  "own": true,
+  "sha1": "29fa46730f669629547d6df26054cba9f9b04166"
+ },
+ "Exercises in SF1811 Optimization.pdf": {
+  "dest": "literature/Exercises in SF1811 Optimization.pdf",
+  "own": true,
+  "sha1": "8590bce52de838d919aae7e6bd0d3b34c52b3fc9"
+ },
+ "Formula sheet.pdf": {
+  "dest": "literature/Formula sheet.pdf",
+  "own": true,
+  "sha1": "18f6e6c0263adde4928206742d6cce324f20b67e"
+ },
+ "Homework assignment 1.pdf": {
+  "dest": "exercise/Homework assignment 1.pdf",
+  "own": true,
+  "sha1": "01b2ba6fde1ff19f53bdd4e03cd94f51a48383ce"
+ },
+ "Lecture 1.pdf": {
+  "dest": "lecture/Lecture 1.pdf",
+  "own": true,
+  "sha1": "8459804233506cc3add65f03e17aceda8e80c6c3"
+ },
+ "Lecture 10.pdf": {
+  "dest": "lecture/Lecture 10.pdf",
+  "own": true,
+  "sha1": "3ed100fbb3ea85ecc1da9936f236604f884f45d4"
+ },
+ "Lecture 11.pdf": {
+  "dest": "lecture/Lecture 11.pdf",
+  "own": true,
+  "sha1": "d11879e1922dd11f5b8fc511f75ffdba3af16d3a"
+ },
+ "Lecture 12.pdf": {
+  "dest": "lecture/Lecture 12.pdf",
+  "own": true,
+  "sha1": "3a7d744944ae4ed737d6596c1dfca0d4301499cb"
+ },
+ "Lecture 13.pdf": {
+  "dest": "lecture/Lecture 13.pdf",
+  "own": true,
+  "sha1": "ad01607f777bee37d81e4d24a050eca92e54677b"
+ },
+ "Lecture 14.pdf": {
+  "dest": "lecture/Lecture 14.pdf",
+  "own": true,
+  "sha1": "1f5cd30d2a42f51ea9d046f5f718dd41f0a0cb23"
+ },
+ "Lecture 15.pdf": {
+  "dest": "lecture/Lecture 15.pdf",
+  "own": true,
+  "sha1": "e741a82896e2a251872413101e2cfdd23dd0ec36"
+ },
+ "Lecture 2 with annotations.pdf": {
+  "dest": "lecture/Lecture 2 with annotations.pdf",
+  "own": true,
+  "sha1": "5c82e8f5e81150ccea98e98551c37756c237d457"
+ },
+ "Lecture 2.pdf": {
+  "dest": "lecture/Lecture 2.pdf",
+  "own": true,
+  "sha1": "028794685d2966422873612794b4c22e3bd4d1a2"
+ },
+ "Lecture 3 with annotations.pdf": {
+  "dest": "lecture/Lecture 3 with annotations.pdf",
+  "own": true,
+  "sha1": "f224a89716b3c5d087c3e7afc95f8b03e3607bae"
+ },
+ "Lecture 3.pdf": {
+  "dest": "lecture/Lecture 3.pdf",
+  "own": true,
+  "sha1": "4f2dbd8de37b3df79b77994f3fb9388cdd493454"
+ },
+ "Lecture 4 with annotations.pdf": {
+  "dest": "lecture/Lecture 4 with annotations.pdf",
+  "own": true,
+  "sha1": "d313ebbc1764a9e6d53066dbb472506052bd8e4d"
+ },
+ "Lecture 4.pdf": {
+  "dest": "lecture/Lecture 4.pdf",
+  "own": true,
+  "sha1": "27a850c1a1947e4ef491ce4feaf821b96fe7c8d0"
+ },
+ "Lecture 5.pdf": {
+  "dest": "lecture/Lecture 5.pdf",
+  "own": true,
+  "sha1": "90272f5a76cdebe1e848872ed5ba901256b2a5c2"
+ },
+ "Lecture 6.pdf": {
+  "dest": "lecture/Lecture 6.pdf",
+  "own": true,
+  "sha1": "fbf7ec3203e641c2e61ac5646522ee5a1d2d112f"
+ },
+ "Lecture 7.pdf": {
+  "dest": "lecture/Lecture 7.pdf",
+  "own": true,
+  "sha1": "ef8323d2344848557ef0b7cff8dba11c547b641b"
+ },
+ "Lecture 8.pdf": {
+  "dest": "lecture/Lecture 8.pdf",
+  "own": true,
+  "sha1": "ca7bd037112d391b0b67ac592f29b557b92bec3b"
+ },
+ "Lecture 9.pdf": {
+  "dest": "lecture/Lecture 9.pdf",
+  "own": true,
+  "sha1": "16484b609661179083cc47e15a03a68f4b64dc0c"
+ },
+ "Note on linear programming duality.pdf": {
+  "dest": "literature/Note on linear programming duality.pdf",
+  "own": true,
+  "sha1": "1ad6428aeaefc6649eed12dc69885a4b2568dba9"
+ },
+ "Optimality conditions.pdf": {
+  "dest": "literature/Optimality conditions.pdf",
+  "own": true,
+  "sha1": "10f5c9fdb8a348f342cf29c9fb1a71988a3c3920"
+ },
+ "Theory results.pdf": {
+  "dest": "literature/Theory results.pdf",
+  "own": true,
+  "sha1": "ba5ffa79bc2d3fda4f8fa7ea3899162c4e5b6d89"
+ },
+ "hw1data.m": {
+  "dest": "exercise/hw1data.m",
+  "own": true,
+  "sha1": "5defc05f4c8fae8666b60e51103fd3490905b1da"
+ },
+ "polyplot.m": {
+  "dest": "exercise/polyplot.m",
+  "own": true,
+  "sha1": "f13c53aec7f3e8801cffdf98233b2b8e8aeeb194"
+ },
+ "simplex.m": {
+  "dest": "exercise/simplex.m",
+  "own": true,
+  "sha1": "138c0cad32efe07dc472e52331a0ca5bacd8ee2a"
+ },
+ "simplex12.m": {
+  "dest": "exercise/simplex12.m",
+  "own": true,
+  "sha1": "b959f5b19b5f18c4c8d64f9aecbfc78dc70822e4"
+ }
+}
