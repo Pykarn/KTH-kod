@@ -59,6 +59,11 @@
   "own": true,
   "sha1": "01b2ba6fde1ff19f53bdd4e03cd94f51a48383ce"
  },
+ "Homework assignment 2.pdf": {
+  "dest": "exercise/Homework assignment 2.pdf",
+  "own": true,
+  "sha1": "44971cc329415aca140b7240fe6b2a74ab36ded2"
+ },
  "Lecture 1.pdf": {
   "dest": "lecture/Lecture 1.pdf",
   "own": true,
@@ -124,15 +129,30 @@
   "own": true,
   "sha1": "27a850c1a1947e4ef491ce4feaf821b96fe7c8d0"
  },
+ "Lecture 5 with annotations.pdf": {
+  "dest": "lecture/Lecture 5 with annotations.pdf",
+  "own": true,
+  "sha1": "9e746f6db46de1951cedbf82b389f27768c02e1f"
+ },
  "Lecture 5.pdf": {
   "dest": "lecture/Lecture 5.pdf",
   "own": true,
   "sha1": "90272f5a76cdebe1e848872ed5ba901256b2a5c2"
  },
+ "Lecture 6 with annotations.pdf": {
+  "dest": "lecture/Lecture 6 with annotations.pdf",
+  "own": true,
+  "sha1": "ef038dd9bf405d359120d0f2f5cef99b301becb0"
+ },
  "Lecture 6.pdf": {
   "dest": "lecture/Lecture 6.pdf",
   "own": true,
   "sha1": "fbf7ec3203e641c2e61ac5646522ee5a1d2d112f"
+ },
+ "Lecture 7 with annotations.pdf": {
+  "dest": "lecture/Lecture 7 with annotations.pdf",
+  "own": true,
+  "sha1": "6ee9ff8f79965592bfb1d770e51f153db7e7ae11"
  },
  "Lecture 7.pdf": {
   "dest": "lecture/Lecture 7.pdf",
@@ -165,22 +185,22 @@
   "sha1": "ba5ffa79bc2d3fda4f8fa7ea3899162c4e5b6d89"
  },
  "hw1data.m": {
-  "dest": "exercise/hw1data.m",
+  "dest": "exercise/hw1data_1.m",
   "own": true,
   "sha1": "5defc05f4c8fae8666b60e51103fd3490905b1da"
  },
  "polyplot.m": {
-  "dest": "exercise/polyplot.m",
+  "dest": "exercise/polyplot_1.m",
   "own": true,
   "sha1": "f13c53aec7f3e8801cffdf98233b2b8e8aeeb194"
  },
  "simplex.m": {
-  "dest": "exercise/simplex.m",
+  "dest": "exercise/simplex_1.m",
   "own": true,
   "sha1": "138c0cad32efe07dc472e52331a0ca5bacd8ee2a"
  },
  "simplex12.m": {
-  "dest": "exercise/simplex12.m",
+  "dest": "exercise/simplex12_1.m",
   "own": true,
   "sha1": "b959f5b19b5f18c4c8d64f9aecbfc78dc70822e4"
  }

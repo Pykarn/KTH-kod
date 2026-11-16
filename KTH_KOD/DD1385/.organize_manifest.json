@@ -14,10 +14,35 @@
   "own": true,
   "sha1": "ee82c7f8cc50eb70d160c01f08df6710f6e53b40"
  },
+ "Aircraft.java": {
+  "dest": "exercise/Aircraft.java",
+  "own": true,
+  "sha1": "d0a11b11449127e9fb38cd97304a82689486fb13"
+ },
+ "Airplane.java": {
+  "dest": "exercise/Airplane.java",
+  "own": true,
+  "sha1": "227f93a308db46f0e015b47e40bd60bc50f3be29"
+ },
+ "AirportControlTower.java": {
+  "dest": "exercise/AirportControlTower.java",
+  "own": true,
+  "sha1": "782a21ff68d857a84ed0569d40c031b3a5432319"
+ },
+ "AirportMediator.java": {
+  "dest": "exercise/AirportMediator.java",
+  "own": true,
+  "sha1": "c0aa3bfc48dcff876f52101956dbb07b71065484"
+ },
  "AllTests.java": {
   "dest": "exercise/AllTests_1.java",
   "own": true,
   "sha1": "9f2f081c334fd4656ea86810b54b4668a33318a1"
+ },
+ "Audiobook.java": {
+  "dest": "other/Audiobook.java",
+  "own": true,
+  "sha1": "9537dc2b228acbdbb2288b2cde859097492ee7c4"
  },
  "AwtDemo.java": {
   "dest": "exercise/AwtDemo_1.java",
@@ -48,6 +73,16 @@
   "dest": "exercise/BarView.java",
   "own": true,
   "sha1": "8c84676b5aa4da156dca62dbfebb1960ecb64e33"
+ },
+ "Book.java": {
+  "dest": "exercise/Book.java",
+  "own": true,
+  "sha1": "5b59a8d651c6d0dd7aa60821e9e4b98d3ef99f5e"
+ },
+ "Borrowable.java": {
+  "dest": "exercise/Borrowable.java",
+  "own": true,
+  "sha1": "f67860034e80985b3bb8fb4a6c60aeeedb0572f4"
  },
  "Calc.java": {
   "dest": "exercise/Calc_1.java",
@@ -80,7 +115,7 @@
   "sha1": "338ea85477872638cb2ba45019fdc6c801c768aa"
  },
  "CompareExample.java": {
-  "dest": "exercise/CompareExample.java",
+  "dest": "exercise/CompareExample_1.java",
   "own": true,
   "sha1": "5ae38d5f6118506c3a4c2d4c0507a6a97abbddcd"
  },
@@ -89,15 +124,45 @@
   "own": true,
   "sha1": "818212afe25e1b192440e92a661b15bd754a43e1"
  },
+ "ControlTower.java": {
+  "dest": "exercise/ControlTower.java",
+  "own": true,
+  "sha1": "3a2fb9eaec58501c440a8e14f234f77d7f179a54"
+ },
+ "Decorator.java": {
+  "dest": "exercise/Decorator.java",
+  "own": true,
+  "sha1": "dbf6b68bb2f17099f7306e8d8e8ef7ec714b69b7"
+ },
+ "DecoratorApp.java": {
+  "dest": "exercise/DecoratorApp.java",
+  "own": true,
+  "sha1": "5cabb087410c0f290b2acdc9a33d78a39f67fab0"
+ },
+ "Delivered.java": {
+  "dest": "exercise/Delivered.java",
+  "own": true,
+  "sha1": "0c8ed7f1c33c111f420790de654a24418848a153"
+ },
  "DynamicVsStatic.java": {
   "dest": "exercise/DynamicVsStatic.java",
   "own": true,
   "sha1": "8f3c0d8a58ad4c95589e387c39ea74232cd1457a"
  },
+ "Enum.java": {
+  "dest": "exercise/Enum.java",
+  "own": true,
+  "sha1": "ffa8f1a4f66c07aad54535d25cc7538e8454d32a"
+ },
  "F01_dd1385.pdf": {
   "dest": "lecture/F01_dd1385.pdf",
   "own": false,
   "sha1": "4ed8207454bbcc95d2f600aefdcaebead8ea8651"
+ },
+ "F10.pdf": {
+  "dest": "lecture/F10.pdf",
+  "own": true,
+  "sha1": "eccb964ab8297bc74a1b2cefc9f99650f4a85007"
  },
  "F2_DD1385.pdf": {
   "dest": "lecture/F2_DD1385.pdf",
@@ -129,10 +194,25 @@
   "own": true,
   "sha1": "0b8e8dfd012b341cb835ea7fdf5b5f6efc5bf942"
  },
+ "F9.pdf": {
+  "dest": "other/F9.pdf",
+  "own": true,
+  "sha1": "be569e82df4b2ddf6837023441e149f9ca3b52cf"
+ },
+ "Facit_Quiz2020-04-16.pdf": {
+  "dest": "exam/Facit_Quiz2020-04-16.pdf",
+  "own": true,
+  "sha1": "b73a279f43252d3c6f6a2072ff6742fa7ecfff4b"
+ },
  "FactoryPoint.java": {
-  "dest": "exercise/FactoryPoint.java",
+  "dest": "exercise/FactoryPoint_1.java",
   "own": true,
   "sha1": "c795f4fc1f40f3793cc1d9a4659d447f61c6e1d3"
+ },
+ "Fraction-2.pdf": {
+  "dest": "literature/Fraction-2.pdf",
+  "own": true,
+  "sha1": "38299ffd6daf9feb9a2fa5ad5cd5ce3113828668"
  },
  "Generera.java": {
   "dest": "exercise/Generera_1.java",
@@ -144,20 +224,40 @@
   "own": true,
   "sha1": "89f772792fa7700a7936b008e1dfb020684e8e89"
  },
+ "Helicopter.java": {
+  "dest": "exercise/Helicopter.java",
+  "own": true,
+  "sha1": "15dab53ca3447ddeafd7b5aea4b4b842d28068e0"
+ },
+ "HomeFacade.java": {
+  "dest": "exercise/HomeFacade.java",
+  "own": true,
+  "sha1": "487591e1d5362e983f8c0a52c4c9b76bad14a91f"
+ },
  "Integrator.java": {
-  "dest": "exercise/Integrator.java",
+  "dest": "exercise/Integrator_1.java",
   "own": true,
   "sha1": "a62d979d0d18e84eed7e3ef7d3d47a12165ecc1e"
  },
  "JamforSpelkortC.java": {
-  "dest": "exercise/JamforSpelkortC.java",
+  "dest": "exercise/JamforSpelkortC_1.java",
   "own": true,
   "sha1": "c6cd9b1de1245109b256d961ea3dc3c1531dd073"
  },
  "JamforSpelkortC2.java": {
-  "dest": "exercise/JamforSpelkortC2.java",
+  "dest": "exercise/JamforSpelkortC2_1.java",
   "own": true,
   "sha1": "967dd377287ea0a9108ef9247dda782324b26fa6"
+ },
+ "LibraryItem.java": {
+  "dest": "exercise/LibraryItem.java",
+  "own": true,
+  "sha1": "26e479363ec76b37b4998f2d8c3b2f387b4e0fb1"
+ },
+ "Light.java": {
+  "dest": "exercise/Light.java",
+  "own": true,
+  "sha1": "5693de3510d29227d96de78f50a8b63044172d71"
  },
  "LooseCoupling.java": {
   "dest": "exercise/LooseCoupling.java",
@@ -174,13 +274,28 @@
   "own": true,
   "sha1": "f3ff4183c376fbf6eef0b61640fae96028ed4655"
  },
+ "Ordered.java": {
+  "dest": "exercise/Ordered.java",
+  "own": true,
+  "sha1": "7ca3349afe5e8865e9f4af59ddf3ee35491f9550"
+ },
+ "Package.java": {
+  "dest": "exercise/Package.java",
+  "own": true,
+  "sha1": "af1d547c498568ba180551c56cb4e769cfaefc86"
+ },
+ "PackageState.java": {
+  "dest": "exercise/PackageState.java",
+  "own": true,
+  "sha1": "eb046ef35c8376ddc9f0ab83e6fafd9281d46bd4"
+ },
  "PieView.java": {
   "dest": "exercise/PieView.java",
   "own": true,
   "sha1": "c7d477cc5f573e36d87233ebc4058fb188fd2e00"
  },
  "Point.java": {
-  "dest": "exercise/Point.java",
+  "dest": "exercise/Point_1.java",
   "own": true,
   "sha1": "a409e4407316a4dd8399c4db79541981332a2ab7"
  },
@@ -219,18 +334,23 @@
   "own": true,
   "sha1": "2ee6de9ee9c77486c1f02c5ee8289485139ba51d"
  },
+ "Shipped.java": {
+  "dest": "exercise/Shipped.java",
+  "own": true,
+  "sha1": "01072f9ee5a4401efc1cd6da0388c4ca92952a99"
+ },
  "ShowSinus.java": {
   "dest": "exercise/ShowSinus_1.java",
   "own": true,
   "sha1": "524318fa3f6aeb6cf811253197d97be502319b39"
  },
  "ShutTheBox.java": {
-  "dest": "exercise/ShutTheBox.java",
+  "dest": "exercise/ShutTheBox_1.java",
   "own": true,
   "sha1": "39a8bf33df4ef0c7e90f32440b51d18783501f6c"
  },
  "ShutTheBoxTest.java": {
-  "dest": "exercise/ShutTheBoxTest.java",
+  "dest": "exercise/ShutTheBoxTest_1.java",
   "own": true,
   "sha1": "afea786bac110efd7ed1c7e9b73dfda9ab61b03b"
  },
@@ -255,17 +375,32 @@
   "sha1": "5b4e4ea62bf89e66cfce53ac2cbdf986035e0397"
  },
  "SpelkortC.java": {
-  "dest": "exercise/SpelkortC.java",
+  "dest": "exercise/SpelkortC_1.java",
   "own": true,
   "sha1": "b6d90bc2642d2af447090714975428a7e4dac69c"
  },
  "SpelkortC2.java": {
-  "dest": "exercise/SpelkortC2.java",
+  "dest": "exercise/SpelkortC2_1.java",
   "own": true,
   "sha1": "c815d3e3475f993d538690dd8922026b8ba9d961"
  },
+ "StateExample.java": {
+  "dest": "exercise/StateExample.java",
+  "own": true,
+  "sha1": "965dce369f7284f81248c00ba8690e929bc3fef3"
+ },
+ "Stereo.java": {
+  "dest": "exercise/Stereo.java",
+  "own": true,
+  "sha1": "eb8e993b596a9ac51a952cc3b718dc57329fba15"
+ },
+ "TV.java": {
+  "dest": "exercise/TV.java",
+  "own": true,
+  "sha1": "da281c7954716657c3a97c6c4962e967e26141aa"
+ },
  "Template_example.java": {
-  "dest": "exercise/Template_example.java",
+  "dest": "exercise/Template_example_1.java",
   "own": true,
   "sha1": "212168c79aa4aa258aeffaa3498ec0317fc836f0"
  },
@@ -308,6 +443,11 @@
   "dest": "exercise/VotesModel.java",
   "own": true,
   "sha1": "1f301a0655d05e50285a910bedaf92b7c9705234"
+ },
+ "fraction-analysis.pdf": {
+  "dest": "literature/fraction-analysis.pdf",
+  "own": true,
+  "sha1": "9b50c7ab0788a8dea7a537f5db9fc61f76337850"
  },
  "frl7.pdf": {
   "dest": "lecture/frl7.pdf",
@@ -1879,10 +2019,25 @@
   "own": false,
   "sha1": "a16beb6e2ce5538a5ef9353b24d7ebc56933bc7a"
  },
+ "lpbook-teachers.pdf": {
+  "dest": "literature/lpbook-teachers.pdf",
+  "own": true,
+  "sha1": "7dc607848a7018f0d6747de183d1c29ee4e6e9f8"
+ },
+ "lpbook.pdf": {
+  "dest": "literature/lpbook.pdf",
+  "own": true,
+  "sha1": "7eeeb23b9270eab519d1a0764fedd68e25909aba"
+ },
  "mock.java": {
   "dest": "exercise/mock_1.java",
   "own": true,
   "sha1": "0d2cf90371d43335d7554de8355206e5dfcce157"
+ },
+ "notes.pdf": {
+  "dest": "literature/notes.pdf",
+  "own": true,
+  "sha1": "f6c440dc72fe91b488ccdd615886b82fcbb27cba"
  },
  "package_example.zip": {
   "dest": "exercise/package_example.zip",
@@ -1898,6 +2053,11 @@
   "dest": "exercise/prutt25.png",
   "own": false,
   "sha1": "8e0b35341ca3d9e97e69d68814fee44784f2c052"
+ },
+ "slides-intro.pdf": {
+  "dest": "literature/slides-intro.pdf",
+  "own": true,
+  "sha1": "edd59864810ff1fd8c698ee810d3699a4f19e6a8"
  },
  "ta_quiz.png": {
   "dest": "exercise/ta_quiz.png",
