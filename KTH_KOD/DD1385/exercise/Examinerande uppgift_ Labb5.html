@@ -1,0 +1,362 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Examinerande uppgift: Labb5</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Examinerande uppgift: Labb5</h1>
+<h2><strong><span>Testdriven utveckling med Yatzy (TDD)</span></strong></h2>
+<p><strong>(Läs &nbsp;igenom föreläsning 7)</strong></p>
+<p>&nbsp;</p>
+<h3><strong>Grunduppgiften</strong></h3>
+<ol>
+<li><strong> Introduktion</strong></li>
+</ol>
+<p>I denna laboration ska du utveckla en poängmotor för spelet&nbsp;<strong>Yatzy</strong>&nbsp;med hjälp av&nbsp;<strong>testdriven utveckling (TDD)</strong>.</p>
+<p>Laborationen handlar därför inte bara om att få fram rätt poäng. En central del av uppgiften är att visa att du kan använda TDD som en utvecklingsprocess.</p>
+<p>Du ska arbeta enligt följande cykel:</p>
+<p>1- Skriv test</p>
+<p>2- &nbsp;testet misslyckas (det finns ju ingen implementerad kod för metoden än) &nbsp;<span style="color: #e62429;"><strong>RED</strong></span></p>
+<p>3- gör ett <strong>git commit</strong> (behövs till redovisningen sedan)</p>
+<p>4- skriv <strong>så lite kod som möjligt</strong> som gör att endast testet i punkt 1 fungerar &nbsp;<strong><span style="color: #03893d;">GREEN</span></strong></p>
+<p><span>5- gör ett <strong>git commit</strong> (behövs till redovisningen sedan)</span></p>
+<p>6- förbättra namngivning på identifierare, reducera kodupprepningar, beteendet ska inte ändras i detta steg, refactorering <span style="color: #2b7abc;"><strong>BLUE</strong></span>&nbsp;</p>
+<p>7- <span>gör ett <strong>git commit</strong> och <strong>git push</strong> till kth-repot ni har fått till labben (behövs till redovisningen sedan)</span></p>
+<p><span>8- lägg till ett nytt test och sedan gör punkterna 2 - 8 om och om.</span></p>
+<p><em><strong>GLÖM INTE PUNKTERNA 3,5 OCH 7, UTAN DE STEGEN KOMMER DU INTE KUNNA REDOVISA.</strong></em></p>
+<p>Du ska alltså&nbsp;<strong>inte först implementera hela lösningen och sedan skriva tester</strong>.</p>
+<ol start="2">
+<li><strong> Lärandemål</strong></li>
+</ol>
+<p>Efter laborationen ska du kunna:</p>
+<ul>
+<li>förklara vad testdriven utveckling innebär,</li>
+<li>arbeta enligt RED → GREEN → REFACTOR,</li>
+<li>identifiera relevanta testfall utifrån en kravspecifikation,</li>
+<li>identifiera <strong>gränsfall</strong> och <strong>specialfall</strong>,</li>
+<li>skriva unit tests,</li>
+<li>använda tester för att upptäcka logiska fel,</li>
+<li>refaktorera kod utan att förändra dess beteende,</li>
+<li><strong>använda Git och repot till labben på kth-git för att dokumentera en TDD-process</strong>,</li>
+<li>resonera kring kvaliteten på testfall.</li>
+</ul>
+<ol start="3">
+<li><strong> Bakgrund: Yatzy</strong></li>
+</ol>
+<p>Yatzy spelas med fem tärningar. Efter ett kast väljer spelaren en kategori och får poäng baserat på tärningarnas värden.</p>
+<p>I denna laboration ska du inte implementera ett komplett Yatzy-spel. Du ska istället implementera en&nbsp;<strong>poängmotor</strong>.</p>
+<p>Poängmotorn ska kunna svara på frågor av typen:</p>
+<p>Tärningar: 3, 3, 3, 5, 5</p>
+<p>Kategori: FULL_HOUSE</p>
+<p>Poäng: 19</p>
+<p>eller:</p>
+<p>Tärningar: 1, 2, 3, 4, 5</p>
+<p>Kategori: SMALL_STRAIGHT</p>
+<p>Poäng: 15</p>
+<p>Själva tärningskastningen, spelarens turordning och användargränssnitt ingår inte i laborationen.</p>
+<ol start="4">
+<li><strong> Krav på implementationen</strong></li>
+</ol>
+<p>Din implementation ska kunna beräkna poäng för följande 15 kategorier:</p>
+<p><strong>Övre sektionen</strong></p>
+<ol>
+<li>Ettor (ACES)</li>
+<li>Tvåor (TWOS)</li>
+<li>Treor (THREES)</li>
+<li>Fyror (FOURS)</li>
+<li>Femmor (FIVES)</li>
+<li>Sexor (SIXES)</li>
+</ol>
+<p><strong>Nedre sektionen</strong></p>
+<ol>
+<li>Ett par (ONE_PAIRS)&nbsp;</li>
+<li>Två par (TWO_DIFFERENT_PAIRS)</li>
+<li>Tretal (THREE_OF_A_KIND)</li>
+<li>Fyrtal (FOUR_OF_A_KIND)</li>
+<li>Liten stege (SMALL_STRAIGHT)</li>
+<li>Stor stege (LARGE_STRAIGHT)</li>
+<li>Kåk (FULL_HOUSE)</li>
+<li>Chans (CHANS)</li>
+<li>Yatzy (YATZY)</li>
+</ol>
+<p>Du får själv bestämma hur implementationen ska struktureras.</p>
+<p>Exempelvis kan du använda <span style="font-size: 12pt;"><code>score(dice, category)</code></span>eller flera separata metoder.</p>
+<p>Det finns inget krav på en specifik klassdesign, så länge implementationen är testbar.</p>
+<ol start="5">
+<li>
+<h4><strong> Yatzyregler som används i laborationen</strong></h4>
+</li>
+</ol>
+<p>För att undvika oklarheter ska&nbsp;<strong>reglerna nedan användas exakt</strong>. Andra varianter av Yatzy, Yahtzee eller liknande <em><strong>ska inte</strong></em> användas.</p>
+<p><strong>5.1 Övre sektionen</strong></p>
+<p>För kategorin Ettor räknas summan av alla ettor.</p>
+<p>Exempel:</p>
+<p>1 1 3 5 6 → 2 poäng</p>
+<p>För Tvåor räknas summan av alla tvåor.</p>
+<p>2 2 2 4 6 → 6 poäng</p>
+<p>Samma princip gäller för treor, fyror, femmor och sexor.</p>
+<p>Exempel: 3 3 3 5 6 → 9 poäng för kategorin Treor</p>
+<p>Om ingen tärning har det aktuella värdet blir poängen 0.</p>
+<ol start="6">
+<li><strong> Laborationens åtta steg</strong></li>
+</ol>
+<p>Du ska genomföra stegen i den ordning de presenteras.</p>
+<p>För varje steg ska du arbeta enligt TDD:</p>
+<ol>
+<li>RED</li>
+<li>git commit</li>
+<li>GREEN</li>
+<li>git commit</li>
+<li>REFACTOR</li>
+<li>git commit och git push</li>
+</ol>
+<p>Du ska kunna <em><strong>visa denna process</strong></em> vid redovisningen.</p>
+<p><strong>Steg 1 – Övre sektionen</strong></p>
+<p>Implementera kategorierna:</p>
+<p>ONES</p>
+<p>TWOS</p>
+<p>THREES</p>
+<p>FOURS</p>
+<p>FIVES</p>
+<p>SIXES</p>
+<p>Exempel:</p>
+<p>Tärningar: 1, 1, 3, 5, 6</p>
+<p>ONES<span>&nbsp; </span>→ 2</p>
+<p>TWOS<span>&nbsp; </span>→ 0</p>
+<p>THREES → 3</p>
+<p>FIVES → 5</p>
+<p><strong>TDD-krav</strong></p>
+<p>Du ska själv identifiera vilka testfall som krävs.</p>
+<p>Testa <strong>inte enbart</strong> ett "normalt" fall.</p>
+<p>Fundera exempelvis på:</p>
+<ul>
+<li>inga tärningar med det aktuella värdet</li>
+<li>en förekomst</li>
+<li>flera förekomster</li>
+<li>fem förekomster</li>
+</ul>
+<p>Du ska kunna motivera dina testfall uppdelat i förväntade (normal) fall, gränsfall eller även oförväntade fall för att hitta buggar</p>
+<p><strong>Steg 2 – Ett par</strong></p>
+<p>Implementera kategorin:</p>
+<p>ONE_PAIR</p>
+<p>Ett par innebär att två tärningar har samma värde.</p>
+<p>Poängen är summan av de två tärningarna.</p>
+<p>Exempel:</p>
+<p>3 3 1 5 6 → 6 poäng</p>
+<p>Om flera par finns ska&nbsp;<strong>det högsta paret</strong>&nbsp;användas.</p>
+<p>Exempel:</p>
+<p>2 2 5 5 6</p>
+<p>ska ge:</p>
+<p>5 + 5 = 10</p>
+<p>och inte:</p>
+<p>2 + 2 = 4</p>
+<p><strong>Viktiga frågor</strong></p>
+<p>Vad händer med: &nbsp;3 3 3 5 6, &nbsp;2 2 4 4 6 och 2 2 2 2 6</p>
+<p>Du ska själv skriva tester som visar att din implementation följer specifikationen.</p>
+<p><strong>Steg 3 – Två par, tretal och fyrtal</strong></p>
+<p>Implementera:</p>
+<p>TWO_PAIRS</p>
+<p>THREE_OF_A_KIND</p>
+<p>FOUR_OF_A_KIND</p>
+<p><strong>Två par</strong></p>
+<p>Två <strong>OLIKA</strong> par krävs.</p>
+<p>Exempel:</p>
+<p>2 2 5 5 6 → 14 poäng</p>
+<p>Ett fyrtal ska inte räknas som två par.</p>
+<p>Exempel: 4 4 4 4 6 är&nbsp;<strong>INTE</strong> två par</p>
+<p><strong>Tretal</strong></p>
+<p>Tre tärningar med samma värde.</p>
+<p>Exempel:</p>
+<p>3 3 3 5 6 → 9 poäng</p>
+<p><strong>Fyrtal</strong></p>
+<p>Fyra tärningar med samma värde.</p>
+<p>Exempel:</p>
+<p>5 5 5 5 2 → 20 poäng</p>
+<p><strong>TDD-fokus</strong></p>
+<p>I detta steg ska du särskilt fundera på skillnaden mellan: 2 2 2 5 6, 2 2 2 2 6 och 2 2 2 2 2</p>
+<p>De tre fallen representerar olika kategorier, vilka?</p>
+<p><strong>Steg 4 – Stegar</strong></p>
+<p>Implementera:</p>
+<p>SMALL_STRAIGHT</p>
+<p>LARGE_STRAIGHT</p>
+<p><strong>Liten stege</strong></p>
+<p>En liten stege består av 1 2 3 4 5 och ger 15 poäng.</p>
+<p><strong>Stor stege</strong></p>
+<p>En stor stege består av 2 3 4 5 6 och ger 20 poäng.</p>
+<p>Alla fem tärningar måste ingå i stegen.</p>
+<p>Exempel: 1 2 3 4 6 och 1 2 3 3 4 är inte en stege.</p>
+<p><strong>TDD-fokus</strong></p>
+<p>Detta steg ska särskilt få dig att testa:</p>
+<ul>
+<li>giltiga stegar,</li>
+<li>nästan giltiga stegar,</li>
+<li>duplicerade värden,</li>
+<li>rätt värden i fel ordning.</li>
+</ul>
+<p>Observera att tärningarna inte behöver vara sorterade. Alltså 5 3 1 4 2 är fortfarande en liten stege.</p>
+<p><strong>Steg 5 – Kåk</strong></p>
+<p>Implementera:</p>
+<p>FULL_HOUSE</p>
+<p>En kåk består av ett tretal + ett par</p>
+<p>Tretalet och paret <strong>måste ha olika värden</strong>.</p>
+<p>Exempel:</p>
+<p>3 3 3 5 5</p>
+<p>ger:</p>
+<p>3 + 3 + 3 + 5 + 5 = 19</p>
+<p><strong>Exempel på giltig kåk </strong>2 2 2 6 6 och 2 2 6 6 6&nbsp;</p>
+<p><strong>Exempel som inte är kåk</strong></p>
+<p>2 2 2 2 6</p>
+<p>2 2 2 2 2 &nbsp;är inte kåk utan Yatzy.</p>
+<p><strong>TDD-fokus</strong></p>
+<p>Detta steg innehåller flera viktiga gränsfall.</p>
+<p>Du ska därför kunna förklara varför dina tester täcker olika strukturer av tärningsresultat.</p>
+<p><strong>Steg 6 – Chans och Yatzy</strong></p>
+<p>Implementera:</p>
+<p>CHANCE</p>
+<p>YATZY</p>
+<p><strong>Chans</strong></p>
+<p>Chans är summan av alla fem tärningar.</p>
+<p>Exempel:</p>
+<p>1 3 4 5 6 ger 19 poäng för Chans</p>
+<p>Det <strong>spelar ingen roll</strong> vilken kombination tärningarna bildar.</p>
+<p>Exempel:</p>
+<p>3 3 3 3 5 ger 17 poäng för Chans.</p>
+<p><strong>Yatzy</strong></p>
+<p>Yatzy innebär att <strong>alla fem tärningar har samma</strong> värde.</p>
+<p>Exempel:</p>
+<p>6 6 6 6 6 → 50</p>
+<p>1 1 1 1 1 → 50</p>
+<p>Kombinationer med blandade siffror ger 0 poäng</p>
+<p><strong>TDD-fokus</strong></p>
+<p>Fundera särskilt på skillnaden mellan:</p>
+<p>5 5 5 5 5</p>
+<p>5 5 5 5 4</p>
+<p>samt hur Yatzy förhåller sig till kategorier som fyrtal, kåk och Chans.</p>
+<p><strong>Steg 7 – En komplett poängmotor</strong></p>
+<p>Nu ska alla kategorier kunna användas genom samma publika gränssnitt.</p>
+<p>Exempel:</p>
+<p>score([3,3,3,5,5], FULL_HOUSE) → 19</p>
+<p>score([1,2,3,4,5], SMALL_STRAIGHT)→ 15</p>
+<p>score([6,6,6,6,6], YATZY)→ 50</p>
+<p>Nu är fokus<strong> inte längre </strong>på att implementera ytterligare en Yatzy-regel.</p>
+<p>Fokus ligger på&nbsp;<strong>design och refactoring</strong>.</p>
+<p>Du ska gå igenom din implementation och identifiera och reducera duplicerad eller onödigt komplex kod.</p>
+<p>Exempel på sådant du kan upptäcka:</p>
+<ul style="list-style-type: disc;">
+<li>samma logik för att räkna förekomster</li>
+<li><span style="font-size: 1rem;">samma sortering på flera ställen</span></li>
+<li><span style="font-size: 1rem;">många upprepade if-satser</span></li>
+<li><span style="font-size: 1rem;">långa metoder</span></li>
+<li><span style="font-size: 1rem;">metoder som gör flera saker</span></li>
+</ul>
+<p>Du ska refaktorera implementationen.</p>
+<p><strong>Viktigt</strong></p>
+<p>Efter refactoring ska<strong> alla </strong>tidigare tester fortfarande vara gröna.</p>
+<p>Du ska <strong>inte</strong> ändra ett test bara för att få det att passa en ny implementation.</p>
+<p><strong>Steg 8 – Testa din egen implementation</strong></p>
+<p>Det sista steget är en särskild testningsuppgift.</p>
+<p>Du ska försöka hitta&nbsp;<strong>minst tre logiska fel som en alternativ implementation skulle kunna innehålla</strong>.</p>
+<p>För varje fel ska du:</p>
+<ol>
+<li>beskriva felet,</li>
+<li>skriva ett test som upptäcker felet,</li>
+<li>förklara varför just testfallet är relevant.</li>
+</ol>
+<p>Exempel:</p>
+<p>En implementation kan råka skriva:</p>
+<p><code>if (upperScore &gt; 63)</code></p>
+<p>när regeln egentligen är:</p>
+<p><code>if (upperScore &gt;= 63)</code></p>
+<p>Ett <strong>bra test</strong> skulle då använda <strong>exakt</strong> 63.</p>
+<p>Du ska hitta minst tre liknande situationer i Yatzy-motorn.</p>
+<p>Detta steg är viktigt eftersom målet inte bara är att skriva tester som bekräftar att din egen kod fungerar. Målet är att kunna skriva tester som&nbsp;<strong>kan avslöja felaktig kod</strong>.</p>
+<ol start="7">
+<li><strong> Krav på TDD-processen</strong></li>
+</ol>
+<p>För samtliga åtta steg ska du arbeta enligt:</p>
+<p>RED → GREEN → REFACTOR</p>
+<p><strong>RED</strong></p>
+<p>Du ska först skriva ett test för ett beteende som ännu inte är implementerat.</p>
+<p>Testet ska misslyckas.</p>
+<p>Du ska kunna visa detta i Git vid redovisningen, så glöm inte att committa till git.</p>
+<p><strong>GREEN</strong></p>
+<p>Därefter implementerar du den minsta kod som krävs för att testet ska passera.</p>
+<p>Alla relevanta tester ska vara gröna.<br><br>Här ska du committa till git.</p>
+<p><strong>REFACTOR</strong></p>
+<p>När testerna är gröna ska du undersöka om implementationen kan förbättras.</p>
+<p>Refactoring får inte förändra det observerbara beteendet.</p>
+<p>Efter refactoring ska testerna fortfarande vara gröna.<br>Här ska du committa till git och pusha till repot för labben i kth-git.</p>
+<ol start="8">
+<li><strong> Testdesign</strong></li>
+</ol>
+<p>Du ska <strong>inte nöja dig genom att enbart skriva tester</strong> för de exempel som finns i denna labb/krav-specifikationen.</p>
+<p>En viktig del av laborationen är att identifiera&nbsp;<strong>gränsfall</strong>.</p>
+<p>Exempel:</p>
+<p>0 förekomster</p>
+<p>1 förekomst</p>
+<p>2 förekomster</p>
+<p>3 förekomster</p>
+<p>4 förekomster</p>
+<p>5 förekomster</p>
+<p>är exempel på testvärden för en kategori som bygger på antal förekomster.</p>
+<p>För andra kategorier kan andra gränser vara relevanta.</p>
+<p>Du ska kunna motivera varför du har valt dina testfall.</p>
+<ol start="9">
+<li><strong> Git och dokumentation av TDD</strong></li>
+</ol>
+<p>Git ska användas under hela laborationen.</p>
+<p>Dina commits ska tydligt visa utvecklingsprocessen.</p>
+<p>Exempel på utdrag från git-historik:</p>
+<p>RED: add test for ones</p>
+<p>GREEN: implement ones</p>
+<p>REFACTOR: extract count method</p>
+<p>RED: add test for one pair</p>
+<p>GREEN: implement one pair</p>
+<p>REFACTOR: simplify pair detection</p>
+<p>Dina commit-meddelandena ska göra det möjligt att förstå utvecklingsprocessen.</p>
+<p>Undvik därför exempelvis:</p>
+<p>update</p>
+<p>stuff</p>
+<p>changes</p>
+<p>final</p>
+<p>done</p>
+<p>som enda commit-meddelanden.</p>
+<ol start="10">
+<li><strong> Vad som ska lämnas in i git repot</strong></li>
+</ol>
+<p>Följande ska lämnas in:</p>
+<ol>
+<li><strong> Källkod</strong></li>
+</ol>
+<p>All kod som krävs för att bygga och köra projektet.</p>
+<ol start="2">
+<li><strong> Automatiserade tester</strong></li>
+</ol>
+<p>Samtliga tester som du har utvecklat under laborationen.</p>
+<ol start="3">
+<li><strong> Git-historik</strong></li>
+</ol>
+<p>Git-historiken ska finnas tillgänglig så att TDD-processen kan granskas.</p>
+<ol start="4">
+<li><strong> Kort reflektionsrapport</strong></li>
+</ol>
+<p>Rapporten ska innehålla följande:</p>
+<p><strong>a) TDD-processen</strong></p>
+<p>Beskriv kort hur du arbetade med:</p>
+<p>RED</p>
+<p>GREEN</p>
+<p>REFACTOR</p>
+<p><strong>b) Testdesign</strong></p>
+<p>Beskriv två testfall som du tycker var särskilt viktiga.</p>
+<p>Förklara varför de behövdes.</p>
+<p><strong>c) Logiskt fel</strong></p>
+<p>Beskriv ett logiskt fel som din testning kunde upptäcka eller som du tror skulle kunna uppstå i en annan implementation.</p>
+<p><strong>d) Refactoring</strong></p>
+<p>Beskriv minst en refactoring du gjorde och varför.</p>
+<p><strong>e) TDD-reflektion</strong></p>
+<p>Besvara: På vilket sätt påverkade TDD hur du designade och implementerade lösningen?</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><strong>X5 - resten av spelet</strong></h3>
+<p>Skriv resten av spelet fortfarande med TDD där användare 1-4 spelare anger sitt namn, och därefter tärningar slås i tur och ordning för varje spelare, sedan frågar programmet frågar efter vilken kategori som ska användas och håller koll på vilka kategorier som redan har använts och alltså inte får användas.</p>
+<p><strong>Tänk på designprincipen att en klass/metod bör ha ett tydligt ansvar.</strong></p>
+<p>T.ex <code>YatzyScore</code> behöver inte veta vilka kategorier spelaren redan har använt eller <code>ScoreTable </code>behöver inte veta hur man identifierar en kåk.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span>&nbsp;</span></p>
+</body></html>

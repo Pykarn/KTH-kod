@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Projektförslag: Othello-spel</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Projektförslag: Othello-spel</h1>
+<p>&nbsp;</p>
+<p>Othello är ett strategiskt brädspel för två spelare där spelarna turas om att placera brickor på ett 8x8 rutnät. Målet är att ha fler brickor av sin färg än motståndaren vid spelets slut genom att omsluta motståndarens brickor och vända dem till sin egen färg.</p>
+<p><a href="https://sv.wikipedia.org/wiki/Othello_(spel)">https://sv.wikipedia.org/wiki/Othello_(spel)</a></p>
+<p><a href="https://othelloclub.com/en/gif/">https://othelloclub.com/en/gif/</a></p>
+<p>&nbsp;</p>
+<h3>Betygsnivåer:</h3>
+<hr>
+<p><strong>Betyg E: Grundläggande spelmekanik</strong></p>
+<ol>
+<li>Visa ett 8x8 bräde med de initiala fyra startbrickorna i mitten (två av varje färg diagonalt placerade).</li>
+<li>Låt spelare turas om att placera en bricka på en tom ruta, enligt spelets regler:
+<ul>
+<li>En spelare måste omsluta en linje av motståndarens brickor (horisontellt, vertikalt eller diagonalt) för att göra ett drag.</li>
+</ul>
+</li>
+<li>Vänd alla omslutna brickor till den aktuella spelarens färg efter ett drag.</li>
+<li>Kontrollera om det är möjligt för en spelare att göra ett drag; om inte, går turen över till motståndaren.</li>
+<li>Spelet avslutas när brädet är fullt eller inga fler drag kan göras.</li>
+</ol>
+<hr>
+<p><strong>Betyg C: Utökad spelmekanik och regler</strong></p>
+<ol>
+<li>Utför punkterna 1-5 för betyg E.</li>
+<li>Implementera en poängräkning som visar antalet brickor för varje spelare efter varje drag.</li>
+<li>Tillåt spelare att välja om de vill spela mot en mänsklig motståndare eller datorn som gör slumpmässiga tillåtna drag.</li>
+<li>Lägg till en funktion som markerar möjliga drag för den aktuella spelaren (visuella ledtrådar).</li>
+<li>Ge spelaren möjlighet att ångra sitt senaste drag, det ska vara möjlig tills nästa spelare har gjort sitt drag och möjligheten ges endast en gång för varje drag. Alltså efter att man har ångrat sig och gjort sitt nya drag då ska ma inte kunna ångra på det nya draget.</li>
+</ol>
+<hr>
+<p><strong>Betyg A: Komplett spelmekanik och förbättrad spelupplevelse</strong></p>
+<ol>
+<li>Utför punkterna 1-5 för betyg C.</li>
+<li>Förbättra datorns algoritm för drag (t.ex. genom att prioritera drag som ger fler brickor eller strategiska positioner).</li>
+<li>Implementera olika svårighetsnivåer för dator-motståndare (t.ex. att enklaste nivån slumpar drag, mellan-nivån implementerar ena förslaget i punkt 2, svåraste nivån implementerar båda förslagen).</li>
+<li>Lägg till ett användarvänligt gränssnitt med menyer för att starta om spelet, välja motsåndare och svårighetsgrad, och visa spelhistorik.</li>
+<li>Skapa statistik över tidigare spel, såsom vinst-förlust-förhållande och högsta poäng.</li>
+<li>Implementera animationer för vändning av brickor för en mer engagerande visuell upplevelse.</li>
+</ol>
+</body></html>

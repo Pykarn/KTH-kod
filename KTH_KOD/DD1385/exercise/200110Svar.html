@@ -1,0 +1,166 @@
+
+<meta charset = utf8>
+<h3>Svar till tentamen i DD1385 2020-01-10</h3>
+
+<table width = 800><td>
+<!-- KOPIERAD FRÅN FÖRRA ÅRET. INTE ÄNDRAD TILL AKTUELL TENTA-->
+    
+<b>1)</b>&nbsp;&nbsp;&nbsp;
+A: Iterator&nbsp;&nbsp;&nbsp;B: Facade&nbsp;&nbsp;&nbsp;C: Proxy
+&nbsp;&nbsp;&nbsp;D: Template Method&nbsp;&nbsp;&nbsp;E: Decorator
+<p>
+
+ <hr>
+ <b>2)</b>&nbsp; Se pdf med UML-diagram, filen UML-200110.pdf finns bredvid.
+ <!--
+  <img src = "Deco2.jpg" ALT="CSC" ALIGN=TOP WIDTH=360>
+-->
+      <p>
+	<hr>
+<b>3)</b><br>	
+<b>a)</b> Composite <p>
+	
+<b>b)</b> <code><font size = +1><b>super(d);</b></font></code> är ett anrop av superklassens (dvs Deps) konstruktor.
+<p>
+<b>c)</b> <code><font size = +1><b>private </b></font></code> innebär att variabeln endast är åtkomlig i den klass där den definieras och inte i subklasser. I detta exempel används variabeln <code><font size = +1><b>data </b></font></code> i en subklass vilket inte kommer att fungera när den är
+<code><font size = +1><b>private </b></font></code>.
+<p>	
+<hr>	
+  <b>4)</b>&nbsp;&nbsp;&nbsp;<br>
+Antag att objekten i <code><font size = +1><b>myList</b></font></code> tillhör klassen <code><font size = +1><b>A</b></font></code>.
+  Klassen <code><font size = +1><b>A</b></font></code> måste implementera
+  interfacet <code><font size = +1><b>Comparable</b></font></code> eller ännu hellre <code><font size = +1><b>Comparable&lt;A&gt;</b></font></code>. Klassen måste ha en metod (som man skriver själv) som anger ordningen mellan två <code><font size = +1><b>A</b></font></code>-objekt genom att
+  returnera ett heltal som är negativt, noll (vid likhet) eller positivt.
+  <font size = +1><pre>
+    class A implements Comparable&lt;A&gt;{
+        public int compareTo(A other) {
+            // returnerar heltal beroende på
+            // ordningen mellan this och other
+        }
+    }
+  </pre></font>
+    
+<p>
+
+<hr>
+
+  <b>5)</b><br>Alla Java-klasser ärver från klassen <code><font size = +1><b>Object</b></font></code> utan att det anges explicit. En av metoderna som ärvs är <code><font size = +1><b>equals()</b></font></code>. Anrop görs t.ex. med <code><font size = +1><b><code><font size = +1><b>p.equals(q)</b></font></code></b></font></code> som ger <code><font size = +1><b>true</b></font></code> om p och q är lika enligt aktuell definition av <code><font size = +1><b>equals()</b></font></code>. Om en klass har en naturlig ordning, dvs implementerar <code><font size = +1><b>Comparable</b></font></code>, så är det nödvändigt att se till att <code><font size = +1><b>equals()</b></font></code> och <code><font size = +1><b>compareTo()</b></font></code> är konsistenta, dvs när <code><font size = +1><b>x.compareTo(y)</b></font></code> ger heltalsvärdet 0 så måste <code><font size = +1><b>x.equals(y)</b></font></code> ge <code><font size = +1><b>true</b></font></code> (och om compareTo() ger ett tal som är skilt från 0 så ska equals() ge false). Basdefinitionen av <code><font size = +1><b>equals()</b></font></code> ger <code><font size = +1><b>true</b></font></code> endast för <i>samma</i> objekt (<code><font size = +1><b>p==q</b></font></code>) och detta är vanligen inte konsistent med <code><font size = +1><b>compareTo()</b></font></code>.
+
+<p>
+<hr>
+  <b>6)</b><br>
+
+  <b>a)&nbsp;</b> GÅR EJ att kompilera då <code><font size = +1><b>RoundedShape</b></font></code> är en abstrakt klass och sådana kan inte instansieras. Typmässigt stämmer det, typen <code><font size = +1><b>Shape</b></font></code> får referera till objekt av typ <code><font size = +1><b>RoundedShape</b></font></code>. <p>
+
+  <b>b)&nbsp;</b> GÅR att kompilera då <code><font size = +1><b>Shape</b></font></code> är ovanför <code><font size = +1><b>Circle</b></font></code> i klasshierarkin och <code><font size = +1><b>Circle</b></font></code> kan instansieras.<p>
+  
+  <b>c)&nbsp;</b> GÅR EJ att kompiera då <code><font size = +1><b>Ellipse</b></font></code> inte är ovanför <code><font size = +1><b>Circle</b></font></code> i hierarkin, de är på samma nivå med en gemensam superklass <code><font size = +1><b>RoundedShape</b></font></code>.
+
+
+<p>
+<hr>
+
+  <b>7)</b><br>Variabeln <code><font size = +1><b>name</b></font></code> är en instansvariabel i klassen <code><font size = +1><b>Hello</b></font></code> och existerar bara om man skapat objekt av klassen <code><font size = +1><b>Hello</b></font></code>, vilket inte har skett här.
+  <code><font size = +1><b>name</b></font></code> är alltså inte tillgänglig i den statiska metoden <code><font size = +1><b>main</b></font></code>. Två enkla lösningar är (1) att deklararera <code><font size = +1><b>name</b></font></code>
+  som statisk, dvs skriva <code><font size = +1><b>static String name;</b></font></code> högst upp i <code><font size = +1><b>Hello</b></font></code> eller (2) att flytta deklarationen av <code><font size = +1><b>name</b></font></code> och lägga den först i metoden <code><font size = +1><b>main</b></font></code>. Då blir <code><font size = +1><b>name</b></font></code> en lokal variabel i metoden istället för en instansvariabel i klassen. 
+<p>
+<hr>
+
+  <b>8)</b><br>Det finns åtta primitiva typer i Java <code><font size = +1><b>int,long,short,byte,float,double,char,boolean</b></font></code>.<br>
+  Referenstyper är alla klasser, interface och arrayer. Några exempel på referenstyper är <code><font size = +1><b>String, Object, JButton, Integer, int[], Double[][], Comparable</b></font></code>. Data av primitiv typ lagras direkt i det minnesutrymme som reserverats för dem medan för referenstyper lagras en referens till objektet i motsvarande minnesutrymme för variabeln.<br>
+  Till varje primitiv typ hör en omslagsklass. Dessa behövs för att kunna representera datat av primitiv typ som ett objekt, t.ex. om man vill använda bibliotekens metoder för objektsamlingar på primitiva datatyper. Typen <code><font size = +1><b>int</b></font></code> har omslagsklassen <code><font size = +1><b>Integer</b></font></code> och
+  <code><font size = +1><b>double</b></font></code> har omslagsklassen <code><font size = +1><b>Double</b></font></code>. Omslagsklassernas namn börjar alltid på stor bokstav och namnet är mycket likt motsvarande namn på primitiv typ. 
+<p>
+<hr>
+
+  <b>9)</b>&nbsp;&nbsp;&nbsp;Rätta svar är
+  <b>B</b> och <b>C</b>.
+<p>
+
+<hr>
+
+<b>10)</b><br>
+
+<b>a)</b> &nbsp;En fabriksmetod måste vara <code><font size = +1><b>static</b></font></code>.<p>
+      
+  <b>b)</b> För att omöjliggöra instansiering av klassen <code><font size = +1><b>Person</b></font></code>, gör den abstrakt, dvs inled klassen med <code><font size = +1><b>public abstract class Person</b></font></code>. Att ge klassen en privat konstruktor räcker inte för att göra instansiering helt omöjlig. Vid privat konstruktor kan ju instansiering ske inuti klassen.<p>
+  <b>c)</b> Det viktiga här är att klassen får en privat konstruktor.
+  <font size = +1>  <pre>
+      class Human {
+          private Human () {}
+
+          // Objekt av Human kan skapas här med new Human()
+          // new Human() fungerar inte utanför klassen Human
+      }
+      </pre></font>
+
+<p>
+<hr>
+<b>11)</b><br>
+    <b>a)</b>&nbsp;&nbsp;&nbsp; Objektet som refereras med <code><font size = +1><b>cObject</b></font></code> ska vara av typen <code><font size = +1><b>Comparator</b></font></code>, helst med en typparameter, <code><font size = +1><b>Comparator&lt;T&gt;</b></font></code>, där <code><font size = +1><b>T</b></font></code> anger typen av objekt i listan som ska sorteras. <code><font size = +1><b>Comparator</b></font></code> är ett <i>interface</i> med en enda metod <code><font size = +1><b>compare(obj1,obj2)</b></font></code>, där två objekt jämförs och ett heltal returneras. Heltalet anger ordningen mellan elementen enligt samma princip som för metoden <code><font size = +1><b>compareTo()</b></font></code> i interfacet <code><font size = +1><b>Comparable</b></font></code>. Klassen för <code><font size = +1><b>cObject</b></font></code> kan se ut så här. Antag att objekten i listan är av typen <code><font size = +1><b>A</b></font></code>.
+<font size = +1>  <pre>
+    class CompareA implements Comparator&lt;A&gt; {
+        public int compare(A obj1, A obj2) {
+            // om obj1 och obj2 är lika så returneras 0
+            // om obj1 kommer före obj2 returneras heltal < 0
+	    // om obj1 kommer efter obj2 returneras heltal > 0
+        }
+    }
+</pre></font>
+    
+
+  <b>b)</b>&nbsp;&nbsp; Mönstret är <i>Strategy</i>
+  <p>
+
+<p>
+<hr>
+
+
+<b>12)</b>&nbsp;&nbsp;&nbsp;
+<font size = +1><pre>
+class B extends A implements Runnable {
+
+    B (int start, int max) {
+        super(start,max);
+        new Thread(this).start();
+    }
+
+    public static void main (String[] u) { 
+        new B(1013,1020);
+        new B(1,8);
+    }
+}
+</pre></font>
+Några kommentarer:<br>
+Eftersom klass <code><font size = +1><b>B</b></font></code>
+ska ärva från <code><font size = +1><b>A</b></font></code> så kan den inte också ärva från <code><font size = +1><b>Thread</b></font></code>, därför måste <code><font size = +1><b>Runnable</b></font></code> användas för att få klassen att fungera som en tråd. <p>
+      Tråden ska starta då objekt av <code><font size = +1><b>B</b></font></code> skapas, därför måste starten ske i konstruktorn till <code><font size = +1><b>B</b></font></code>. Det går förstås bra att först skapa trådobjektet i en sats och därefter starta tråden:
+      <font size = +1><pre>
+	  Thread t = new Thread(this);
+	  t.start(); 
+	</pre></font>
+	<p>
+<code><font size = +1><b>main</b></font></code> behöver inte vara med i tentalösningen. 
+      
+<p>
+<hr>
+    <b>13)</b><p> 
+    <b>a)</b> &nbsp;&nbsp;Se pdf-dokument här bredvid. Det finns väldigt många metoder i klassen <code><font size = +1><b>Observable</b></font></code>. Dessa har inte tagits med i diagrammet. Metoden <code><font size = +1><b>update()</b></font></code> är med därför att det är helt nödvändigt för mönstret att den skrivs i de klasser som implementerar interfacet <code><font size = +1><b>Observer</b></font></code>.<br><p>
+
+    <p>
+    <b>b)</b>&nbsp;&nbsp; Metoden <code><font size = +1><b>update()</b></font></code> definieras i interfacet <code><font size = +1><b>Observer</b></font></code>, det interface som ska implementeras av de klasser vars objekt ska agera som just <i>Observers</i> i mönstret. Metoden ska ges konkret definition i implementerande klasser och innehålla den uppdatering av ett Observerobjekt som ska göras då subjektet (Observable i Java) ändras. I detta exempel är det <code><font size = +1><b>TableView, QHistory</b></font></code> och <code><font size = +1><b>SoundAlert</b></font></code> som är Observer-klasser och ska ha <code><font size = +1><b>update()</b></font></code>. 
+<p>
+    <b>c)</b>&nbsp;&nbsp; Anropet av <code><font size = +1><b>update()</b></font></code> görs i klassen <code><font size = +1><b>Observable</b></font></code> som är en klass i Java-API:n. Där finns metoden <code><font size = +1><b>notifyObservers()</b></font></code> som ser ut ungefär så här. Listan med observers administreras av biblioteksklassen <code><font size = +1><b>Observable</b></font></code>. Andvändaren anropar <code><font size = +1><b>notifyObservers()</b></font></code>. 
+
+<font size = +1><pre>
+    public void notifyObservers(() {
+      for (Observer obs : listOfObservers)
+        obs.update();
+    }
+  </pre>
+</font>
+
+I Java-API:n har <code><font size = +1><b>update()</b></font></code> två parametrar och <code><font size = +1><b>notifyObservers</b></font></code> har en parameter. Dessa krävs inte i tentalösningen. 
+<hr>
+
+

@@ -1,0 +1,561 @@
+{
+ "Case Study 2025.pdf": {
+  "dest": "other/Case Study 2025.pdf",
+  "own": true,
+  "sha1": "904f5385a6c79b04775d2ef53059a7acb02e650f"
+ },
+ "Case Study 2026.pdf": {
+  "dest": "other/Case Study 2026.pdf",
+  "own": true,
+  "sha1": "6000e0d1b3e912139840590a32821dd623d77ed5"
+ },
+ "Course Assessment & Grading/Grading System.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Grading System.html",
+  "own": true,
+  "sha1": "bd4a114f1a5e6edbcfd746310ea70d42178a093f"
+ },
+ "Course Assessment & Grading/Homework Assessment.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework Assessment.html",
+  "own": true,
+  "sha1": "a61d066c5e9ade0b57516d86ec04cd136371a31c"
+ },
+ "Course Assessment & Grading/Lab Assessment.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Lab Assessment.html",
+  "own": true,
+  "sha1": "cb42ecbbaa188e9c08c8a13caf88cd7c2d3e4e48"
+ },
+ "Course Components & Links/2.8a9dd71c.chunk.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/2.8a9dd71c.chunk.js",
+  "own": true,
+  "sha1": "604ecbe48f4763a9ea2687cb8065c5f4e861a2a2"
+ },
+ "Course Components & Links/Booking Labs.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Booking Labs.html",
+  "own": true,
+  "sha1": "8648b5f035347e748ab3b28bea4053d3a67f3465"
+ },
+ "Course Components & Links/Discussion page on Canvas.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Discussion page on Canvas.html",
+  "own": true,
+  "sha1": "d3ea697dcf1a51604b1be393ea246e49fecbd722"
+ },
+ "Course Components & Links/How to book a lab seat using Canvas.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/How to book a lab seat using Canvas.html",
+  "own": true,
+  "sha1": "1239336e70f2d8f2b6ed18e305ddd268b8303f48"
+ },
+ "Course Components & Links/Lab Setup.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Lab Setup.html",
+  "own": true,
+  "sha1": "49a390c4fdbcea8a4a1511b6b45ded6923a3f881"
+ },
+ "Course Components & Links/Support Sessions (Q&A).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Support Sessions (Q&A).html",
+  "own": true,
+  "sha1": "56fbe5edc7e842e892fd52416dcd99a9f0853b79"
+ },
+ "Course Components & Links/bootstrap.min.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/bootstrap.min.js",
+  "own": true,
+  "sha1": "a9545831803b1359cfeed47e3b4d6bae68e40e99"
+ },
+ "Course Components & Links/favicon.svg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/favicon.svg",
+  "own": true,
+  "sha1": "7db2be7eba9858640e314e457cbb8ad16914cd17"
+ },
+ "Course Components & Links/fontawesome.min.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/fontawesome.min.js",
+  "own": true,
+  "sha1": "75476852b737554704432bf05b07edc110de9a26"
+ },
+ "Course Components & Links/jquery-3.2.1.slim.min.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/jquery-3.2.1.slim.min.js",
+  "own": true,
+  "sha1": "9e89d1515bc4c371b86f4cb1002fd8e377c1829f"
+ },
+ "Course Components & Links/main.e70cfe52.chunk.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/main.e70cfe52.chunk.js",
+  "own": true,
+  "sha1": "c639f6a302dbba69f9d9aea7fbeb4ca70357aead"
+ },
+ "Course Components & Links/manifest.json": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/manifest.json",
+  "own": true,
+  "sha1": "2c78e01650a5dd1b62228c68c263e4903d20842e"
+ },
+ "Course Components & Links/playerV3Loaded.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/playerV3Loaded.js",
+  "own": true,
+  "sha1": "1c51771235a555d78c64efac78bac88575cdf934"
+ },
+ "Course Components & Links/popper.min.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/popper.min.js",
+  "own": true,
+  "sha1": "c3b977aa4b8dfb69d651e07015031d385ded964b"
+ },
+ "Course Overview/1000px_F_P5M2174 2.jpg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/1000px_F_P5M2174 2.jpg",
+  "own": true,
+  "sha1": "67eb1a2179c31b4805a67133964c316b97405094"
+ },
+ "Course Overview/Book Reading guidelines.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/Book Reading guidelines.pdf",
+  "own": true,
+  "sha1": "b9494f40c0cb11c323394fbf513114c4ce090691"
+ },
+ "Course Overview/Communication Guidelines & support contacts.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Communication Guidelines & support contacts.html",
+  "own": true,
+  "sha1": "04ca97e05dd6b7af1b976a8a227ec3eea27f95c9"
+ },
+ "Course Overview/Course layout_Modules.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Course layout_Modules.html",
+  "own": true,
+  "sha1": "458c3ceeef97978b2e0ffabacf909a411347565d"
+ },
+ "Course Overview/DD1368 course overview.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/DD1368 course overview.pdf",
+  "own": true,
+  "sha1": "0416341a727842790db7e7d2dae6413fb7bb6b6d"
+ },
+ "Course Overview/DD1368-20262.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/DD1368-20262.pdf",
+  "own": true,
+  "sha1": "7049f7061bf3795abfd8905f359a0f3a3f20f773"
+ },
+ "Course Overview/Film om Funka.jpg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Film om Funka.jpg",
+  "own": true,
+  "sha1": "ab75aa82942fb461e50bb738bb235e407ffc9d06"
+ },
+ "Course Overview/General Overview.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/General Overview.html",
+  "own": true,
+  "sha1": "882464be09dedb9bca5f3217a71e7e8426b8ae03"
+ },
+ "Course Overview/No use of generative AI tools allowed.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/No use of generative AI tools allowed.html",
+  "own": true,
+  "sha1": "0039fee6cb96240af87d17f2b9844d8a59b475bd"
+ },
+ "Course Overview/Picture_by_MainFieldOfStudy_03_Computer_Science.jpg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Picture_by_MainFieldOfStudy_03_Computer_Science.jpg",
+  "own": true,
+  "sha1": "73dc9a9c78057538b18939aa036eb5f90d6c1620"
+ },
+ "Course Overview/_DSC6826.jpg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/_DSC6826.jpg",
+  "own": true,
+  "sha1": "7d7af59dd290abdb5283905b938ac5de1ee213ad"
+ },
+ "Course Overview/_DSC6872.jpg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/_DSC6872.jpg",
+  "own": true,
+  "sha1": "3c89a41c0b83411df97bf49cbc0f569f0e7ea95c"
+ },
+ "Course Overview/app.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/app.js",
+  "own": true,
+  "sha1": "61315e2a596da6e418efa2b57c1621933bd8fe2d"
+ },
+ "Course Overview/apple-touch-icon-KTH-logo-180x180.png": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/apple-touch-icon-KTH-logo-180x180.png",
+  "own": true,
+  "sha1": "d83e1071b1eeb26722fe122187702e08cc515628"
+ },
+ "Course Overview/backtotop.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/backtotop.js",
+  "own": true,
+  "sha1": "7b63a1895a8ffacf2acd590b54ceaf3ef0a2bdc2"
+ },
+ "Course Overview/container_vsVPCyVy.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/container_vsVPCyVy.js",
+  "own": true,
+  "sha1": "603024affbbcab731c94b334099e7560fa0db1e9"
+ },
+ "Course Overview/core-c52fee0f523fd5467f7528d330526156.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/core-c52fee0f523fd5467f7528d330526156.js",
+  "own": true,
+  "sha1": "6b96555fff01f980f792cef524d0b2916b2072ba"
+ },
+ "Course Overview/klaro-no-css.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/klaro-no-css.js",
+  "own": true,
+  "sha1": "3807f847d43fe5c0af6f0bf3b230a22edc836e65"
+ },
+ "Course Overview/kpm.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/kpm.js",
+  "own": true,
+  "sha1": "5d90933914f7683fe5b2ff106e60bce81fe0f9f5"
+ },
+ "Course Overview/logotype-blue-ff671d438dd60cb940a663d2fd5e0cf9.svg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/logotype-blue-ff671d438dd60cb940a663d2fd5e0cf9.svg",
+  "own": true,
+  "sha1": "e14954eee6b76db6a38ed37eff0c41c0cdfe3b77"
+ },
+ "Course Overview/logotype-blue.svg": {
+  "dest": "other/logotype-blue-ff671d438dd60cb940a663d2fd5e0cf9.svg",
+  "own": false,
+  "sha1": "e14954eee6b76db6a38ed37eff0c41c0cdfe3b77"
+ },
+ "Course Overview/logotype-white-6f02f4554cba157ca832fa452bf242a4.svg": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "lecture/logotype-white-6f02f4554cba157ca832fa452bf242a4.svg",
+  "own": true,
+  "sha1": "c619130af89d6b2ddb4348cf369c742586d1e5b4"
+ },
+ "Course Overview/main-menu-e98957676554a2684db8bd83816f759a.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/main-menu-e98957676554a2684db8bd83816f759a.js",
+  "own": true,
+  "sha1": "c6082eb7b4a9e9ed602be7904faf7c121d7ec2b6"
+ },
+ "Course Overview/media-player-button-03f22b1cc8decfbf6ce75dfa8262778e.png": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "lecture/media-player-button-03f22b1cc8decfbf6ce75dfa8262778e.png",
+  "own": true,
+  "sha1": "a7c50d7e106293e520d1112b9a61f57c11f956a9"
+ },
+ "Course Overview/mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js",
+  "own": true,
+  "sha1": "4b26a53f0ee352043aefb54bd045a0b3a2eedc28"
+ },
+ "Course Overview/search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js",
+  "own": true,
+  "sha1": "8223bdb8ad8569c402871a7ac4584d7d0eeeaf92"
+ },
+ "Course Overview/webformloader.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/webformloader.js",
+  "own": true,
+  "sha1": "7af98ee236efb6044b5cae8ce91b395fca626e55"
+ },
+ "Course Overview/widget (2).js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widget (2).js",
+  "own": true,
+  "sha1": "03975668c4c5e00c5ca909e5b7f4ec8badc6eaa6"
+ },
+ "Course Overview/widget (3).js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widget (3).js",
+  "own": true,
+  "sha1": "6a18c3392d23031f6e12f2a86602a809107fa895"
+ },
+ "Course Overview/widget (4).js": {
+  "dest": "other/widget (2).js",
+  "own": false,
+  "sha1": "03975668c4c5e00c5ca909e5b7f4ec8badc6eaa6"
+ },
+ "Course Overview/widget.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widget.js",
+  "own": true,
+  "sha1": "39a99ed3f569e313fe0cc17fd8a6ffa25718dfea"
+ },
+ "Course Overview/widgetData (2).js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widgetData (2).js",
+  "own": true,
+  "sha1": "25329618368e8c38375cdd712c20f7ffffaaaffa"
+ },
+ "Course Overview/widgetData (3).js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widgetData (3).js",
+  "own": true,
+  "sha1": "3be597cf7d1eeb5b40986fb8ef70d20a3cd24a64"
+ },
+ "Course Overview/widgetData (4).js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widgetData (4).js",
+  "own": true,
+  "sha1": "0efaa24c3b02c44f940bd126a00edeb5b1f63d8e"
+ },
+ "Course Overview/widgetData.js": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/widgetData.js",
+  "own": true,
+  "sha1": "e4e3dbf60752ee412c5b0747cc84a4337f17fd52"
+ },
+ "DB module.jpg": {
+  "dest": "other/DB module.jpg",
+  "own": true,
+  "sha1": "8735cc02c1a2460407c88e18c22df5847639b723"
+ },
+ "Homework 1 (P).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 1 (P).html",
+  "own": true,
+  "sha1": "48b377f97d82de0dd33586133cca66ec118e916a"
+ },
+ "Homework 1 (P+).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 1 (P+).html",
+  "own": true,
+  "sha1": "8e6ccbdd50ea1c6b7b8c8629a6028d3b50a528da"
+ },
+ "Homework 2 (P).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 2 (P).html",
+  "own": true,
+  "sha1": "2da962b7551776f1e53dbc70454589922a653563"
+ },
+ "Homework 2 (P+).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 2 (P+).html",
+  "own": true,
+  "sha1": "bc78b1fbc01d09f28930d0bc401f7c003c781d20"
+ },
+ "Homework 3 (P).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 3 (P).html",
+  "own": true,
+  "sha1": "a7aa0f5d33ab2825c59f9d2b4d4f75cb2874f456"
+ },
+ "Homework 3 (P+).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 3 (P+).html",
+  "own": true,
+  "sha1": "4fa28478dd0bc986cdfa4008c6a92c03d2f02b0c"
+ },
+ "Homework 4 (P).html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Homework 4 (P).html",
+  "own": true,
+  "sha1": "3d67a25dd16df2340f399343b60419f83d4b0748"
+ },
+ "Homework rubric 3.jpg": {
+  "dest": "other/Homework rubric 3.jpg",
+  "own": true,
+  "sha1": "3eb2cf8f7124c0f9f08a388819ae13bc80768d3e"
+ },
+ "INST_ 2025 Homework 3.docx (1).pdf": {
+  "dest": "exercise/INST_ 2025 Homework 3.docx (1).pdf",
+  "own": true,
+  "sha1": "af8a6d06a6ebb177a9341e6a1dd838cc5c259732"
+ },
+ "INST_ 2026 Homework 1.docx.pdf": {
+  "dest": "exercise/INST_ 2026 Homework 1.docx.pdf",
+  "own": true,
+  "sha1": "42a73ed49d6b940cb2572702e8758232341eb548"
+ },
+ "INST_ 2026 Homework 2.docx.pdf": {
+  "dest": "exercise/INST_ 2026 Homework 2.docx.pdf",
+  "own": true,
+  "sha1": "fa658ef383e7c0dc5db2f30f63e8feb7ee537bc3"
+ },
+ "INST_ 2026 Homework 4.docx.pdf": {
+  "dest": "exercise/INST_ 2026 Homework 4.docx.pdf",
+  "own": true,
+  "sha1": "483796b99a65606d7fdee08fc7a8f8b7aeba3299"
+ },
+ "Lab 2 - New.pdf": {
+  "dest": "exercise/Lab 2 - New.pdf",
+  "own": true,
+  "sha1": "2294aea881c014f943fcf4d44821282bfbf92728"
+ },
+ "Lab 2 - New_2.pdf": {
+  "dest": "exercise/Lab 2 - New_2.pdf",
+  "own": true,
+  "sha1": "cff05a7c2c6b850bd15c6892a3553b3325e0e40c"
+ },
+ "Lab1 & Lab P+.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Lab1 & Lab P+.html",
+  "own": true,
+  "sha1": "4bb839d515d66e0359696102c17b99b3f56fe3b2"
+ },
+ "Lab1 - NEW.pdf": {
+  "dest": "exercise/Lab1 - NEW.pdf",
+  "own": true,
+  "sha1": "ee7bfbfd0f854a6ed45c6a9e41594e25680de805"
+ },
+ "Lab2 & Lab2 P+.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/Lab2 & Lab2 P+.html",
+  "own": true,
+  "sha1": "364344876a2750bf2e4c2045cb95f3c719e549ef"
+ },
+ "Local Lab Setup-1.pdf": {
+  "dest": "other/Local Lab Setup-1.pdf",
+  "own": true,
+  "sha1": "12360ba6868e26a1583dd32de060fc5f734683b7"
+ },
+ "Modeling Techniques FAQ’s.pdf": {
+  "dest": "literature/Modeling Techniques FAQ’s.pdf",
+  "own": true,
+  "sha1": "96d77694dfa1a34532668c96e67b2fe5592f5a77"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/E_R and UML Tutorials.html": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "exercise/E_R and UML Tutorials.html",
+  "own": true,
+  "sha1": "94028ebe691b1506b95b1d81ac9ca6a204be3ce3"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/Maintaining Referential Integrity.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Maintaining Referential Integrity.pdf",
+  "own": true,
+  "sha1": "0926c8e52b28279750d314b2a57e8f17b27e3fac"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/Multiplicity.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Multiplicity.pdf",
+  "own": true,
+  "sha1": "531b8bce959a96cbef31000037e7d1973a35d859"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/Overview of Database Management Systems.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Overview of Database Management Systems.pdf",
+  "own": true,
+  "sha1": "a6a7f91ccb23f4fa31ec14b3ae64a2badaac1a55"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/The Logical translation into a Physical Data Model.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/The Logical translation into a Physical Data Model.pdf",
+  "own": true,
+  "sha1": "36a2af3b8c53b8e7bf8ddb3788db58be2c25a378"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/The UML Model.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/The UML Model.pdf",
+  "own": true,
+  "sha1": "b4440f5d540186ffc4754f9f87db9f26ccd3767b"
+ },
+ "Module 1 (Business Rules & Conceptual Models)/The conceptual data Model (Entity-Relationship Model).pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/The conceptual data Model (Entity-Relationship Model).pdf",
+  "own": true,
+  "sha1": "55ea0a313dba0af2ce56e62224a2dea58c31cfb6"
+ },
+ "Module 2 (Logical Models) & (Referential Integrity)/Decomposition,Normalization.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Decomposition,Normalization.pdf",
+  "own": true,
+  "sha1": "a2c0f7693b4a19cd8ae2661cc7e8cd76c9be0aea"
+ },
+ "Module 2 (Logical Models) & (Referential Integrity)/Design Theory for Relational Databases, Functional Dependencies.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/Design Theory for Relational Databases, Functional Dependencies.pdf",
+  "own": true,
+  "sha1": "8f963e2a17c61a42979e447645737bae13abed6f"
+ },
+ "Module 2 (Logical Models) & (Referential Integrity)/New Normalisation guide.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/New Normalisation guide.pdf",
+  "own": true,
+  "sha1": "e7ae9cb42708deb03b0bd7555edc580050da494f"
+ },
+ "Module 3 (Physical Models)&(Data Retrieving)/Examples of Using Join Operators.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "other/Examples of Using Join Operators.pdf",
+  "own": true,
+  "sha1": "041b758102d486cd11c22d4ac5a803af864f7096"
+ },
+ "Module 3 (Physical Models)&(Data Retrieving)/Introduction to Relational algebra.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/Introduction to Relational algebra.pdf",
+  "own": true,
+  "sha1": "f15aef009b337daeb9ec6a89a4958246390950fb"
+ },
+ "Module 3 (Physical Models)&(Data Retrieving)/Referential Integrity Constraints2.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/Referential Integrity Constraints2.pdf",
+  "own": true,
+  "sha1": "1674766eb6ba3c82e4170572e8ef904d85254372"
+ },
+ "Module 3 (Physical Models)&(Data Retrieving)/Relational Algebra to Database language SQL.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/Relational Algebra to Database language SQL.pdf",
+  "own": true,
+  "sha1": "2fd6429e5744e338ef8a0f455627f5a19bb0ac47"
+ },
+ "Module 3 (Physical Models)&(Data Retrieving)/The Database language SQL (Aggregation).pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/The Database language SQL (Aggregation).pdf",
+  "own": true,
+  "sha1": "5f239e235d287852c771048b253e46ddabb868a5"
+ },
+ "Module 4 (Data Maintaing)/Course Summary.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/Course Summary.pdf",
+  "own": true,
+  "sha1": "df128f8a7c007b9dfa7f6ff09e9d421ef3b12857"
+ },
+ "Module 4 (Data Maintaing)/SQL Views.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/SQL Views.pdf",
+  "own": true,
+  "sha1": "60bc166e53d5bfb56f9bb7189ff1a2dc2b00960f"
+ },
+ "Module 4 (Data Maintaing)/SQL constrains and triggers.pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/SQL constrains and triggers.pdf",
+  "own": true,
+  "sha1": "b3601cf05799ac0d4ab6c38e7702a2e95d36321d"
+ },
+ "Module 4 (Data Maintaing)/The Database language SQL (Subqueries).pdf": {
+  "added": "2026-11-16T13:31:20",
+  "dest": "literature/The Database language SQL (Subqueries).pdf",
+  "own": true,
+  "sha1": "9b1d50c00e5da57eda9296ae5c312c09726b5167"
+ },
+ "PostgreSQL Installation Guide.docx.pdf": {
+  "dest": "other/PostgreSQL Installation Guide.docx.pdf",
+  "own": true,
+  "sha1": "f276bb13d4bd5309d06caa109aeed5c1cb902d0a"
+ },
+ "_course_name": "DD1368 HT26 Databasteknik för D (10837)",
+ "grading system-2.png": {
+  "dest": "other/grading system-2.png",
+  "own": true,
+  "sha1": "f66d8d5eabed7b96eae9a8a581c5410c18141b9a"
+ },
+ "lab rubric.jpg": {
+  "dest": "other/lab rubric.jpg",
+  "own": true,
+  "sha1": "a1295298985867407bd19d52627d5674fcc57fd6"
+ }
+}

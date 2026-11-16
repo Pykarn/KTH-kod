@@ -1,0 +1,63 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Examinerande uppgift: Labb3</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Examinerande uppgift: Labb3</h1><p><b>Deadline:</b> 2026-10-29T22:59:59Z</p>
+<h1>Laboration 3 - SSP-klient (STEN, SAX, PÅSE)</h1>
+<h3>Mål</h3>
+<ul>
+<li>Att förstå principerna för ett serverprogram som fungerar för flera klienter samtidigt i Java.</li>
+<li>Att kunna programmera både en textklient och en grafisk klient som kopplas upp mot servern, kommunicerar med den och kopplar ner.</li>
+<li>Att använda olika lyssnare för olika uppgifter.</li>
+</ul>
+<p>Dessutom ger uppgiften ytterligare övning på att strukturera den logiska delen av ett program samt på att göra grafiska gränssnitt.</p>
+<p>&nbsp;</p>
+<h3>Ett grafiskt klientprogram där en användare spelar mot en server</h3>
+<p>Ni får koden för servern Server4713.java. Uppgiften i labb3 är att skriva ett grafiskt klientprogram som låter en användare spela&nbsp;<i>sten, sax och påse</i>&nbsp;mot serverprogrammet. Spelet är känt över hela världen. Här är en webbsida: <a href="https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors">Wikipedia about rock-paper-scissors.</a></p>
+<p>&nbsp;</p>
+<p>Du ska starta serverprogrammet på den dator du utvecklar kod för klienten (d.v.s. denna labb). Om du vill så kan du starta servern på en annan dator och isf behöver du se till att datorn du startar servern på är kopplad till internet, ta reda på IP-adressen och dessutom se till att datorn är inte bakom någon brandvägg eller liknande. Men det är enklare att under untvecklingen starta servern lokal på den dator man utvecklar klienten, då behöver man inte tillgång till internet heller, men när man är klar med klientkoden och allting fungerar som det ska, kan man starta servern på en annan dator och byta IP-adressen i klientkoden bara.</p>
+<h3>En text–klient</h3>
+<p>Börja med att testa en enkel klient utan grafik, som öppnar en förbindelse med</p>
+<pre>   try {<br>       // <strong>localhost</strong> är alias för IP-adress för den lokala datorn d.v.s. den datorn <br>       // du kör detta program (vilket i detta fall är samma dator som serverprogrammet körs på)
+       Socket socket=new Socket("<strong>localhost</strong>",4713);<br>       BufferedReader in=new BufferedReader
+           (new InputStreamReader(socket.getInputStream()));
+       PrintWriter ut=new PrintWriter(socket.getOutputStream());
+       ut.println("Charlotta");<br>       ut.flush();
+       System.out.println(in.readLine());
+   }
+</pre>
+<p>Kör Server4713 på egen dator,.</p>
+<p>OBS! Koden ovan är ofullständig. Bl.a. saknas&nbsp;<code>catch</code>-del till&nbsp;<code>try</code> - blocket och import-satser.&nbsp;</p>
+<p>Klienten ska sända ett namn (här sänds Charlotta) till den server som lyssnar på port 4713 och skriva ut det svar den får. Kom ihåg&nbsp;<code>ut.flush();</code>&nbsp;annars sänds inte namnet iväg. Koden ovan behöver kompletteras en hel del för att gå att köra överhuvudtaget men även för att testa servern. Bland annat bör man skicka ytterligare några meddelanden till servern och som svar få "STEN", "SAX" eller "PÅSE". För att avsluta förbindelsen, skicka en tom sträng, alltså "". Se till att den enkla klienten fungerar innan ni går vidare och ägnar er&nbsp; åt det grafiska.</p>
+<p>&nbsp;</p>
+<h3>Det grafiska programmet</h3>
+<p>Programmet ska bestå av minst två klasser där den ena är en spelplansklass. Följande detaljerade anvisningar bygger på att ni använder en färdig klass för spelplanen, den givna klassen&nbsp;<code>Gameboard</code> som tillhandahålls för att underlätta för er. <strong>Vi kräver dock inte att ni använder </strong><strong><code>Gameboard</code>. Det är tillåtet att skriva något eget men koden måste vara</strong><strong> tydlig och sakna onödiga upprepningar.</strong> Det kan vara lärorikt att förstå&nbsp;<code>Gameboard</code>, särskilt de två olika konstruktorerna och möjligheten att ge lyssnare i konstruktorn.</p>
+<p>&nbsp;</p>
+<h3>Spelplansklass</h3>
+<p>Det ska finnas en spelplan för dig själv och en för datorn och dessa ska vara objekt av samma klass. Spelplanen ska innehålla sju fält: Spelarens namn, senast utförda drag, tre knappar för STEN, SAX, PÅSE, en ruta där det visas om spelaren vann, förlorade eller spelade oavgjort och till sist aktuell poängställning. Alla rutorna utom den översta ska att uppdateras under spelets gång. Knapptryckningar i <i>din</i> spelplan ska ha effekt på spelet men knapptryckningar i datorns spelplan har ingen verkan. Klassen <code>Gameboard</code> kan användas för spelplanen och finns i ditt git-repo.&nbsp;<code>Gameboard </code>innehåller de metoder som behövs för uppdateringar av spelplanen under spelets gång. Observera att bildfiler måste finnas när man vill köra ett program med objekt av <code>Gameboard</code>. Använd t.ex. dessa bilder eller hitta egna!</p>
+<p><br><img src="http://www.csc.kth.se/utbildning/kth/kurser/DD2385/prutt16/laborationer/rock.gif" alt="STEN" loading="lazy">&nbsp;<img src="http://www.csc.kth.se/utbildning/kth/kurser/DD2385/prutt16/laborationer/paper.gif" alt="PÅSE" loading="lazy">&nbsp;<img src="http://www.csc.kth.se/utbildning/kth/kurser/DD2385/prutt16/laborationer/scissors.gif" alt="SAX" loading="lazy"></p>
+<h4>&nbsp;</h4>
+<p>Huvudklassen</p>
+<p>För att snabbt få en uppfattning om hur programmet kan se ut vid körning så finns här också ett "skelettprogram" för det hela:&nbsp; RPSSkel.java Spara båda klasserna och lämpliga bildfiler och <strong>provkör</strong>!&nbsp; Då ser ni hur det färdiga programmet ska se ut, oavsett om ni väljer att använda de givna klasserna eller ej. Skelettprogrammet kan byggas ut till den färdiga labblösningen. Bygg i små steg!&nbsp; Skriv gärna metoder för lösningar av delproblem.</p>
+<p>Klassen Gameboard behöver inte ändras. Det är tillåtet att ändra i Gameboard, eller skriva en ny, men det får inte leda till ett sämre strukturerat program. Inte heller RPSSkel måste användas, den tillhandahålls bara för att underlätta.&nbsp; Det är också tillåtet att lägga till en klass, om ni tycker det behövs.</p>
+<p>&nbsp;</p>
+<h3>Spelet</h3>
+<p>Spelet går till så att användaren trycker på sten, sax och påse-knapparna och vid&nbsp;<strong>tredje</strong> trycket läser programmet av vilken knapp som tryckts på och draget STEN, SAX eller PÅSE registreras. Det spelar ingen roll vilka knappar man trycker på de två första gångerna men texten "ETT..." respektive "TVÅ..." ska visas i resultatrutan (under bilderna). Detta ska efterlikna att man i det manuella spelet slår med en knuten hand i luften två gånger (räknar ett, två) och därefter (på tredje slaget) visar sitt drag. I samband med användarens tredje tryck ger också datorn sitt drag (dvs programmet läser av draget från servern). Programmet avgör om det är oavgjort eller vem som vunnit samt uppdaterar Resultat-rutan och Poäng-rutan på varje spelplan.</p>
+<p>&nbsp;</p>
+<h3>Krav på programmet</h3>
+<ul>
+<li>När användaren och datorn spelar (alltså på var tredje knapptryckning) ska det markeras på spelplanerna hur man har valt, dels genom att knapparnas (din och datorns) färg ändras och dels genom att STEN, SAX eller PASE skrivs i textrutan närmast ovanför knapparna. Färgen ändras tillbaka vid nästa tryck&nbsp;"ETT ...".</li>
+<li>I rutan närmast under knapparna på var spelplan skrivs texterna "ETT ...", "TVÅ ..." och på tre skrivs om spelaren vann eller förlorade eller om det blev oavgjort.</li>
+<li>Poängställningen ska uppdateras längst ned på vinnande spelpan.</li>
+<li>För varje spel måste programmet avgöra vem som vann. Se till att detta görs på ett snyggt och tydligt sätt! Det är&nbsp;<i>inte</i> nödvändigt att testa alla kombinationer av STEN/SAX/PÅSE. Man klara sig med ett par if-satser (och några &amp;&amp; och ||) eller helt utan if, om man skapat en lämplig datastruktur för de möjliga utfallen.</li>
+<li>Det ska finnas en "avsluta"-knapp. Tryck på den ska ge nedkoppling från servern och avsluta programmet. Finns redan förberedd i skelett-programmet.</li>
+<li>Låt&nbsp;<i>olika</i> lyssnare ta hand om avsluta-knappen och spel-knapparna. De har ju helt olika uppgifter. För tips, <a href="http://www.csc.kth.se/utbildning/kth/kurser/DD2385/prutt16/laborationer/lyssnare.txt">titta här</a>.</li>
+<li>Gör en enda uppkoppling till servern som behålls under hela spelet. Koppla inte upp på nytt för varje drag.</li>
+</ul>
+<h3>Redovisning</h3>
+<div class="redovisa">
+<ul>
+<li>Demonstrera körning av programmet. Kraven i listan ovan ska uppfyllas.</li>
+<li>Ni ska kunna redogöra för och förstå programmets alla delar, alltså även den givna klassen&nbsp;<code>Gameboard</code>, om ni väljer att använda den.</li>
+<li>Visa UML-klassdiagram för programmet. Diagrammet ska innehålla de viktigaste klasserna samt publika metoder. Variabler behövs inte.<br><span style="font-family: inherit; font-size: 1.5em;">&nbsp;</span></li>
+</ul>
+</div>
+<h3>Extrauppgift för högre betyg</h3>
+<p>Det blir ingen extrauppgift på denna labb.</p>
+</body></html>

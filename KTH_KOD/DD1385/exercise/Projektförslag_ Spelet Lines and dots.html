@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Projektförslag: Spelet Lines and dots</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Projektförslag: Spelet Lines and dots</h1>
+<p>Spelas av två eller flera spelare.</p>
+<p>Spelplanen består av 30 rader och 30 kolumner med punkter i ett kvadratiskt rutnät.</p>
+<p>Varje spelare får ett turnummer.</p>
+<p>1. Den som har turen binder två intilliggande punkter genom att dra en horisontell eller en vertikal linje mellan dem.<br>2. Om en eller två kvadrater skapas av en dragen linje, fyller spelaren i sitt namn (eller markerar på annat sätt) i de kvadrater som skapats av den dragna linjen.<br>3. Den som skapat en kvadrat eller två kvadrater enligt punkt 2 och markerat får fortsätta och dra nästa linje o.s.v.<br>4. Fortsätt spela tills alla punkter på sidan är anslutna.<br>5. Räkna hur många lådor varje spelare har. Den som har flest är vinnaren.</p>
+<p>&nbsp;</p>
+<p>Här är ett exempel på hur det kan se ut om man spelar "för hand".</p>
+<p>&nbsp;<img src="https://canvas.kth.se/courses/63900/files/10516020/preview?verifier=62890040-e25c-48fe-bb52-a9b925d3a01c" alt="lines-dots-sample-game.gif" width="335" height="309" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/files/10516020" data-api-returntype="File" loading="lazy"></p>
+<p><strong>Betyg E: Grundläggande spelmekanik</strong></p>
+<ol>
+<li>Visa spelplanen med ett 30x30 rutnät av punkter.</li>
+<li>Tillåt spelare att dra horisontella och vertikala linjer mellan intilliggande punkter, med turordning mellan spelare.</li>
+<li>Fyll i en ruta med spelarens markör (namn eller symbol) när en spelare fullbordar en kvadrat.</li>
+<li>Räkna antalet skapade kvadrater för varje spelare när spelet är slut.</li>
+</ol>
+<p><strong>Betyg C: Spelmekanik och grundläggande spelregler</strong></p>
+<ol>
+<li>Utför punkterna 1-4 för betyg E.</li>
+<li>Implementera regeln att en spelare får en extra tur om de skapar en eller två kvadrater med sitt drag.</li>
+<li>Visa och håll reda på varje spelares turnummer.</li>
+</ol>
+<p><strong>Betyg A: Fullständig spelmekanik och detaljerade regler</strong></p>
+<ol>
+<li>Utför punkterna 1-3 för betyg C.</li>
+<li>Implementera en dynamisk räkning av varje spelares kvadrater i realtid.</li>
+<li>Implementera att spelet avslutas automatiskt när alla punkter är anslutna, och meddela vinnaren baserat på flest antal kvadrater.</li>
+<li>Inkludera möjligheten att spela med två eller flera spelare, med flexibel turordning.</li>
+</ol>
+</body></html>

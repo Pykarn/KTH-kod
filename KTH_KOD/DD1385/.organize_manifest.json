@@ -224,6 +224,62 @@
   "own": true,
   "sha1": "89f772792fa7700a7936b008e1dfb020684e8e89"
  },
+ "Hederskodex/EECS hederskodex 2024.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/EECS hederskodex 2024.pdf",
+  "own": true,
+  "sha1": "3aa080656a25e4dbcd42be63b1c0cc8e504b51ec"
+ },
+ "Hederskodex/container_vsVPCyVy.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/container_vsVPCyVy.js",
+  "own": true,
+  "sha1": "603024affbbcab731c94b334099e7560fa0db1e9"
+ },
+ "Hederskodex/core-c52fee0f523fd5467f7528d330526156.js": {
+  "dest": "exercise/core-c52fee0f523fd5467f7528d330526156.js",
+  "own": false,
+  "sha1": "6b96555fff01f980f792cef524d0b2916b2072ba"
+ },
+ "Hederskodex/kpm.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/kpm.js",
+  "own": true,
+  "sha1": "5d90933914f7683fe5b2ff106e60bce81fe0f9f5"
+ },
+ "Hederskodex/logotype-white-6f02f4554cba157ca832fa452bf242a4.svg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "lecture/logotype-white-6f02f4554cba157ca832fa452bf242a4.svg",
+  "own": true,
+  "sha1": "c619130af89d6b2ddb4348cf369c742586d1e5b4"
+ },
+ "Hederskodex/main-menu-e98957676554a2684db8bd83816f759a.js": {
+  "dest": "other/main-menu-e98957676554a2684db8bd83816f759a.js",
+  "own": false,
+  "sha1": "c6082eb7b4a9e9ed602be7904faf7c121d7ec2b6"
+ },
+ "Hederskodex/mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js": {
+  "dest": "other/mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js",
+  "own": false,
+  "sha1": "4b26a53f0ee352043aefb54bd045a0b3a2eedc28"
+ },
+ "Hederskodex/search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js": {
+  "dest": "exercise/search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js",
+  "own": false,
+  "sha1": "8223bdb8ad8569c402871a7ac4584d7d0eeeaf92"
+ },
+ "Hederskodex/widget.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/widget.js",
+  "own": true,
+  "sha1": "03975668c4c5e00c5ca909e5b7f4ec8badc6eaa6"
+ },
+ "Hederskodex/widgetData.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/widgetData_1.js",
+  "own": true,
+  "sha1": "164c0cb28cc5a0cb6dade5c1ee963f58877c08bd"
+ },
  "Helicopter.java": {
   "dest": "exercise/Helicopter.java",
   "own": true,
@@ -248,6 +304,12 @@
   "dest": "exercise/JamforSpelkortC2_1.java",
   "own": true,
   "sha1": "967dd377287ea0a9108ef9247dda782324b26fa6"
+ },
+ "Kursspecifik information om generativ AI/⚠️ Ingen tillåten användning av generativa AI-verktyg för examinerande moment.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/⚠️ Ingen tillåten användning av generativa AI-verktyg för examinerande moment.html",
+  "own": true,
+  "sha1": "6acff85e137ad7525c698dead86856b8b394a618"
  },
  "LibraryItem.java": {
   "dest": "exercise/LibraryItem.java",
@@ -444,6 +506,25 @@
   "own": true,
   "sha1": "1f301a0655d05e50285a910bedaf92b7c9705234"
  },
+ "_course_name": "DD1385 HT26 Programutvecklingsteknik (10838)",
+ "apple-touch-icon-KTH-logo-180x180.png": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/apple-touch-icon-KTH-logo-180x180.png",
+  "own": true,
+  "sha1": "d83e1071b1eeb26722fe122187702e08cc515628"
+ },
+ "container_bIWjnFrt.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/container_bIWjnFrt.js",
+  "own": true,
+  "sha1": "d453b9a6042a35e1afabbee1dc04c60fa28432ea"
+ },
+ "core-c52fee0f523fd5467f7528d330526156.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/core-c52fee0f523fd5467f7528d330526156.js",
+  "own": true,
+  "sha1": "6b96555fff01f980f792cef524d0b2916b2072ba"
+ },
  "fraction-analysis.pdf": {
   "dest": "literature/fraction-analysis.pdf",
   "own": true,
@@ -494,6 +575,12 @@
   "own": false,
   "sha1": "2a222045829c11e17ec1395b4d165b80758d637d"
  },
+ "github_junit4/doc/ReleaseNotes4.10.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.10.html",
+  "own": true,
+  "sha1": "6fd043824b69a587641e3fdaaaa6e75dd94a03c4"
+ },
  "github_junit4/doc/ReleaseNotes4.10.md": {
   "dest": "other/ReleaseNotes4.10.md",
   "own": false,
@@ -503,6 +590,12 @@
   "dest": "other/ReleaseNotes4.10.txt",
   "own": false,
   "sha1": "16762e57d58a949f220d82b6ef562769db8d34b9"
+ },
+ "github_junit4/doc/ReleaseNotes4.11.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.11.html",
+  "own": true,
+  "sha1": "22c9585c7f5f92b0e375011215c9b5c21017ffc6"
  },
  "github_junit4/doc/ReleaseNotes4.11.md": {
   "dest": "other/ReleaseNotes4.11.md",
@@ -534,6 +627,12 @@
   "own": false,
   "sha1": "188722aa26853e19a41d878cfccc80edc0ec5d77"
  },
+ "github_junit4/doc/ReleaseNotes4.4.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.4.html",
+  "own": true,
+  "sha1": "8ae30f79b92419a51679d1f231101d3ae686da12"
+ },
  "github_junit4/doc/ReleaseNotes4.4.md": {
   "dest": "other/ReleaseNotes4.4.md",
   "own": false,
@@ -543,6 +642,12 @@
   "dest": "other/ReleaseNotes4.4.txt",
   "own": false,
   "sha1": "372e62dc57a509583ca976a003421bb608914c9c"
+ },
+ "github_junit4/doc/ReleaseNotes4.5.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.5.html",
+  "own": true,
+  "sha1": "b0360c89fe9b949adea3487ad0fc4445f402f1cc"
  },
  "github_junit4/doc/ReleaseNotes4.5.md": {
   "dest": "other/ReleaseNotes4.5.md",
@@ -554,6 +659,12 @@
   "own": false,
   "sha1": "0c98eaf731e85bbd8cf6658ab589dbdcfe932c20"
  },
+ "github_junit4/doc/ReleaseNotes4.6.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.6.html",
+  "own": true,
+  "sha1": "5c4461c093499e17d6d2cd3357392be008e34918"
+ },
  "github_junit4/doc/ReleaseNotes4.6.md": {
   "dest": "other/ReleaseNotes4.6.md",
   "own": false,
@@ -563,6 +674,12 @@
   "dest": "other/ReleaseNotes4.6.txt",
   "own": false,
   "sha1": "32596ab86fbb5088b3331152459d2caa7e69c95a"
+ },
+ "github_junit4/doc/ReleaseNotes4.7.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.7.html",
+  "own": true,
+  "sha1": "05279c62bcad90c2c7b7c85fc7acc3b011db9298"
  },
  "github_junit4/doc/ReleaseNotes4.7.md": {
   "dest": "other/ReleaseNotes4.7.md",
@@ -574,6 +691,12 @@
   "own": false,
   "sha1": "586bfa55812de2846b6524e31f72dd1a8d0b0c32"
  },
+ "github_junit4/doc/ReleaseNotes4.8.1.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.8.1.html",
+  "own": true,
+  "sha1": "e18ca7f025d0d8c8bc0d97a9f4fdd1ef675e7ed8"
+ },
  "github_junit4/doc/ReleaseNotes4.8.1.md": {
   "dest": "other/ReleaseNotes4.8.1.md",
   "own": false,
@@ -584,6 +707,12 @@
   "own": false,
   "sha1": "abe9986a4e00faf9f7fa31f33575737f6e76332b"
  },
+ "github_junit4/doc/ReleaseNotes4.8.2.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.8.2.html",
+  "own": true,
+  "sha1": "67bebf1872ae6e012c78e630425a1408d4f160f6"
+ },
  "github_junit4/doc/ReleaseNotes4.8.2.md": {
   "dest": "other/ReleaseNotes4.8.2.md",
   "own": false,
@@ -593,6 +722,12 @@
   "dest": "other/ReleaseNotes4.8.2.txt",
   "own": false,
   "sha1": "efd443b77bef0f4e7cc3786525b136f2d7a12a2a"
+ },
+ "github_junit4/doc/ReleaseNotes4.8.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.8.html",
+  "own": true,
+  "sha1": "8235dabc9321e9780f9419fc1aa70e68251f5995"
  },
  "github_junit4/doc/ReleaseNotes4.8.md": {
   "dest": "other/ReleaseNotes4.8.md",
@@ -613,6 +748,12 @@
   "dest": "other/ReleaseNotes4.9.1.txt",
   "own": false,
   "sha1": "9a22416b1d3f8a26ea01dd8e59b997278f25cf3c"
+ },
+ "github_junit4/doc/ReleaseNotes4.9.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/ReleaseNotes4.9.html",
+  "own": true,
+  "sha1": "a0577b890c48cd260207edd002072555506c3866"
  },
  "github_junit4/doc/ReleaseNotes4.9.md": {
   "dest": "other/ReleaseNotes4.9.md",
@@ -664,6 +805,12 @@
   "own": true,
   "sha1": "12aa8f60bcf6f5d656d7e587e1bb12e185458731"
  },
+ "github_junit4/doc/markdown.sh": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/doc/markdown.sh",
+  "own": true,
+  "sha1": "a6c4baaf5e93a38bd0731a9a62b0e5b1d58139fd"
+ },
  "github_junit4/doc/testinfected/IMG00001.GIF": {
   "dest": "other/IMG00001.GIF",
   "own": true,
@@ -683,6 +830,18 @@
   "dest": "other/logo.gif",
   "own": true,
   "sha1": "26fc9aa1c1c1001b31091eab3dd9eef221f5583d"
+ },
+ "github_junit4/epl-v10.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/epl-v10.html",
+  "own": true,
+  "sha1": "35666c54f2406125707e63edab12f2914d85ca76"
+ },
+ "github_junit4/pom.xml": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/pom.xml",
+  "own": true,
+  "sha1": "d2740e9761ed9837bf201f20bfa0bed39de94e0b"
  },
  "github_junit4/src/main/java/junit/extensions/ActiveTestSuite.java": {
   "dest": "exercise/ActiveTestSuite.java",
@@ -2014,10 +2173,22 @@
   "own": true,
   "sha1": "f821ae63d42123619568897948d3d218356189b2"
  },
+ "github_junit4/src/site/site.xml": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "repos/junit4/src/site/site.xml",
+  "own": true,
+  "sha1": "04fca31eadbe93dd0534d0984884c5168aaef8a7"
+ },
  "github_junit4/to-do.txt": {
   "dest": "exercise/to-do.txt",
   "own": false,
   "sha1": "a16beb6e2ce5538a5ef9353b24d7ebc56933bc7a"
+ },
+ "logotype-blue-ff671d438dd60cb940a663d2fd5e0cf9.svg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/logotype-blue-ff671d438dd60cb940a663d2fd5e0cf9.svg",
+  "own": true,
+  "sha1": "e14954eee6b76db6a38ed37eff0c41c0cdfe3b77"
  },
  "lpbook-teachers.pdf": {
   "dest": "literature/lpbook-teachers.pdf",
@@ -2028,6 +2199,18 @@
   "dest": "literature/lpbook.pdf",
   "own": true,
   "sha1": "7eeeb23b9270eab519d1a0764fedd68e25909aba"
+ },
+ "main-menu-e98957676554a2684db8bd83816f759a.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/main-menu-e98957676554a2684db8bd83816f759a.js",
+  "own": true,
+  "sha1": "c6082eb7b4a9e9ed602be7904faf7c121d7ec2b6"
+ },
+ "mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js",
+  "own": true,
+  "sha1": "4b26a53f0ee352043aefb54bd045a0b3a2eedc28"
  },
  "mock.java": {
   "dest": "exercise/mock_1.java",
@@ -2054,6 +2237,12 @@
   "own": false,
   "sha1": "8e0b35341ca3d9e97e69d68814fee44784f2c052"
  },
+ "search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js",
+  "own": true,
+  "sha1": "8223bdb8ad8569c402871a7ac4584d7d0eeeaf92"
+ },
  "slides-intro.pdf": {
   "dest": "literature/slides-intro.pdf",
   "own": true,
@@ -2073,5 +2262,480 @@
   "dest": "exercise/uppg2.jpeg",
   "own": false,
   "sha1": "8caad623ac4f9734a25ceb501a362f22f7b0ae9b"
+ },
+ "widgetData.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/widgetData.js",
+  "own": true,
+  "sha1": "0c24f63a5d0ec2367e635e4e857b4a9ca9792da7"
+ },
+ "Översikt/160607Svar.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/160607Svar.pdf",
+  "own": true,
+  "sha1": "6f5ad731f0d3fdd1fede7b58de50d6729c4f6cae"
+ },
+ "Översikt/180110Svar.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/180110Svar.html",
+  "own": true,
+  "sha1": "b55ca66ab43aa3e15584291d84c4cce5e22b77fe"
+ },
+ "Översikt/190109Svar.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/190109Svar.html",
+  "own": true,
+  "sha1": "4b9d76a9630c277534fd54de1c47daf2fe7b71d3"
+ },
+ "Översikt/2.a1b38a22.chunk.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/2.a1b38a22.chunk.js",
+  "own": true,
+  "sha1": "c70701ad43241b7668fa2b6c56ba246946944f39"
+ },
+ "Översikt/200110Svar.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/200110Svar.html",
+  "own": true,
+  "sha1": "78b750665308c15180b784f11886c30edbf936cc"
+ },
+ "Översikt/20210108Losningar.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/20210108Losningar.pdf",
+  "own": true,
+  "sha1": "f594f1965d5f01497e4d89497e0ee44b2fdcbc6f"
+ },
+ "Översikt/Användbara länkar.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "literature/Användbara länkar.html",
+  "own": true,
+  "sha1": "14b9e127157226453d9fc6ad23b96682a208b9f4"
+ },
+ "Översikt/BarView.java": {
+  "dest": "exercise/BarView.java",
+  "own": false,
+  "sha1": "8c84676b5aa4da156dca62dbfebb1960ecb64e33"
+ },
+ "Översikt/Brown1.png": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Brown1.png",
+  "own": true,
+  "sha1": "582f1a09aa34c0254510fe47a8efee52d5b12b12"
+ },
+ "Översikt/Brown2.png": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Brown2.png",
+  "own": true,
+  "sha1": "cd5856a3381e7d990e6ed00d9bf22ac4c5506226"
+ },
+ "Översikt/Cohesion.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Cohesion.java",
+  "own": true,
+  "sha1": "1dfea9074368803ea23cc0a351b4dc5415bb9af6"
+ },
+ "Översikt/CollTest.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/CollTest.java",
+  "own": true,
+  "sha1": "06148f36deb5b15a9f6d4a692aee1b3f969b933e"
+ },
+ "Översikt/CollTest2.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/CollTest2.java",
+  "own": true,
+  "sha1": "8669eaf988f10af7d47eea3dc79aa4e422a5cbed"
+ },
+ "Översikt/Composite.jpg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Composite.jpg",
+  "own": true,
+  "sha1": "2dc720a50c3bb2d2c5f40155dd0268afcf21bda1"
+ },
+ "Översikt/DD1385-190109.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/DD1385-190109.pdf",
+  "own": true,
+  "sha1": "12dff9cd1bc90a155896a6910558b768f29cab3e"
+ },
+ "Översikt/DD1385-200110.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/DD1385-200110.pdf",
+  "own": true,
+  "sha1": "3b8ec1ba230f0b2224d0876841cb2b19fd11e1cb"
+ },
+ "Översikt/DD1385-20210108.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/DD1385-20210108.pdf",
+  "own": true,
+  "sha1": "22b16798aed4d536f1cfb593facca2c58d4242d2"
+ },
+ "Översikt/Examination och Betyg.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/Examination och Betyg.html",
+  "own": true,
+  "sha1": "5d0199e6adb2aa6d36157d047a902b6d00bdfe6b"
+ },
+ "Översikt/Examinerande uppgift_ Labb1.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Examinerande uppgift_ Labb1.html",
+  "own": true,
+  "sha1": "551074d36bc857a139c7775d0bf680f4ea7eedef"
+ },
+ "Översikt/Examinerande uppgift_ Labb2.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Examinerande uppgift_ Labb2.html",
+  "own": true,
+  "sha1": "3b760df4d655a0bd9227e2e42b0d4b7b7ce55488"
+ },
+ "Översikt/Examinerande uppgift_ Labb3.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Examinerande uppgift_ Labb3.html",
+  "own": true,
+  "sha1": "471ab2e42c2e577ff921d664904cb9998462b70a"
+ },
+ "Översikt/Examinerande uppgift_ Labb4.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Examinerande uppgift_ Labb4.html",
+  "own": true,
+  "sha1": "6348bbcc6b3921648cc0b9a6212ae9d849844cde"
+ },
+ "Översikt/Examinerande uppgift_ Labb5.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Examinerande uppgift_ Labb5.html",
+  "own": true,
+  "sha1": "10bb9692d05e6fc5db27e343bcab49a21a5767b5"
+ },
+ "Översikt/F11.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "lecture/F11.pdf",
+  "own": true,
+  "sha1": "1db434b5ebe174935278c33a348e8c6b79862c65"
+ },
+ "Översikt/Gamla tentor.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Gamla tentor.html",
+  "own": true,
+  "sha1": "e6b3b480598b7196509e58d422a82ff91dc3bfa5"
+ },
+ "Översikt/Integrator.java": {
+  "dest": "exercise/Integrator_1.java",
+  "own": false,
+  "sha1": "a62d979d0d18e84eed7e3ef7d3d47a12165ecc1e"
+ },
+ "Översikt/Kursmaterial_litteratur.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "literature/Kursmaterial_litteratur.html",
+  "own": true,
+  "sha1": "52e797238cc588f2bf620b4afd13b54814c384e1"
+ },
+ "Översikt/Kvittensblad.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Kvittensblad.html",
+  "own": true,
+  "sha1": "074ee211662ed5c20dff60a4f521ccb844e35679"
+ },
+ "Översikt/Labb0.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Labb0.html",
+  "own": true,
+  "sha1": "07cec62f99a772d1e9a48f74efc27666861d1e0b"
+ },
+ "Översikt/Laborationer.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Laborationer.html",
+  "own": true,
+  "sha1": "9bbe8cbecd295642a20a0f5174c5c6dcb887e220"
+ },
+ "Översikt/LooseCoupling.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/LooseCoupling_1.java",
+  "own": true,
+  "sha1": "473732bc832a21568d5ab2c529493515fc1e8a97"
+ },
+ "Översikt/Lärare.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Lärare.html",
+  "own": true,
+  "sha1": "1e3e30c9e5e11965724d81942f30b48fe216f8d3"
+ },
+ "Översikt/NumberButton.java": {
+  "dest": "exercise/NumberButton.java",
+  "own": false,
+  "sha1": "f3ff4183c376fbf6eef0b61640fae96028ed4655"
+ },
+ "Översikt/Observer.jpg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Observer.jpg",
+  "own": true,
+  "sha1": "518797f17cfcd67cdf790e2f3c9edfa0426b4668"
+ },
+ "Översikt/P1.jpg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/P1.jpg",
+  "own": true,
+  "sha1": "c95b362eeae238dc6c4742f70819423859a349dd"
+ },
+ "Översikt/Person.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Person.java",
+  "own": true,
+  "sha1": "cbc020c71e24742f65904f0aa341bfba0bda3d1b"
+ },
+ "Översikt/Point.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "lecture/Point.java",
+  "own": true,
+  "sha1": "20db8a02b7058acf24c4fdf9a0945340e8a3ed4c"
+ },
+ "Översikt/Point1.java": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Point1.java",
+  "own": true,
+  "sha1": "d987c2577020b66c51f962c5011b5b45d9c1a4b5"
+ },
+ "Översikt/Projekt.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projekt.html",
+  "own": true,
+  "sha1": "143dab41422ac753c5f9866ec08fc2efec836fa4"
+ },
+ "Översikt/Projektförslag_ 2048-spel.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ 2048-spel.html",
+  "own": true,
+  "sha1": "0e02c0db05b9accae4b2be209c31a12675524afc"
+ },
+ "Översikt/Projektförslag_ Brownsk rörelse.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ Brownsk rörelse.html",
+  "own": true,
+  "sha1": "7768cdaf21be2d19b9abc94c353f5559bb07fe94"
+ },
+ "Översikt/Projektförslag_ Intelligent schackbräde.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ Intelligent schackbräde.html",
+  "own": true,
+  "sha1": "3b5b4258bc772b9517e618be5b27e30e30d07366"
+ },
+ "Översikt/Projektförslag_ Othello-spel.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ Othello-spel.html",
+  "own": true,
+  "sha1": "98fa06a8bdaf44686e57763b31bafb1a047e6240"
+ },
+ "Översikt/Projektförslag_ Pac-Man-spel.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ Pac-Man-spel.html",
+  "own": true,
+  "sha1": "44d5b10f4014b4595acedee2e6fc1d1f603304f8"
+ },
+ "Översikt/Projektförslag_ Spelet Lines and dots.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ Spelet Lines and dots.html",
+  "own": true,
+  "sha1": "c30324838a755bfa170454c48189c1266df9059c"
+ },
+ "Översikt/Projektförslag_ Tetris.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Projektförslag_ Tetris.html",
+  "own": true,
+  "sha1": "5994445b4dc4fb900edb3d43404f8598977d950e"
+ },
+ "Översikt/Quiz.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/Quiz.html",
+  "own": true,
+  "sha1": "482636a763a7cd1332cf83a4610915a4a897bcaa"
+ },
+ "Översikt/Tenta-150605.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/Tenta-150605.pdf",
+  "own": true,
+  "sha1": "f07858bf6d343e06bb5e3510cc5a146a793c339c"
+ },
+ "Översikt/Tenta-160607.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/Tenta-160607.pdf",
+  "own": true,
+  "sha1": "6761e901e0182d4f6d5281b0fcf5ade66514d703"
+ },
+ "Översikt/Tenta-170602.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/Tenta-170602.pdf",
+  "own": true,
+  "sha1": "490cd28413429a007d696612543d074c26095489"
+ },
+ "Översikt/Tenta-180110.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exam/Tenta-180110.pdf",
+  "own": true,
+  "sha1": "d304d834117ae6b879b719bfec49b801053d8075"
+ },
+ "Översikt/Test om användning av AI vid examinerande uppgifter (klassisk).html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/Test om användning av AI vid examinerande uppgifter (klassisk).html",
+  "own": true,
+  "sha1": "ec6e828555944d9629beb435538964c579d37584"
+ },
+ "Översikt/UML-190109.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/UML-190109.pdf",
+  "own": true,
+  "sha1": "28c4482378001b51888bb6a0be81e02c56507266"
+ },
+ "Översikt/UML-200110.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/UML-200110.pdf",
+  "own": true,
+  "sha1": "be241eb09c39549c8979999258ee1df70074cdd2"
+ },
+ "Översikt/app.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/app.js",
+  "own": true,
+  "sha1": "d4eb439942708bd1b23203375f6bf13f8c13a724"
+ },
+ "Översikt/backtotop.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/backtotop.js",
+  "own": true,
+  "sha1": "7b63a1895a8ffacf2acd590b54ceaf3ef0a2bdc2"
+ },
+ "Översikt/bootstrap.min.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/bootstrap.min.js",
+  "own": true,
+  "sha1": "a9545831803b1359cfeed47e3b4d6bae68e40e99"
+ },
+ "Översikt/favicon-ent.png": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/favicon-ent.png",
+  "own": true,
+  "sha1": "79d44a43b1b2818bdd70dde725a3768f66873cb6"
+ },
+ "Översikt/favicon-ent.svg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/favicon-ent.svg",
+  "own": true,
+  "sha1": "19e881d4c8048c3cfa2af288246594d5e20234f3"
+ },
+ "Översikt/favicon.svg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/favicon.svg",
+  "own": true,
+  "sha1": "1dc8b249388f4dcfcac3f8152d91f0cc72902129"
+ },
+ "Översikt/fontawesome.min.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/fontawesome.min.js",
+  "own": true,
+  "sha1": "75476852b737554704432bf05b07edc110de9a26"
+ },
+ "Översikt/gitmagic.pdf": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/gitmagic.pdf",
+  "own": true,
+  "sha1": "4d548a532454a86f23e80329170617b268736e7d"
+ },
+ "Översikt/jquery-3.2.1.slim.min.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/jquery-3.2.1.slim.min.js",
+  "own": true,
+  "sha1": "9e89d1515bc4c371b86f4cb1002fd8e377c1829f"
+ },
+ "Översikt/klaro-no-css.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/klaro-no-css.js",
+  "own": true,
+  "sha1": "3807f847d43fe5c0af6f0bf3b230a22edc836e65"
+ },
+ "Översikt/lines-dots-sample-game.gif": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/lines-dots-sample-game.gif",
+  "own": true,
+  "sha1": "5ac29a1e6e566fce08a597ef6cf3c5dc090b55d8"
+ },
+ "Översikt/logo.png": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/logo.png",
+  "own": true,
+  "sha1": "07faa3c90a0296e53e17eebf099a358740525a16"
+ },
+ "Översikt/logotype-blue.svg": {
+  "dest": "other/logotype-blue-ff671d438dd60cb940a663d2fd5e0cf9.svg",
+  "own": false,
+  "sha1": "e14954eee6b76db6a38ed37eff0c41c0cdfe3b77"
+ },
+ "Översikt/lyssnare.txt": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/lyssnare.txt",
+  "own": true,
+  "sha1": "6e0cdf41cb3acc4c9dc8e14cc63c27539ac458cf"
+ },
+ "Översikt/main.417b203b.chunk.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/main.417b203b.chunk.js",
+  "own": true,
+  "sha1": "0369d4c7c3dbca242f5e53e53efb0c3614094ad8"
+ },
+ "Översikt/manifest (2).json": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/manifest (2).json",
+  "own": true,
+  "sha1": "e14ff52b461ce0d939a05f0fed96dc99d07df9d8"
+ },
+ "Översikt/manifest.json": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/manifest.json",
+  "own": true,
+  "sha1": "2bf1c077bf81cf580a6202323c70f0a4315dcc70"
+ },
+ "Översikt/paper.gif": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/paper.gif",
+  "own": true,
+  "sha1": "13bd5cf2bcccfc94b11fa16a56b489f84d3adf07"
+ },
+ "Översikt/pinned-octocat.svg": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/pinned-octocat.svg",
+  "own": true,
+  "sha1": "5dec89dc9dbcebff4a2aeddb9426c7a8e237ca16"
+ },
+ "Översikt/popper.min.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/popper.min.js",
+  "own": true,
+  "sha1": "c3b977aa4b8dfb69d651e07015031d385ded964b"
+ },
+ "Översikt/rock.gif": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/rock.gif",
+  "own": true,
+  "sha1": "370e1948dbbc7b1a30d08f0cfa6f07ffffbbe8a5"
+ },
+ "Översikt/scissors.gif": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "exercise/scissors.gif",
+  "own": true,
+  "sha1": "008ac757cb0b0ec3aaea846cfb90376d72f0efa2"
+ },
+ "Översikt/widget.js": {
+  "dest": "other/widget.js",
+  "own": false,
+  "sha1": "03975668c4c5e00c5ca909e5b7f4ec8badc6eaa6"
+ },
+ "Översikt/widgetData.js": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/widgetData_2.js",
+  "own": true,
+  "sha1": "e4e3dbf60752ee412c5b0747cc84a4337f17fd52"
+ },
+ "Översikt/Översikt.html": {
+  "added": "2026-11-16T13:29:21",
+  "dest": "other/Översikt.html",
+  "own": true,
+  "sha1": "61b3025aa6cd67af937e4411e3ca1240ae2aa160"
  }
 }

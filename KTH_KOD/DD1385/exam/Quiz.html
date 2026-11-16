@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Quiz</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Quiz</h1>
+<p>Datum och tid: ???</p>
+<p>Form: Digitalt via canvas (Stäng miljö med SafeExam)</p>
+<p>Plats: placering meddelas via mail från examinationsadministration.</p>
+<p>Hjälpmedel: papper, penna, sudd och dator endast för att besöka canvas för denna kurs för att genomföra quizet.</p>
+<p>Innehåll: Består av grundläggande frågor (<a title="Gamla tentor" href="https://canvas.kth.se/courses/63900/pages/gamla-tentor" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/pages/gamla-tentor" data-api-returntype="Page">se del 1 och enklare frågor av gamla tentor</a>) där krävs 80% rätt för att få godkänt på quizet.</p>
+<p>Betyg: P/F</p>
+<h3>Designmönster på tentan<em></em></h3>
+<p>För följande mönster krävs ytliga kunskaper, att kunna kort beskriva och känna igen korrekt beskrivning om mönstrets användningsområde: <em><strong>Proxy, Mediator, Facade, State, Template Method.</strong></em></p>
+<p>För följande mönster krävs (utöver ytliga kunskaper) djupare förståelse, att kunna känna igen mönstret i UML-diagram, beskriva och känna igen mönstrets beståndsdelar och funktion, kunna skriva kod som använder mönstret:<em><strong> Strategy, Model-View-Control, Singleton, Iterator, Observer, Composite, Decorator, Factory-teknik.</strong></em></p>
+<p><strong>Litet sammanfattningsdokument skapad av en tidigare assisten </strong><strong>: </strong><a class="instructure_file_link instructure_scribd_file inline_disabled" title="DD1385_Designmönster.pdf" href="https://canvas.kth.se/courses/63900/files/10516144?verifier=e1e08a2e-c6d4-4425-8e72-eae9c641c714&amp;wrap=1" target="_blank" data-canvas-previewable="false" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/files/10516144" data-api-returntype="File">DD1385_Designmönster.pdf</a></p>
+<p>&nbsp;</p>
+<h3>UML-diagram</h3>
+<p>I materialet till föreläsning 3 finns en genomgång av de UML-symboler vi använder i kursen. Studera detta material! Titta särskilt på hur symbolen romb (engelska: diamond) används.</p>
+<table style="border-collapse: collapse; width: 97.98350137488544%;" border="1">
+<tbody>
+<tr>
+<td style="width: 99.84409485719715%;">
+<p><strong>Förtydligande kring UML </strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 99.84409485719715%;">
+<table style="border-collapse: collapse; width: 99.52153110047847%;" border="1">
+<tbody>
+<tr>
+<td style="width: 51.30928404365905%;">Objekt av klassen C har (eller känner till) objekt av klassen D. Pilspetsen är vid D, kallas association.</td>
+<td style="width: 12.720279087466587%;"><span>&nbsp; C ───</span><span>─→ D</span></td>
+<td style="width: 20.549328732922483%;"><span>&nbsp;Bil(C) har ägare (D). Bil och ägare skapas oberoende från varandra. Bil finns även om ingen ägare finns och vise versa.&nbsp;</span></td>
+</tr>
+<tr>
+<td style="width: 51.30928404365905%;">Objekt av klassen E består av &nbsp;flera objekt av klassen F (romben är vid E), kallas aggregation.</td>
+<td style="width: 12.720279087466587%;">&nbsp; E &nbsp;<span><span style="font-size: 14pt;">◇</span></span><span>─────<strong><span style="text-decoration: underline;"><sup>*</sup></span></strong>&nbsp;F</span></td>
+<td style="width: 20.549328732922483%;">Ett fotbollslag (E) består av ett antal fotbollspelare(F). En eller flera fotbollspelare kan lämna laget men laget är fortfarande kvar som lag. Fotbollspelarna tillhör laget men de ägs inte av laget.</td>
+</tr>
+<tr>
+<td style="width: 51.30928404365905%;">Objekt av klassen G äger exakt fyra objekt av klassen H och det objekt av L (i fyllda romben är vid G), kallas composition.</td>
+<td style="width: 12.720279087466587%;">
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 97.0414201183432%; height: 97px;" border="0">
+<tbody>
+<tr style="height: 97px;">
+<td style="width: 25.932417148497052%; border-color: #000000; border-style: solid; height: 97px; text-align: center;">G</td>
+<td style="width: 73.43241714849705%; height: 97px;">
+<p><span><span style="font-size: 14pt;">♦</span>─────<span style="text-decoration: underline;"><sup>4</sup></span><sup>&nbsp;</sup>H</span></p>
+<p><span><span style="font-size: 14pt;">♦</span>──────<sup>&nbsp;</sup>L</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</td>
+<td style="width: 20.549328732922483%;">Ett bord(G) består av (äger) 4 ben(H) och en träskiva(L). Om ett ben tas bort eller träskivan tas bort då existerar inte bordet.&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Inför Quiz:</strong><strong></strong></p>
+<p>Att ange multiplicitet är viktigt. Enklast är att sätta endast en asterisk (*) vid den klass som det finns många av i relationen (ett objekt av <strong>E</strong> har många objekt av <strong>F</strong>).&nbsp;</p>
+<p>Pilspetsar är mycket viktiga. Sluten pilspets, <span><span style="font-size: 14pt;">▷</span>,</span> ska användas vid arv och interface. Öppen pilspets <span style="font-size: 18pt;">→</span> ska användas vid relationerna "känner till" och "beror av".</p>
+<h3>Typfrågor</h3>
+<ul>
+<li>När det gäller följande frågor se tentamen 190109 på sidan <a title="Gamla tentor" href="https://canvas.kth.se/courses/63900/pages/gamla-tentor" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/pages/gamla-tentor" data-api-returntype="Page">gamla tentor</a>&nbsp;
+<ul>
+<li>fråga 1 (baskunskaper om designmönster).</li>
+<li>fråga 3 (rita UML-klassdiagram från Javakod).</li>
+<li>fråga 6 (beskriva i detalj hur <strong>Comparable</strong> fungerar).</li>
+</ul>
+</li>
+<li>Begreppen som har diskuterats och tagits upp på föreläsningar och övningar, så som begreppen lös koppling, tät koppling, överskuggning, överlagring etc...</li>
+<li>Frågor om det man har lärt sig på labbarna så som testning, detaljer om ett visst designmönster som används på labbarna.</li>
+</ul>
+<p>&nbsp;</p>
+</body></html>

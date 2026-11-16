@@ -1,0 +1,136 @@
+
+<meta charset = utf8>
+<h3>Svar och lösningar till tentamen i DD1385 2018-01-10</h3>
+
+<table width = 800><td>
+
+<b>1)</b>&nbsp;&nbsp;&nbsp;
+A: Template Method&nbsp;&nbsp;&nbsp;B: Iterator&nbsp;&nbsp;&nbsp;C: Observer
+&nbsp;&nbsp;&nbsp;D: Proxy&nbsp;&nbsp;&nbsp;E: Strategy
+<p>
+
+  <b>2a)</b>&nbsp;&nbsp;&nbsp;Förbättring av programkoden utan att
+  programmets funktion eller gränssnitt ändras.<p>
+  <b>2b)</b>&nbsp;&nbsp;&nbsp;Alla programmets (eller programdelens) funktioner
+  beskrivs i testfall. Testfall skrivs före koden.
+  När testfallen uppfylls är programmet/programdelen klart. <p>
+
+      <b>3) </b>Alla Java-klasser ärver klassen <b>Object</b> och ärver då alla metoder som
+      definierats i <b>Object</b>, bl.a. metoden <font size = +2><code>toString()</code></font>.
+      <p>
+      
+
+<b>4)</b>&nbsp;&nbsp;&nbsp;
+  <img src = "Deco2.jpg" ALT="CSC" ALIGN=TOP WIDTH=360>
+<p>
+
+  <b>5a)</b>&nbsp;&nbsp;&nbsp;Decorator&nbsp;&nbsp;&nbsp;<p>
+  <b>5b)</b>&nbsp;&nbsp;&nbsp;Anrop av superklassens konstruktor&nbsp;&nbsp;&nbsp;<p>
+  <b>5c)</b>&nbsp;&nbsp;Abstrakt klass: Inleds med <font size = +2><code>abstract class </code></font>.
+  En abstrakt klass kan inte instansieras. Den innehåller nästan alltid någon abstrakt metod, dvs metod som endast
+  har metodhuvud definierat.
+  De abstrakta metoderna definieras fullständigt i subklasser.<p>
+  <b>5d)</b> Klassen <b>Colorable</b> har ingen parameterlös konstruktor. Enda konstruktorn i <b>Colorable</b> måste ges
+  en parameter av typ <b>GeneralArtefact</b>. <br>Liten "luring": Om ingen konstruktor alls definieras i en klass så
+  finns det ändå en parameterlös konstruktor. Om man definierar en konstruktor med parameter så finns inte längre den
+  parameterlösa konstrukorn. Om man vill ha den parameterlösa också så måste den definieras explicit. 
+
+<p>
+
+
+  <b>6)</b>&nbsp;&nbsp;&nbsp;<b>c</b> går inte att kompilera. Det beror på att <b>c</b> är en instansvariabel.
+  En instansvariabel existerar bara om man har skapat en <i>instans</i> av klassen, och ingen instans av
+  <b>Uppgift6</b> är skapad. <b>a</b> och <b>b</b> är <i>klassvariabler</i> och existerar oberoende av instanser.
+<p>
+
+  <b>7)</b>&nbsp;&nbsp;&nbsp;Klassen <b>A</b> måste implementera
+  interfacet <b>Comparable</b> eller ännu hellre
+  <b>Comparable&lt;A&gt;</b>. Klassen måste ha en metod (som man skriver själv)
+  som anger ordningen mellan två <b>A</b>-objekt genom att
+  returnera ett heltal som är negativt, noll (vid likhet) eller positivt.
+  <font size = +1><pre>
+    class A implements Comparable&lt;A&gt;{
+        public int compareTo(A other) {
+            // returnerar heltal beroende på
+            // ordningen mellan this och other
+        }
+    }
+  </pre></font>
+    
+<p>
+
+
+  <b>8)</b>&nbsp;&nbsp;&nbsp;Rätta svar är
+  <b>A</b>, <b>D</b> och <b>E</b>.
+<p>
+
+
+  <b>9)</b>&nbsp;&nbsp;&nbsp; Polymorfism betyder <i>mångformig</i>. Det står i detta sammanhang för att
+  ett objekt av en viss typ (supertypen) kan representeras av flera olika subtyper. Supertypen är mångformig och subtyperna är de olika formerna. En abstrakt metod i supertypen ges olika definitioner i subtyperna. Anropet <font size = +2><code>obj.m()</code></font> där referensen obj är av
+  supertypen, 
+  anropar olika metoder beroende på vilken typ av objekt som obj refererar till. <br>
+  <i>Dynamisk bindning</i> = Först vid exekvering (dynamiskt) och inte vid kompilering bestäms
+  vilken metod (vilken kod) som exekveras i anropet <font size = +2><code>obj.m()</code></font>. 
+  
+<p>
+
+  <b>10)</b>&nbsp;&nbsp;&nbsp; Syftet är att säkerställa att det endast kan skapas ett enda objekt av klassen.
+ <font size=+1>
+   <pre>
+     public class Singleton {
+         private static Singleton theElement; 
+         private Singleton() {}
+         public static Singleton theElement() {
+             if (theElement == null) theElement = new Singleton();
+             return theElement;
+         }
+     }
+   </pre>
+
+   Variabeln <font size = +2><code>theElement</code></font> kan gärna göras final för att markera att den endast kan
+   ges värde en gång.
+   Elementet kan skapas på klassens första rad eller, som i lösningen ovan, skapas när det efterfrågas första gången.
+   Konstruktorn är private vilket är en förutsättning för att det ska vara möjligt att ha full kontroll på antalet
+   skapade objekt inifrån klassen. 
+<p>
+
+
+  <b>11)</b>&nbsp;&nbsp;&nbsp;<br>
+  <b>A)</b>&nbsp;&nbsp;<font size = +2><code>equals()</code></font> är EJ static, anropas på en instans.<br>
+  <b>B)</b>&nbsp;&nbsp;<font size = +2><code>sin() och cos()</code></font>  ÄR static. Finns ingen anledning att ha ett objekt av Math.<br>
+  <b>C)</b>&nbsp;&nbsp;<font size = +2><code>parseInt()</code></font> ÄR static vilket syns på anropet via klassnamnet <font size = +2><code>Integer</code></font>.<br>
+  <p>
+
+
+
+    <b>12) </b>&nbsp;&nbsp;Alternativ 1: Skriv en klass som ärver från <font size = +2><code>Thread</code></font>. Definiera trådens aktivitet i metoden <font size = +2><code>run()</code></font>. Skapa objekt av klassen och anropa metoden <font size = +2><code>start()</code></font>.
+    <pre>
+      class MyThread extends Thread {
+          public void run() { ... }
+      }
+
+      Mythread t = new MyThread();
+      t.start();
+      </pre>
+  <p>
+ Alternativ 2: Skriv en klass som implementerar interfacet <font size = +2><code>Runnable</code></font>. Definiera trådens aktivitet i interfacets metod <font size = +2><code>run()</code></font>. Skapa objekt ett av klassen <font size = +2><code>Thread</code></font> och ge
+   Runnable-klassens objekt som parameter till konstruktorn.  Anropa  <font size = +2><code>start()</code></font> på objektet. 
+<p>
+<pre>
+      class MyThread implements Runnable {
+          public void run() { ... }
+      }
+
+      Thread t = new Thread(new MyThread());
+      t.start();
+      </pre>
+
+<p>
+  <b>13</b>&nbsp;&nbsp; Objekt ordnas i en trädstruktur. Det finns operationer som fungerar
+  både på löv och sammansatta objekt. För UML, se t.ex.
+  <a href = http://www.dofactory.com/net/composite-design-pattern>Composite-UML</a>.
+  Composite-klassen innehåller en lista där objekttypen är Component, dvs en Composite kan
+  innehålla en blandning av Leaf och Composite. 
+  
+
+

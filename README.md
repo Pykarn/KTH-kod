@@ -50,10 +50,16 @@ Canvas  --canvas_download.py-->  canvas_downloads/  --organize_and_build_site.py
 ```
 
 - **`canvas_download.py`** loggar in mot Canvas med ditt token och sparar allt
-  den hittar i `canvas_downloads/<kurs>/`. Den tittar på Files-fliken, och
-  söker dessutom igenom startsida, moduler, sidor, uppgifter, anslag och
-  kursplan efter filer och GitHub-länkar. Hittas ett GitHub-repo laddas hela
-  repot ner. Ingen AI används här.
+  den hittar i `canvas_downloads/<kurs>/`. Den går igenom alla moduler (även
+  filer direkt i modulerna, och även när Files-fliken är dold), startsida,
+  kursplan, sidor, uppgifter, diskussioner, anslag och quiz, och följer
+  länkarna den hittar där: till andra Canvas-sidor och filer, till PDF:er
+  och liknande på andra webbplatser, till publika Google-dokument och till
+  GitHub-repon (laddas ner som zip). Filer från en modul hamnar i en mapp med
+  modulens namn. Länkar som inte går att ladda ner (videor, verktyg) listas i
+  `canvas_downloads/<kurs>/.found_links.txt`. Vid nästa körning hämtas bara
+  nya och ändrade filer. Kör en enskild kurs med
+  `python canvas_download.py DD1368`. Ingen AI används här.
 - **`organize_and_build_site.py`** går igenom `canvas_downloads/`, ber Ollama
   avgöra om varje fil är `exam`, `lecture`, `exercise`, `literature` eller
   `other`, kopierar filen till rätt mapp i `KTH_KOD/` och bygger
@@ -229,8 +235,15 @@ Approved Integrations, klicka på papperskorgen vid tokenet och skapa ett nytt.
 | Förbättra hur AI:n tolkar en kategori        | `organize_and_build_site.py` | Beskrivningen i `CATEGORIES` |
 | Ändra var den färdiga sidan hamnar           | `organize_and_build_site.py` | `SITE_DIR` |
 | Använda ett annat Canvas (inte KTH)          | `canvas_download.py`         | `CANVAS_URL` (eller miljövariabeln `CANVAS_URL`) |
-| Behålla gamla/manuellt flyttade filer        | `organize_and_build_site.py` | `CLEAN_OLD_OUTPUT = False` |
-| Stänga av PDF-läsningen                      | `organize_and_build_site.py` | `USE_PDF_PREVIEW = False` |
+| Hitta kurs-ID för mina kurser                | `canvas_download.py`         | Kör `python canvas_download.py --list-courses` |
+| Lära sorteringen nya nyckelord               | `organize_and_build_site.py` | Listorna i `KEYWORDS` |
+| Låta reglerna bestämma oftare/mer sällan     | `organize_and_build_site.py` | `RULES_CONFIDENT_SCORE` / `RULES_CONFIDENT_MARGIN` |
+| Ändra rubrikerna på webbsidan                | `organize_and_build_site.py` | `DISPLAY_NAMES` |
+| Hantera GitHub-repon annorlunda              | `organize_and_build_site.py` | `GITHUB_REPO_MODE` (`"folder"`, `"sort"`, `"skip"`) |
+| Sortera om filer skriptet lagt fel           | `organize_and_build_site.py` | Kör med `--reclassify` |
+| Stänga av läsningen av filernas innehåll     | `organize_and_build_site.py` | `USE_PREVIEW = False` |
+| Inte spara Canvas-sidor som .html            | `canvas_download.py`         | `SAVE_PAGES_AS_HTML = False` |
+| Följa kurswebbsidor på fler sajter           | `canvas_download.py`         | `FOLLOW_PAGES_ON` |
 
 **Så redigerar du filerna:** högerklicka på filen → öppna med VS Code
 (rekommenderas) eller Anteckningar/TextEdit. Spara med Ctrl+S (Cmd+S på Mac).
@@ -283,21 +296,13 @@ COURSES = ["EL1000", "SF1930", "DD1385", "SF1626"]
 Följ [kapitel 7](#7-steg-för-steg-köra-en-synk).
 
 ### Köra bara en eller några kurser
-Du behöver inte ta bort kurser permanent. Vill du bara synka en kurs just nu:
-- I `canvas_download.py`: kommentera bort de andra raderna med `#` framför:
-  ```python
-  COURSE_IDS = {
-      # "DD1385": 63900,
-      # "SF1930": 65047,
-      "EL1000": 64209,
-  }
-  ```
-- I `organize_and_build_site.py`: ändra listan till `COURSES = ["EL1000"]`.
-
-> **OBS:** startsidan `KTH_KOD/index.html` byggs om vid varje körning och
-> listar bara kurserna i `COURSES`. Kör du med bara en kurs försvinner de
-> andra från **startsidans länklista** (deras mappar och filer ligger kvar).
-> Kör med alla kurser innan du pushar om du vill ha en komplett startsida.
+Skriv kurskoderna efter kommandot, så behöver du inte ändra något i filerna:
+```
+python canvas_download.py DD1368
+python organize_and_build_site.py DD1368
+```
+Startsidan `KTH_KOD/index.html` listar alltid alla kursmappar, så de andra
+kurserna försvinner inte därifrån.
 
 ---
 
@@ -406,9 +411,9 @@ CATEGORIES = {
 
 - **Byta namn på en mapp** (t.ex. `lecture` → `slides`): ändra nyckeln
   (texten till vänster). Skriptet skapar då mappen `slides/` nästa gång.
-  Kom ihåg att den gamla `lecture/`-mappen finns kvar i git tills du tagit
-  bort den (med `CLEAN_OLD_OUTPUT = True` rensas bara mappar som finns i
-  `CATEGORIES`, så ta bort gamla `lecture/`-mappar för hand).
+  Den gamla `lecture/`-mappen finns kvar (skriptet raderar aldrig något),
+  så flytta eller ta bort den för hand. Lägg också till nyckeln i
+  `KEYWORDS` och `DISPLAY_NAMES`.
 - **Lägga till en kategori** (t.ex. `solutions`): lägg till en ny rad med
   beskrivning på engelska — modellen presterar bäst på engelska
   beskrivningar. Behåll `"other"` som sista rad.
@@ -420,20 +425,29 @@ CATEGORIES = {
 > Håll kategorinamnen enkla: små bokstäver, inga mellanslag eller
 > specialtecken (de blir mappnamn och webbadresser).
 
-### 8.3 Övriga inställningar
+### 8.3 Hur sorteringen bestämmer
 
-```python
-SOURCE_DIR = "canvas_downloads"   # var canvas_download.py sparar filer
-SITE_DIR = "KTH_KOD"              # var det färdiga resultatet hamnar
-CLEAN_OLD_OUTPUT = True           # rensa kursens kategorimappar innan ombyggnad
-USE_PDF_PREVIEW = True            # låt AI:n läsa första sidan i PDF-filer
+1. **Nyckelord** (svenska och engelska, listorna i `KEYWORDS`) ger poäng till
+   varje kategori. Poängen kommer från filnamnet (3), Canvas-modulen eller
+   mappen filen låg i (2), det Canvas-objekt som länkade till filen, t.ex. en
+   uppgift (2), och början av filens text (1). Filtyp räknas också in
+   (`.pptx` → föreläsning, kod → övning).
+2. Är reglerna **säkra** (minst `RULES_CONFIDENT_SCORE` poäng och
+   `RULES_CONFIDENT_MARGIN` före tvåan) bestämmer de direkt.
+3. Annars: har **liknande filnamn** (F1, F2 … eller ak191021, ak191218 …)
+   redan hamnat i samma kategori följer filen dem (`KEEP_SIMILAR_TOGETHER`).
+4. Annars frågas **Ollama**, som får all information ovan. Utan Ollama
+   används reglernas bästa gissning.
+
+Se varför en fil hamnade där den gjorde:
 ```
+python organize_and_build_site.py --dry-run --explain
+```
+`--dry-run` ändrar ingenting, så du kan testa nya nyckelord tryggt.
 
-**`CLEAN_OLD_OUTPUT`:** med `True` tas kursens kategorimappar
-(`exam/`, `lecture/` ...) och `index.html` bort innan de byggs om. Det är det
-som fixar filer som hamnat fel i en tidigare körning. Det är säkert eftersom
-råfilerna finns kvar i `canvas_downloads/`. Sätt `False` om du lagt in egna
-filer direkt i `KTH_KOD/` som du vill behålla.
+Filer från GitHub-repon hamnar samlade under `<kurs>/repos/<repo>/` med sin
+mappstruktur (`GITHUB_REPO_MODE = "folder"`), i stället för att spridas ut
+fil för fil.
 
 ### 8.4 En fil hamnade i fel mapp — vad gör jag?
 1. Kolla att Ollama faktiskt kördes (stod det `Ollama is not reachable` i början?).
@@ -441,9 +455,11 @@ filer direkt i `KTH_KOD/` som du vill behålla.
 3. Byt till en större modell (kapitel 8.1).
 4. Förtydliga kategoribeskrivningen (kapitel 8.2) och kör om
    `python organize_and_build_site.py`.
-5. Som sista utväg: flytta filen för hand till rätt mapp. Kör du skriptet igen
-   med `CLEAN_OLD_OUTPUT = True` skrivs din ändring över, så sätt det till
-   `False` först eller flytta filen igen efteråt.
+5. Lägg till ett nyckelord i `KEYWORDS` och kör
+   `python organize_and_build_site.py --reclassify` (flyttar bara filer som
+   skriptet själv har lagt, aldrig dina).
+6. Eller flytta filen för hand till rätt mapp. Skriptet minns det och rör den
+   aldrig igen.
 
 ---
 
@@ -597,8 +613,7 @@ Tokenet är fel, utgånget eller borttaget. Skapa ett nytt (kapitel 4.1).
 
 ### `403 Forbidden` när skriptet hämtar filer
 Files-fliken är troligen avstängd av läraren för kursen. Det är inget fel hos
-dig — skriptet letar automatiskt på andra ställen (startsida, moduler, sidor,
-uppgifter, anslag).
+dig — skriptet hämtar ändå filerna via modulerna och länkarna i kursen.
 
 ### "Nothing downloadable found anywhere for this course"
 Kontrollera att kurs-ID:t i `COURSE_IDS` stämmer med adressen i Canvas och att
@@ -606,9 +621,14 @@ du är anmäld till kursen. Läraren kan också ha lagt allt som länkar till an
 sajter, vilka skriptet inte kan hämta.
 
 ### Skriptet hämtar inte om en fil jag raderat/ändrat
-`canvas_download.py` hoppar över filer som redan finns i `canvas_downloads/`.
-Vill du hämta allt på nytt, ta bort kursens mapp i `canvas_downloads/` (eller
-hela mappen) och kör skriptet igen.
+`canvas_download.py` hämtar en fil igen bara om den har ändrats på Canvas
+eller saknas. Vill du hämta allt på nytt, ta bort kursens mapp i
+`canvas_downloads/` och kör skriptet igen.
+
+### En fil som syns i Canvas laddades inte ner
+Titta i `canvas_downloads/<kurs>/.found_links.txt`. Där står länkar som inte
+gick att ladda ner (videor, externa verktyg, Drive-mappar) och filer som var
+låsta eller dolda, med var de hittades.
 
 ### `Ollama is not reachable ...`
 Ollama körs inte. Starta Ollama-appen, eller kör `ollama serve` i en
@@ -621,8 +641,9 @@ satt i `OLLAMA_MODEL`).
 
 ### Sorteringen går mycket långsamt
 Första filen tar längst tid eftersom modellen laddas in i minnet. Är det
-fortfarande långsamt: använd en mindre modell (`llama3.2`) eller stäng
-`USE_PDF_PREVIEW`.
+fortfarande långsamt: använd en mindre modell (`llama3.2`), sänk
+`RULES_CONFIDENT_SCORE` så att reglerna bestämmer oftare, eller stäng
+`USE_PREVIEW`.
 
 ### `[skip] canvas_downloads/XXXX not found`
 Kursen står i `COURSES` men det finns ingen mapp med det namnet i

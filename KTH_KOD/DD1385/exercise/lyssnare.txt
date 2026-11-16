@@ -1,0 +1,21 @@
+
+Olika lyssnare för spelknapparna och avsluta-knappen
+====================================================
+
+Förslag:
+--------
+Låt huvudklassen, alltså den som påbörjas i RPSSkel.java 
+implementera ActionListener. Denna lyssnare (this) kopplas 
+till knapparna på den ena spelplanen genom att den skickas som 
+parameter då spelplanen skapas. 
+
+Huvudklassen själv blir då lyssnare för spelknapparna och ska
+ha en metod actionPerformed som sköter spelet, alltså detekterar
+varje knapptryckning och räknar till tre, spelar vid tryck nr tre
+o.s.v. Om metoden blir lång, använd hjälpmetoder!
+
+Den lyssnare som lyssnar på avsluta-knappen bör vara av en
+anonym inre klass. Den har sin egen actionPerformed.
+Avsluta programmet kan göras med System.exit(0);
+
+

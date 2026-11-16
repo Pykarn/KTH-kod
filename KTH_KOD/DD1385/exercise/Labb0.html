@@ -1,0 +1,110 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Labb0</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Labb0</h1>
+<div class="page" title="Page 1">
+<div class="layoutArea">
+<div class="column">
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 99.85755%;">
+<h3>Kösystemet <a href="https://queue.csc.kth.se/Queue/DD1385">Queue</a>&nbsp;(http://queue.csc.kth.se) för hjälp och redovisning</h3>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>GitHub och Git</h2>
+<p>För mer information kolla:&nbsp;<a id="" class="" title="Git and Github" href="https://canvas.kth.se/courses/58205/pages/git-and-github" target="" data-api-endpoint="https://canvas.kth.se/api/v1/courses/58205/pages/git-and-github" data-api-returntype="Page">Git and Github</a></p>
+<h3>1. Vad är Versionshantering?</h3>
+<p>Versionshantering (eller Version Control) är ett samlingsnamn för program som ger en användare möjlighet att komma åt tidigare versioner av dokument och spåra ändringar som gjorts. Den här funktionaliteten kan vara användbar i flera sammanhang, men den är särskilt värdefull inom mjukvaruutveckling, och versionshantering är idag ett centralt verktyg som du med stor sannolikhet kommer att stöta på i arbetslivet.</p>
+<h3>2. Git</h3>
+<p>Ett av de mest använda versionshanteringssystemen heter Git, och det är det ni kommer möta i den här uppgiften. Anledningen att vi valt Git är att det dels är vanligt, det är Free Software (fritt att använda, studera, och även modifiera och distribuera), och det är också förhållandevis enkelt och kraftfullt.</p>
+<h4>2.1 GitHub</h4>
+<p>GitHub är en tjänst som sitter ovanpå Git. GitHubs främsta förtjänst är att de ”host:ar” dina repository:s. Det vill säga, de ligger på GitHubs maskiner, så du slipper oroa dig för att förlora allt ditt arbete om du till exempel spiller kaffe på din dator. GitHub har också några andra användbara features som access control, verktyg för ärendehantering, och ett tjusigt webbgränssnitt.</p>
+<p>KTH tillhandahåller en egen GitHub server där du kan lagra dina programmeringsprojekt. Den kommer att användas under dina programmeringskurser under studieåren. Men det kan vara praktiskt att också skapa ett ”riktigt” GitHub-konto för eventuella sidoprojekt, och eftersom du är student kan du utnyttja GitHub Student Developer Pack.</p>
+<p>För att komma åt KTHs GitHub så går du in på <a href="https://gits-15.sys.kth.se/">https://gits-15.sys.kth.se/</a> och loggar in med ditt KTH-id och lösenord.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="page" title="Page 2">
+<div class="layoutArea">
+<div class="column">
+<h3>3. Uppgiften</h3>
+<p>Börja med att logga in på KTH GitHub om du inte redan gjort det.</p>
+<h4>3.1 Repositories eller repo:n</h4>
+<p>En av grundstenarna inom versionshantering är ett repository. Ett repository är den struktur som innehåller alla filer och all metadata (data om data) som används av versionshanteringssystemet. I Git är ett repository en helt vanlig katalog, med en underkatalog som heter ”.git” där all metadata lagras. Innehållet i ”.git” är helt vanliga textfiler, i den teckenkodning som är default för systemet, och beskriver historiken för filerna i ett repository. För den som är nyfiken på hur det fungerar rent tekniskt finns det en utmärkt förklaring <a id="" class="" title="" href="https://codewords.recurse.com/issues/two/git-from-the-inside-out" target="">här</a>.</p>
+<p>Till att börja med ska du skapa ett nytt repository, det gör du genom att klicka på plus-tecknet uppe i högra hörnet och därefter på ”New repository”. Välj ett godtyckligt namn och skriv en kort beskrivning. I det här fallet är det inte så noga om du väljer Public eller Private. Men framtida uppgifter vill du se till att ha i ett privat repository. Välj ”Initialize this repository with a README”. En README är en mer utförlig beskrivning av ditt projekt. Det kommer skapas en fil i ditt repository som heter README.md, där md betyder Markdown, vilket är ett annat språk som används för att formatera text.</p>
+<p>Du har också möjlighet att välja en fördefinierad gitignore. Gitignore är också en fil, och som namnet antyder så används den för att säga åt Git vilken typ av filer som inte ska hanteras av systemet. Det kan vara värdefullt att ta en titt på senare, men täcks inte in i den här uppgiften.</p>
+<h4>3.2 Commits</h4>
+<p>Git beskriver ditt repository som en serie av ”commits”. En commit ses som en följd av ändringar till filer (tilläggningar/borttagningar av filer, uppdateringar av innehåll) och ett meddelande. Meddelandet ska vara beskrivande av vilka ändringar som gjorts. Om du tittar på ditt repository i webb-gränssnittet kan du se att du har en commit, som beskriver ändringarna i din README-fil.</p>
+</div>
+</div>
+</div>
+<div class="page" title="Page 3">
+<div class="layoutArea">
+<h4>3.3 Kloning</h4>
+<p>För att kunna arbeta med ditt nya repository på din dator behöver du klona det. Men för att kunna göra det behöver du kunna autentiseria dig, det vill säga, visa för GitHub att du är vem du utger dig för att vara. För KTH GitHub görs detta med något som kallar SSH-nycklar.</p>
+<p class="column">Hela förloppet för att skapa nycklarna och koppla det till ditt konto beskrivs <a id="" class="" title="" href="https://help.github.com/articles/connecting-to-github-with-ssh/" target="">här</a>. Under Step 4 (Adding a new SSH key to your GitHub account) ska du dock inte installera xclip, du får istället ersätta:</p>
+<pre><span style="font-size: 12pt;">xclip -sel clip &lt; ~/.ssh/id_rsa.pub</span></pre>
+<p>med</p>
+<pre><span style="font-size: 12pt;">cat ~/.ssh/id_rsa.pub</span></pre>
+<p>och markera manuellt från (inklusive) ssh-rsa . . . fram till och med din e-mail, och kopiera med Ctrl+Shift+C.</p>
+<p>Förhoppningsvis har du nu fixat med din nya nyckel och kan ansluta till KTH GitHub. Om du sen vill använda din egen dator behöver du följa samma steg (länken har instruktioner även för Windows och Mac, under huvudrubriken).</p>
+<p>Du bör även ställa in ett namn och email till Git för din dator-användare. Använd samma email som du använder i Github tillsammans med ett frivilligt namn:</p>
+<pre><span style="font-size: 12pt;">git config --global user.name "Erik Gitsson"</span><br><br><span style="font-size: 12pt;">git config --global user.email "ergit@kth.se"</span></pre>
+<p>Flaggan "--global" säger att inställningen är för din dator-användare.</p>
+<p>Om du nu går tillbaka till ditt repository i webbläsaren, och kollar i den nedra högra delen av din skärm, så ser du en SSH-länk. Kopiera den, och öppna sedan ett terminalfönster och skriv (för att klistra in använder du Ctrl+Shift+V):</p>
+<pre><span style="font-size: 12pt;">git clone din-SSH-länk</span></pre>
+<p>Om du nu kör kommandot ”ls” bör du nu ha en mapp med samma namn som ditt repository. Om du går in i den med ”cd” och kör ”ls -a” bör du se mappen ”.git” och din README-fil.</p>
+<p>Skapa sen en fil, och öppna den med någon texteditor och skriv något i den. Sen går du tillbaka till din terminal, och skriver:</p>
+</div>
+<div class="layoutArea">
+<div class="column">
+<pre><span style="font-size: 12pt;">git add filnamn</span></pre>
+</div>
+</div>
+<div class="layoutArea">
+<div class="column">&nbsp;</div>
+</div>
+</div>
+<div class="page" title="Page 4">
+<div class="layoutArea">
+<div class="column">
+<p>Det här lägger till din nya fil i vad som kallas för indexet. Indexet kan ses som ett mellansteg där innehåll som ligger i din mapp lagras inför en commit. Därefter behöver du paketera ihop det du gjort till en commit, det görs enklast med kommandot:</p>
+<pre>git commit -a -m "meddelande"</pre>
+<p>Där flaggan ”-a” innebär att git automatiskt add:ar filer som redan spåras, och ”-m” att vi ger meddelandet direkt i terminalen (annars öppnas en text- editor), notera att meddelandet måste stå inom citat-tecken!</p>
+<p>Det sista steget är att se till att dina ändringar också hamnar på GitHub. Vilket görs med kommandot:</p>
+<pre>git push</pre>
+<p>Om du vid ett senare tillfälle sitter vid en en annan dator som också har en klon av ditt repository som inte har de senaste ändringarna behöver du innan du kan push:a använda:</p>
+<pre>git pull</pre>
+<p>för att dra ner den kanoniska versionen (den som ligger på KTH GitHub).</p>
+<h3>4. Arbetsflöde</h3>
+<p>När du arbetar med Git så gäller det framförallt att komma ihåg:</p>
+<ul>
+<li>
+<p>Nya filer behöver läggas till med ”git add”.</p>
+</li>
+<li>
+<p>Om du inte använder ”-a” när du commit:ar behöver du även lägga till gamla filer igen.</p>
+</li>
+<li>
+<p>Försök i någon mån göra ”lagom” stora commit:s, som är lätta att beskriva i ett kort meddelande.</p>
+</li>
+<li>
+<p>Saker hamnar inte på GitHub förrän du har push:at.</p>
+</li>
+<li>
+<p>Om din lokala kopia ligger efter GitHub behöver du först spara dina eventuella lokala ändringar med ”git commit”, använda ”git pull”, och sen lösa en eventuell merge-konflikt innan du kan push:a.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="page" title="Page 5">
+<div class="layoutArea">
+<div class="column">
+<p>&nbsp;</p>
+<h3>&nbsp;</h3>
+</div>
+</div>
+</div>
+</body></html>

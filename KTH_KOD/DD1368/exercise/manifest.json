@@ -1,0 +1,25 @@
+{
+  "short_name": "Stay A While",
+  "name": "Stay A While",
+  "icons": [
+    {
+      "src": "img/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00695C",
+  "background_color": "#ffffff"
+}

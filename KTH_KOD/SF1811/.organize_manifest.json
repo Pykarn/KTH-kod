@@ -4,10 +4,34 @@
   "own": true,
   "sha1": "112ec83c6e33be45041e29e35d814c74c26a9a34"
  },
+ "Code of honor eng NA.pdf": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/Code of honor eng NA.pdf",
+  "own": true,
+  "sha1": "07f346da0ead737c7e9082379570b7e25678a5a9"
+ },
+ "Course information SF1811 Optimization 2026_2027.html": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/Course information SF1811 Optimization 2026_2027.html",
+  "own": true,
+  "sha1": "39aa402b6ec9592c6276c70ef20ab99784430a95"
+ },
+ "Course specific information about generative AI/The course responsible has not yet specified information about generative AI.html": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/The course responsible has not yet specified information about generative AI.html",
+  "own": true,
+  "sha1": "519bb5f58b0c9589a7b57eb515256e97c6ff0253"
+ },
  "Exercise session 1.pdf": {
   "dest": "exercise/Exercise session 1.pdf",
   "own": true,
   "sha1": "c5a3d6da9c80763a76c9b88b3ed060bed0bb8962"
+ },
+ "Exercise session 2 (2).pdf": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/Exercise session 2 (2).pdf",
+  "own": true,
+  "sha1": "bbcc58f188b0768f25d7f1173be68bd356e747d9"
  },
  "Exercise session 2.pdf": {
   "dest": "exercise/Exercise session 2.pdf",
@@ -44,6 +68,11 @@
   "own": true,
   "sha1": "29fa46730f669629547d6df26054cba9f9b04166"
  },
+ "Exercises in SF1811 Optimization (2).pdf": {
+  "dest": "literature/Exercises in SF1811 Optimization.pdf",
+  "own": false,
+  "sha1": "8590bce52de838d919aae7e6bd0d3b34c52b3fc9"
+ },
  "Exercises in SF1811 Optimization.pdf": {
   "dest": "literature/Exercises in SF1811 Optimization.pdf",
   "own": true,
@@ -54,10 +83,40 @@
   "own": true,
   "sha1": "18f6e6c0263adde4928206742d6cce324f20b67e"
  },
+ "Forsattssida-Inlämningsuppgift.pdf": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/Forsattssida-Inlämningsuppgift.pdf",
+  "own": true,
+  "sha1": "59555943dff2a401b2b1ec6acc92f83fb4fa8072"
+ },
+ "Homework assignment 1 (2).pdf": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/Homework assignment 1 (2).pdf",
+  "own": true,
+  "sha1": "42bbcc2cadb3f725c6d8417df4a3842c97340f9d"
+ },
+ "Homework assignment 1 (bonus point).html": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/Homework assignment 1 (bonus point).html",
+  "own": true,
+  "sha1": "8f3362201eda3c3be4444cc78d80725980402e13"
+ },
+ "Homework assignment 1 (no bonus point).html": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/Homework assignment 1 (no bonus point).html",
+  "own": true,
+  "sha1": "976d54aa92fbd3a154b765b47b8f65c91dd89d22"
+ },
  "Homework assignment 1.pdf": {
   "dest": "exercise/Homework assignment 1.pdf",
   "own": true,
   "sha1": "01b2ba6fde1ff19f53bdd4e03cd94f51a48383ce"
+ },
+ "Homework assignment 2 (bonus point).html": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/Homework assignment 2 (bonus point).html",
+  "own": true,
+  "sha1": "854b6c5d01750e9e4668317d82e2a0fd7e47c506"
  },
  "Homework assignment 2.pdf": {
   "dest": "exercise/Homework assignment 2.pdf",
@@ -169,6 +228,17 @@
   "own": true,
   "sha1": "16484b609661179083cc47e15a03a68f4b64dc0c"
  },
+ "Lecture notes/Lecture 1 with annotations.pdf": {
+  "dest": "lecture/ Lecture 1 with annotations.pdf",
+  "own": false,
+  "sha1": "112ec83c6e33be45041e29e35d814c74c26a9a34"
+ },
+ "Lecture notes/Lecture 7.pdf": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "lecture/Lecture 7_1.pdf",
+  "own": true,
+  "sha1": "3dd55d2a8d15d1827bbb5c8bb2792131440e1966"
+ },
  "Note on linear programming duality.pdf": {
   "dest": "literature/Note on linear programming duality.pdf",
   "own": true,
@@ -179,20 +249,114 @@
   "own": true,
   "sha1": "10f5c9fdb8a348f342cf29c9fb1a71988a3c3920"
  },
+ "Plan for the exercises sessions and recommended exercises.html": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/Plan for the exercises sessions and recommended exercises.html",
+  "own": true,
+  "sha1": "ee065bb421569ee5ba1c02c2ee88c9f09fb0c26d"
+ },
  "Theory results.pdf": {
   "dest": "literature/Theory results.pdf",
   "own": true,
   "sha1": "ba5ffa79bc2d3fda4f8fa7ea3899162c4e5b6d89"
+ },
+ "_course_name": "SF1811 HT26 Optimization (12387)",
+ "app (2).js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/app (2).js",
+  "own": true,
+  "sha1": "72bf6117e15442c180ffac560d6a48dd46516bbc"
+ },
+ "app.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/app.js",
+  "own": true,
+  "sha1": "d4eb439942708bd1b23203375f6bf13f8c13a724"
+ },
+ "backtotop (2).js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/backtotop (2).js",
+  "own": true,
+  "sha1": "7b63a1895a8ffacf2acd590b54ceaf3ef0a2bdc2"
+ },
+ "backtotop.js": {
+  "dest": "other/backtotop (2).js",
+  "own": false,
+  "sha1": "7b63a1895a8ffacf2acd590b54ceaf3ef0a2bdc2"
+ },
+ "container_vsVPCyVy.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/container_vsVPCyVy.js",
+  "own": true,
+  "sha1": "603024affbbcab731c94b334099e7560fa0db1e9"
+ },
+ "core-c52fee0f523fd5467f7528d330526156.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "exercise/core-c52fee0f523fd5467f7528d330526156.js",
+  "own": true,
+  "sha1": "6b96555fff01f980f792cef524d0b2916b2072ba"
  },
  "hw1data.m": {
   "dest": "exercise/hw1data_1.m",
   "own": true,
   "sha1": "5defc05f4c8fae8666b60e51103fd3490905b1da"
  },
+ "klaro-no-css (2).js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/klaro-no-css (2).js",
+  "own": true,
+  "sha1": "3807f847d43fe5c0af6f0bf3b230a22edc836e65"
+ },
+ "klaro-no-css.js": {
+  "dest": "other/klaro-no-css (2).js",
+  "own": false,
+  "sha1": "3807f847d43fe5c0af6f0bf3b230a22edc836e65"
+ },
+ "kpm.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/kpm.js",
+  "own": true,
+  "sha1": "5d90933914f7683fe5b2ff106e60bce81fe0f9f5"
+ },
+ "logotype-blue.svg": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/logotype-blue.svg",
+  "own": true,
+  "sha1": "e14954eee6b76db6a38ed37eff0c41c0cdfe3b77"
+ },
+ "logotype-white-6f02f4554cba157ca832fa452bf242a4.svg": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/logotype-white-6f02f4554cba157ca832fa452bf242a4.svg",
+  "own": true,
+  "sha1": "c619130af89d6b2ddb4348cf369c742586d1e5b4"
+ },
+ "logotype-white.svg": {
+  "dest": "other/logotype-white-6f02f4554cba157ca832fa452bf242a4.svg",
+  "own": false,
+  "sha1": "c619130af89d6b2ddb4348cf369c742586d1e5b4"
+ },
+ "main-menu-e98957676554a2684db8bd83816f759a.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/main-menu-e98957676554a2684db8bd83816f759a.js",
+  "own": true,
+  "sha1": "c6082eb7b4a9e9ed602be7904faf7c121d7ec2b6"
+ },
+ "mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/mega-menu-style10-73d32de246db60800590a7dc8fcdbcb8.js",
+  "own": true,
+  "sha1": "4b26a53f0ee352043aefb54bd045a0b3a2eedc28"
+ },
  "polyplot.m": {
   "dest": "exercise/polyplot_1.m",
   "own": true,
   "sha1": "f13c53aec7f3e8801cffdf98233b2b8e8aeeb194"
+ },
+ "search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/search-block-ce3427a1704d3adb8cb0837eaa45ebe7.js",
+  "own": true,
+  "sha1": "8223bdb8ad8569c402871a7ac4584d7d0eeeaf92"
  },
  "simplex.m": {
   "dest": "exercise/simplex_1.m",
@@ -203,5 +367,40 @@
   "dest": "exercise/simplex12_1.m",
   "own": true,
   "sha1": "b959f5b19b5f18c4c8d64f9aecbfc78dc70822e4"
+ },
+ "vendor.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/vendor.js",
+  "own": true,
+  "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "widget (2).js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/widget (2).js",
+  "own": true,
+  "sha1": "03975668c4c5e00c5ca909e5b7f4ec8badc6eaa6"
+ },
+ "widget.js": {
+  "dest": "other/widget (2).js",
+  "own": false,
+  "sha1": "03975668c4c5e00c5ca909e5b7f4ec8badc6eaa6"
+ },
+ "widgetData (2).js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/widgetData (2).js",
+  "own": true,
+  "sha1": "8c9669c74b791ebee6b4437470de64d517e76042"
+ },
+ "widgetData (3).js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/widgetData (3).js",
+  "own": true,
+  "sha1": "3be597cf7d1eeb5b40986fb8ef70d20a3cd24a64"
+ },
+ "widgetData.js": {
+  "added": "2026-11-16T13:33:21",
+  "dest": "other/widgetData.js",
+  "own": true,
+  "sha1": "e4e3dbf60752ee412c5b0747cc84a4337f17fd52"
  }
 }

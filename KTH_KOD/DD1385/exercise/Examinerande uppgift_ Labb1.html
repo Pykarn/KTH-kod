@@ -1,0 +1,320 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Examinerande uppgift: Labb1</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Examinerande uppgift: Labb1</h1><p><b>Deadline:</b> 2026-09-26T21:59:59Z</p>
+<table style="border-collapse: collapse; width: 97.91666666666666%; height: 187px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 2.058498030958649%; height: 29px;"></td>
+<td style="width: 95.35405988176129%; height: 29px;"></td>
+<td style="width: 2.530641562592269%; height: 29px;"></td>
+</tr>
+<tr style="height: 148px;">
+<td style="width: 2.058498030958649%; height: 148px;"></td>
+<td style="width: 95.35405988176129%; height: 148px;">
+<p>Kösystemet <a href="https://queue.csc.kth.se/Queue/DD1385">Queue</a>&nbsp;(https://queue.csc.kth.se/Queue/DD1385) för hjälp och redovisning under schemalagd labbtillfälle.</p>
+<p><span>Vi använder <a href="https://queue.csc.kth.se/Queue/DD1385">Queue</a> för kö till hjälp och redovisning.</span><span>&nbsp;Om du inte använt Queue tidigare så fråga någon av lärarna.</span></p>
+</td>
+<td style="width: 2.530641562592269%; height: 148px;"></td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 2.058498030958649%; height: 10px;"></td>
+<td style="width: 95.35405988176129%; height: 10px;"></td>
+<td style="width: 2.530641562592269%; height: 10px;"></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><span style="font-size: 24pt;">Laboration 1 - Lunar lander simulering</span></h2>
+<h3 data-start="257" data-end="268">Syfte</h3>
+<p data-start="269" data-end="501">Syftet med denna laboration är att ge dig praktisk erfarenhet av <strong data-start="334" data-end="347">interface</strong> och <strong data-start="352" data-end="381">eventdriven programmering</strong> i Java. Du ska skriva kod som reagerar på händelser som genereras av en simulering av ett rymdskepp (“Lunar Lander”).</p>
+<p data-start="503" data-end="724">Simuleringen skickar varje sekund ett <strong data-start="541" data-end="554">ShipEvent</strong> som innehåller information om höjd, hastighet, bränsle och tillstånd (<code data-start="625" data-end="632">state</code>) för skeppet. Din uppgift är att implementera kod som hjälper användaren att styra skeppet för att försöka landa mjukt.<br><br></p>
+<h3 data-start="2838" data-end="2872">Mål</h3>
+<p data-start="2838" data-end="2872">Efter laborationen ska du kunna:</p>
+<ul data-start="2873" data-end="3170">
+<li data-start="2873" data-end="2934">
+<p data-start="2875" data-end="2934">Förklara vad ett <strong data-start="2892" data-end="2905">interface</strong> är, varför och när används det.</p>
+</li>
+<li data-start="2935" data-end="3000">
+<p data-start="2937" data-end="3000">Implementera <strong data-start="2961" data-end="2990">eventdriven programmering</strong> i Java.</p>
+</li>
+<li data-start="3001" data-end="3085">
+<p data-start="3003" data-end="3085">Reagera på händelser utanför egen kontroll genom att implementera ett interface.</p>
+</li>
+<li data-start="3086" data-end="3170">
+<p data-start="3088" data-end="3170">Styra en simulering genom att anropa metoder på ett objekt som genererar events.</p>
+</li>
+</ul>
+<hr data-start="726" data-end="729">
+<h3 data-start="731" data-end="745">Bakgrund</h3>
+<p data-start="746" data-end="843">I många mjukvaro-applikationer måste koden reagera på händelser som sker utanför den egna kontrollen. Exempel:</p>
+<ul data-start="845" data-end="948">
+<li data-start="845" data-end="879">
+<p data-start="847" data-end="879">En knapp trycks ned i ett GUI.</p>
+</li>
+<li data-start="880" data-end="916">
+<p data-start="882" data-end="916">En sensor skickar nya mätvärden.</p>
+</li>
+<li data-start="917" data-end="948">
+<p data-start="919" data-end="948">Ett nätverkspaket anländer.</p>
+</li>
+</ul>
+<p data-start="950" data-end="1140">I denna laboration genereras varje sekund ett händelse (shipEvent) från Lunar Lander. Du ska implementera ett interface som tar emot dessa händelser och möjliggör för användaren att styra skeppet för en mjuk landning på månen genom att starta motorn eller stänga av motorn beroende på skeppets aktuella tillstånd (höjd, hastighet, andel bränsle nivå)</p>
+<hr data-start="1142" data-end="1145">
+<h3 data-start="1192" data-end="1237">Startparametrar och regler för landning</h3>
+<h4 data-start="1238" data-end="1281">Följande starttillstånd gäller skeppet precis när simuleringen startar:</h4>
+<ul data-start="1283" data-end="1481">
+<li data-start="1283" data-end="1334">
+<p data-start="1285" data-end="1334"><strong data-start="1285" data-end="1293">Höjd</strong>: slumpmässigt mellan 20 och 100 meter.</p>
+</li>
+<li data-start="1335" data-end="1355">
+<p data-start="1337" data-end="1355"><strong data-start="1337" data-end="1345">Fart</strong>: 0 m/s.</p>
+</li>
+<li data-start="1356" data-end="1406">
+<p data-start="1358" data-end="1406"><strong data-start="1358" data-end="1369">Bränsle</strong>: slumpmässigt mellan 20% och 100%.</p>
+</li>
+<li data-start="1407" data-end="1443">
+<p data-start="1409" data-end="1443"><strong data-start="1409" data-end="1418">Motor</strong>: avstängd från början.</p>
+</li>
+<li data-start="1444" data-end="1481">
+<p data-start="1446" data-end="1481"><strong data-start="1446" data-end="1466">Flygstatus</strong>: <code data-start="1468" data-end="1480">"hovering"</code>.</p>
+</li>
+</ul>
+<h4 data-start="1483" data-end="1505">Regler för landning:</h4>
+<ul data-start="1507" data-end="1847">
+<li data-start="1507" data-end="1576">
+<p data-start="1509" data-end="1576">Rymdskeppet <strong data-start="1518" data-end="1533">tappar höjd</strong> från början när simulatorn startar, detta eftersom att motorn är avstängd.</p>
+</li>
+<li data-start="1577" data-end="1679">
+<p data-start="1579" data-end="1679">För att landa <strong data-start="1593" data-end="1602">mjukt</strong> måste farten vara större än <strong data-start="1631" data-end="1641">-2 m/s (minus syftar på riktning mot måne)</strong> när höjden blir <strong data-start="1658" data-end="1676">0 eller mindre</strong>.</p>
+</li>
+<li data-start="1680" data-end="1771">
+<p data-start="1682" data-end="1771">Om farten är mindre än eller lika med -2 m/s när höjden högst är 0 då flygstatus blir <code data-start="1757" data-end="1768">"crashed"</code>.</p>
+</li>
+<li data-start="1772" data-end="1847">
+<p data-start="1774" data-end="1847">Om farten är större än -2 m/s när höjden högst är 0 då flygstatus blir <code data-start="1834" data-end="1844">"landed"</code>.</p>
+</li>
+</ul>
+<hr data-start="1849" data-end="1852">
+<h3 data-start="1147" data-end="1163">Det du får</h3>
+<p data-start="1164" data-end="1202"><span>Du får tillgång till en JAR-fil (</span><code data-start="118" data-end="135">lunarlander.jar</code><span>) som innehåller vissa färdiga klasser. Meningen är att du inte ska kunna se hela källkoden, för att efterlikna ett verkligt utvecklingsprojekt där man ofta bara implementerar en liten del av ett större system:</span>&nbsp;</p>
+<p data-start="1164" data-end="1202"><a title="LunarLander dokumentation" href="https://canvas.kth.se/courses/63900/pages/lunarlander-dokumentation" data-course-type="wikiPages" data-published="false" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/pages/lunarlander-dokumentation" data-api-returntype="Page"><span style="font-size: 14pt;"><strong>Dokumentation för klasserna</strong></span></a></p>
+<p data-start="1204" data-end="1244">1) Gränssnitten <code data-start="1211" data-end="1232">LunarLanderListener</code> (interface): Innehåller beskrivning av den metod som du ska implementera:</p>
+<pre class="overflow-y-auto p-4" dir="ltr"><span style="color: #000000;"><code class="whitespace-pre! language-java"><span class="hljs-keyword">void</span> <span class="hljs-title function_">onShipUpdate</span><span class="hljs-params">(ShipEvent e)</span>;
+</code></span></pre>
+<p data-start="1333" data-end="1351">2) Klassen <code data-start="1340" data-end="1351">ShipEvent</code></p>
+<ul data-start="1352" data-end="1697">
+<li data-start="1352" data-end="1410">
+<p data-start="1354" data-end="1410">Representerar ett event som genereras av skeppet Lunar Lander.</p>
+</li>
+<li data-start="1411" data-end="1697">
+<p data-start="1413" data-end="1436">Tillgängliga metoder:</p>
+<ul data-start="1439" data-end="1697">
+<li data-start="1439" data-end="1479">
+<p data-start="1441" data-end="1479"><code data-start="1441" data-end="1454">getHeight()</code> → aktuell höjd i meter</p>
+</li>
+<li data-start="1482" data-end="1527">
+<p data-start="1484" data-end="1527"><code data-start="1484" data-end="1499">getVelocity()</code> → aktuell hastighet i m/s</p>
+</li>
+<li data-start="1530" data-end="1577">
+<p data-start="1532" data-end="1577"><code data-start="1532" data-end="1543">getFuel()</code> → återstående bränsle i procent</p>
+</li>
+<li data-start="1580" data-end="1641">
+<p data-start="1582" data-end="1641"><code data-start="1582" data-end="1594">getState()</code> → <code data-start="1597" data-end="1609">"hovering"</code>, <code data-start="1611" data-end="1622">"crashed"</code> eller <code data-start="1629" data-end="1639">"landed"</code></p>
+</li>
+</ul>
+</li>
+</ul>
+<p data-start="1699" data-end="1719">3) Klassen <code data-start="1706" data-end="1719">LunarLander</code></p>
+<ul data-start="1720" data-end="1957">
+<li data-start="1720" data-end="1747">
+<p data-start="1722" data-end="1747">Simulerar skeppet Lunar Lander.</p>
+</li>
+<li data-start="1748" data-end="1957">
+<p data-start="1750" data-end="1760">Bl.a följande metoder som du ska anropa i ditt program:</p>
+<ul data-start="1763" data-end="1957">
+<li data-start="1763" data-end="1799">
+<p data-start="1765" data-end="1799"><code data-start="1765" data-end="1780">String startEngine()</code> → Försöker starta motorn. Returnerar en sträng som beskriver resultat av detta försök.</p>
+</li>
+<li data-start="1802" data-end="1844">
+<p data-start="1804" data-end="1844"><code data-start="1804" data-end="1822">String shutDownEngine()</code> → Försöker stänger av motorn. Returnerar en sträng som beskriver resultat av detta försök.</p>
+</li>
+<li data-start="1847" data-end="1920">
+<p data-start="1849" data-end="1920">void <code data-start="1849" data-end="1892">setListener(LunarLanderListener listener)</code> → registrera ett objekt av klassen som implementerar interfacet</p>
+</li>
+<li data-start="1923" data-end="1957">
+<p data-start="1925" data-end="1957"><code data-start="1925" data-end="1932">void run()</code> → startar simuleringen, d.v.s. börjar varje sekund skapa händelser som beskriver skeppets tillstånd</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr data-start="1959" data-end="1962">
+<h3 data-start="1964" data-end="1979">Uppgift 1: Textbaserat simulering</h3>
+<p>1. Ladda ner <a class="instructure_file_link inline_disabled" title="lunarlander.jar" href="https://canvas.kth.se/courses/63900/files/10516120?verifier=da097f80-a963-4e7c-8b05-3c55d236c50d&amp;wrap=1" target="_blank" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/files/10516120" data-api-returntype="File">lunarlander.jar</a>&nbsp; (OM du jobbar på skolans datorer som kör java version11 ta den här filen istället <a class="instructure_file_link inline_disabled" title="lunarlander.jar" href="https://canvas.kth.se/courses/63900/files/10516123?verifier=81a41d28-6ed0-45b9-9fed-0425ffa2c514&amp;wrap=1" target="_blank" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/files/10516123" data-api-returntype="File">lunarlander.jar</a>)</p>
+<p>2. Se till att<strong> jar-filen placeras i samma katalog</strong> som filerna du kommer att skapa under resten av laborationen.</p>
+<table style="border-collapse: collapse; width: 99.703688%; height: 309.198509px;" border="1">
+<tbody>
+<tr style="height: 57.176468px;">
+<td style="width: 11.021601%; height: 57.176468px;"><strong>Operativsystem</strong></td>
+<td style="width: 45.954471%; height: 57.176468px;">
+<p data-start="136" data-end="173"><span style="font-size: 12pt;"><strong><span style="font-family: inherit;">⚠️ &nbsp;Kommando för att kompilera javakoden ska</span></strong></span><span style="font-size: 12pt;"><strong><span style="font-family: inherit;"> anges i terminalen (även Terminal i VSCode och &nbsp;VSCodium)</span></strong></span></p>
+</td>
+<td style="width: 42.965562%; height: 57.176468px;">
+<p data-start="136" data-end="173"><span style="font-size: 12pt;"><strong><span style="font-family: inherit;">⚠️ Kommando för att starta programmet ska anges i </span></strong></span><span style="font-size: 12pt;"><strong><span style="font-family: inherit;">terminalen (även Terminal i VSCode, VSCodium)</span></strong></span></p>
+</td>
+</tr>
+<tr style="height: 146.764694px;">
+<td style="width: 11.021601%; height: 146.764694px;"><strong>Linux, Unix, </strong><br><strong>Mac OSX</strong></td>
+<td style="width: 45.954471%; height: 146.764694px;">
+<ul>
+<li data-start="136" data-end="173">
+<p><span style="font-size: 12pt;">För uppgift1: <code>javac -cp lunarlander.jar LunarLanderSimulator.java</code></span></p>
+</li>
+<li data-start="136" data-end="173">
+<p><span style="font-size: 12pt;"><span style="font-family: inherit;">För uppgift2: <code>javac -cp lunarlander.jar LunarLanderSimulatorG.java</code></span></span></p>
+</li>
+</ul>
+</td>
+<td style="width: 42.965562%; height: 146.764694px;">
+<ul>
+<li data-start="136" data-end="173"><span style="font-size: 12pt;">För uppgift1: <code>java -cp lunarlander.jar:. LunarLanderSimulator</code></span></li>
+<li data-start="136" data-end="173"><span style="font-size: 12pt;"><span style="font-family: inherit;">För uppgift2: <code>java -cp lunarlander.jar:. LunarLanderSimulatorG</code>&nbsp;</span></span></li>
+</ul>
+<p data-start="136" data-end="173"><strong><span><span style="font-family: inherit;"><span style="font-size: 1rem;">&nbsp; &nbsp; &nbsp; </span></span></span></strong></p>
+</td>
+</tr>
+<tr style="height: 105.257347px;">
+<td style="width: 11.021601%; height: 105.257347px;"><strong>Windows</strong></td>
+<td style="width: 45.954471%; height: 105.257347px;">
+<ul>
+<li data-start="136" data-end="173">
+<p><span style="font-size: 12pt;">För uppgift1: <code>javac -cp lunarlander.jar LunarLanderSimulator.java</code></span></p>
+</li>
+<li data-start="136" data-end="173">
+<p><span style="font-size: 12pt;"><span style="font-family: inherit;">För uppgift2: <code>javac -cp lunarlander.jar LunarLanderSimulatorG.java</code></span></span></p>
+</li>
+</ul>
+</td>
+<td style="width: 42.965562%; height: 105.257347px;">
+<ul>
+<li data-start="136" data-end="173">
+<p><span style="font-size: 12pt;">För uppgift1:<br></span><span style="font-size: 12pt;"> <code>java -cp <strong>"</strong>lunarlander.jar;<strong>." </strong>LunarLanderSimulator</code></span></p>
+</li>
+<li data-start="136" data-end="173">
+<p><span style="font-size: 12pt;">För uppgift2: </span><span style="font-size: 12pt;"><code>java -cp <strong>"</strong>lunarlander.jar;.<strong>"</strong> LunarLanderSimulatorG</code></span></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p data-start="136" data-end="173"><strong><span><span><span><span style="font-family: inherit;"><span style="font-size: 1rem;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span></span></span></span></strong></p>
+<h3 data-start="1964" data-end="1979">Uppgift 1: Textbaserat simulering</h3>
+<p>Följande UML-diagram, beskriver struktur på hela programmet:<br><img id="9566114" src="https://canvas.kth.se/courses/63900/files/10515732/preview?verifier=cda791c7-94a1-414a-b057-8baf8d30eb5e" alt="uppg1.jpeg" width="746" height="322" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/files/10515732" data-api-returntype="File" loading="lazy"></p>
+<ol data-start="1980" data-end="2539">
+<li data-start="1980" data-end="2040">Skapa en fil med namnet LunarLanderSimulator.java</li>
+<li data-start="1980" data-end="2040">Importera alla klasser från jar-filen genom att skriva "<code>import lunarLanderPackage.*;</code>" i början av filen.</li>
+<li data-start="1980" data-end="2040">Skapa en klass, LunarLanderSimulator, som implementerar <code data-start="2016" data-end="2037">LunarLanderListener</code>.</li>
+<li data-start="1980" data-end="2040"><span>Implementera metoden </span><code data-start="181" data-end="208">onShipUpdate(ShipEvent e)</code><span> så att aktuell information om rymdfärjan presenteras för användaren i terminalen, så att denne kan reagera genom att t.ex. starta eller stänga av motorn.</span></li>
+<li data-start="1980" data-end="2040"><span>I</span><span style="font-family: inherit; font-size: 1rem;"> metoden </span><code style="font-size: 1rem;" data-start="2145" data-end="2151">main</code><span style="font-family: inherit; font-size: 1rem;">:</span>
+<ul>
+<li style="list-style-type: none;">
+<ul data-start="2166" data-end="2306">
+<li data-start="2166" data-end="2204">
+<p data-start="2168" data-end="2204">Skapa ett objekt av klassen <code data-start="2188" data-end="2201">LunarLander</code>&nbsp;från jar-filen.</p>
+</li>
+<li data-start="2208" data-end="2266">
+<p data-start="2210" data-end="2266">Skapa sedan ett objekt av din listener-klass och registrera detta objekt genom att anropa <code data-start="2248" data-end="2263">setListener()</code>.</p>
+</li>
+<li data-start="2270" data-end="2306">
+<p data-start="2272" data-end="2306">Starta simuleringen genom att anropa instansmetoden <code data-start="2296" data-end="2303">run()</code>som är deklarerad i <code data-start="2188" data-end="2201">LunarLander</code> klassen.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-start="2270" data-end="2306">
+<p data-start="2272" data-end="2306"><span>Din kod ska göra det möjligt för användaren att styra rymdfärjan. Använd </span><code data-start="335" data-end="350">startEngine()</code><span> och </span><code data-start="355" data-end="373">shutDownEngine()</code><span> i din implementering så att användaren kan starta och stänga av motorn vid behov. T.ex när anvädaren skriver P (<strong>P</strong>å) och tryker enter så anropas <code data-start="335" data-end="350">startEngine()</code> och om användaren skriver A (<strong>A</strong>v) och trycker enter så anropas <code data-start="355" data-end="373">shutDownEngine()</code>.</span></p>
+</li>
+<li data-start="2391" data-end="2539">
+<p data-start="2394" data-end="2539">Använd <code data-start="2401" data-end="2413">getState()</code> från <code data-start="2419" data-end="2430">ShipEvent</code> för att avgöra om skeppet flyger (<code data-start="2465" data-end="2475">hovering</code>), har kraschat (<code data-start="2492" data-end="2501">crashed</code>) eller har landat mjukt (<code data-start="2527" data-end="2535">landed</code>).</p>
+</li>
+</ol>
+<hr data-start="2541" data-end="2544">
+<h3 data-start="136" data-end="173"><strong><span><span style="font-family: inherit;"><span style="font-size: 1rem;">⚠️ Ta en kopia av din kod för </span></span><span style="font-size: medium;">textbaserade</span><span style="font-family: inherit;"><span style="font-size: 1rem;"> delen så att du har den kvar för redovisningen.&nbsp;</span></span></span></strong></h3>
+<h3 data-start="136" data-end="173">Uppgift 2: Grafiskt gränssnitt (Javas egna inbyggda Lyssnare)</h3>
+<p data-start="175" data-end="365">Nu ska du bygga ett grafiskt gränssnitt för simuleringen. Användaren ska kunna styra rymdfärjan via grafiska knappar och/eller &nbsp;genom att trycka på knapparna ↑ och ↓ på tangentbordet för att starta och stänga av motorn på skeppet. Information om skeppets tillstånd ska skrivas ut i en JTextArea.&nbsp;</p>
+<p data-start="175" data-end="365">Följande UML-diagram, beskriver struktur på hela programmet:<br><img id="9566115" src="https://canvas.kth.se/courses/63900/files/10515731/preview?verifier=2c7427df-12ae-4be0-a729-78a29c91189d" alt="uppg2.jpeg" data-api-endpoint="https://canvas.kth.se/api/v1/courses/63900/files/10515731" data-api-returntype="File" loading="lazy"></p>
+<h4 data-start="367" data-end="398">Steg 1: Skapa huvudfönster</h4>
+<ol data-start="400" data-end="787">
+<li data-start="1980" data-end="2040">Skapa en fil med namnet LunarLanderSimulatorG.java</li>
+<li data-start="1980" data-end="2040">Importera alla klasser från jar-filen genom att skriva "<code>import lunarLanderPackage.*;</code>" i början av filen.</li>
+<li data-start="400" data-end="528">
+<p data-start="403" data-end="528">Skapa en ny klass, <code>LunarLanderSimulatorG</code> , som ärver <code data-start="431" data-end="439">JFrame</code> och implementerar tre gränssnitten <code data-start="463" data-end="479">ActionListener,</code>&nbsp;<code data-start="487" data-end="500">KeyListener</code>&nbsp;och <code data-start="506" data-end="527">LunarLanderListener</code>.</p>
+</li>
+<li data-start="400" data-end="528">Lägg till koden som gör att programmet avslutas när man stänger ner fönstret.</li>
+<li data-start="529" data-end="787">
+<p data-start="532" data-end="558">I fönstret ska det finnas:</p>
+<ul data-start="562" data-end="787">
+<li data-start="562" data-end="667">
+<p data-start="564" data-end="667">En <code data-start="567" data-end="578">JTextArea</code> där statusen för färjan (höjd, hastighet, bränsle och tillstånd) skrivs ut varje sekund.</p>
+</li>
+<li data-start="671" data-end="787">
+<p data-start="673" data-end="689">En knapp med följande text på den åt gången:</p>
+<ul data-start="695" data-end="787">
+<li data-start="695" data-end="716">
+<p data-start="697" data-end="716"><strong data-start="859" data-end="879">Start Simulation</strong>: knappen ska ha denna text när programmet startar och knappen visas för första gången</p>
+</li>
+<li data-start="722" data-end="737">
+<p data-start="724" data-end="737"><strong data-start="985" data-end="1001">Start Engine</strong>: knappen byter till denna text när användaren klickar på knappen "<strong data-start="859" data-end="879">Start Simulation</strong>" eller "<strong data-start="1059" data-end="1079">Shut Down Engin</strong><span style="font-family: inherit; font-size: 1rem;">"</span></p>
+</li>
+<li data-start="743" data-end="761">
+<p data-start="745" data-end="761"><strong data-start="1059" data-end="1079">Shut Down Engin</strong>: denna text står på knappen när användaren tryckt på knappen "<strong data-start="985" data-end="1001">Start Engine</strong>"</p>
+</li>
+<li data-start="767" data-end="787">
+<p data-start="769" data-end="787"><strong data-start="1140" data-end="1148">Exit</strong>: denna text ska stå på knappen när skeppet antingen landat eller kraschat.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 data-start="789" data-end="829">Steg 2: Koppla knappen till metoder, implementera ActionListener</h4>
+<ul data-start="831" data-end="1197">
+<li data-start="831" data-end="956">
+<p data-start="833" data-end="956">När användaren klickar på <strong data-start="859" data-end="879">Start Simulation</strong> ska simuleringen startas genom att anropa <code data-start="922" data-end="929">run()</code> på <code data-start="933" data-end="946">LunarLander</code>-objektet.</p>
+</li>
+<li data-start="957" data-end="1030">
+<p data-start="959" data-end="1030">När användaren klickar på <strong data-start="985" data-end="1001">Start Engine</strong> ska <code data-start="1006" data-end="1021">startEngine()</code> anropas.</p>
+</li>
+<li data-start="1031" data-end="1111">
+<p data-start="1033" data-end="1111">När användaren klickar på <strong data-start="1059" data-end="1079">Shut Down Engine</strong> ska <code data-start="1084" data-end="1102">shutDownEngine()</code> anropas.</p>
+</li>
+<li data-start="1112" data-end="1197">
+<p data-start="1114" data-end="1197">När användaren klickar på <strong data-start="1140" data-end="1148">Exit</strong> ska programmet stängas ner (t.ex. <code data-start="1179" data-end="1195">System.exit(0)</code>).</p>
+</li>
+</ul>
+<h4 data-start="1199" data-end="1244">Steg 3: Implementera LunarLanderListener</h4>
+<ul data-start="1246" data-end="1664">
+<li data-start="1246" data-end="1371">
+<p data-start="1248" data-end="1371">Implementera metoden <code data-start="1269" data-end="1296">onShipUpdate(ShipEvent e)</code> så att den uppdaterar <code data-start="1319" data-end="1330">JTextArea</code> istället för att skriva till terminalen.</p>
+</li>
+<li data-start="1372" data-end="1494">
+<p data-start="1374" data-end="1494">Texten ska innehålla samma information som i den textbaserade versionen: höjd, hastighet, bränsle och färjans tillstånd.</p>
+</li>
+</ul>
+<h4>Steg 4: Koppla tangentbordets &nbsp;pil-knappar till metoder, implementera KeyListener</h4>
+<ul data-start="831" data-end="1197">
+<li data-start="957" data-end="1030">
+<p data-start="959" data-end="1030">När användaren trycker ner och släpper knappen <strong>↑</strong> på tangentbordet ska <code data-start="1006" data-end="1021">startEngine()</code> anropas.</p>
+</li>
+<li data-start="1031" data-end="1111">
+<p data-start="1033" data-end="1111">När användaren trycker ner och släpper kanppen &nbsp;<strong>↓</strong> på tangetbordet ska <code data-start="1084" data-end="1102">shutDownEngine()</code> anropas.</p>
+</li>
+</ul>
+<h3 data-start="2546" data-end="2579">⚠️ Glöm inte att lägga upp din kod på KTH-git&nbsp;</h3>
+<h3 data-start="2546" data-end="2579">Extrauppgift X1 för högre betyg</h3>
+<p data-start="2582" data-end="2663">Implementera en autopilot som försöker landa mjukt och samtidigt spara bränsle. Det är inget krav att autopilot landar mjuk ALLA gånger.</p>
+<p data-start="2582" data-end="2663">Simulatorn ska startas med autopilot genom att starta programmet med ett argument enligt nedan:<br><code><span style="font-size: 12pt;"><span style="font-family: inherit;">java -cp lunarlander.jar:. LunarLanderSimulatorG <em><strong>autopilot</strong></em></span></span></code></p>
+<p data-start="2582" data-end="2663">Simulatorn ska fungerar som på Uppgift 2, d.v.s att användaren ska samtidigt som autopilot är igång kunna styra skeppetgenom att trycka på knappen.&nbsp;</p>
+</body></html>

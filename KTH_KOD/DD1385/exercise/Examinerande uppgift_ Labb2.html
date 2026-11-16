@@ -1,0 +1,322 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><base href='https://canvas.kth.se/'><title>Examinerande uppgift: Labb2</title><style>body{font-family:system-ui,sans-serif;max-width:50rem;margin:2rem auto;padding:0 1rem;line-height:1.5}img{max-width:100%}</style></head><body><h1>Examinerande uppgift: Labb2</h1>
+<h1><strong>Laboration 2:&nbsp;Quoridor med MVC</strong></h1>
+<h3>Mål</h3>
+<ul>
+<li>Att kunna mönstret/akitekturen Model-View-Control och att tillämpa det i en uppgift med Model, View och Control för sig i var sin klass(er).</li>
+<li>Att kunna hantera&nbsp;<i>många</i>&nbsp;knappar med lyssnare på ett smidigt sätt samt att bygga upp ett litet grafiskt gränssnitt.</li>
+<li>Att förstå begreppet&nbsp;<i>Mock object</i> och kunna skapa ett sådant.</li>
+</ul>
+<h2 data-start="334" data-end="342">Syfte</h2>
+<p data-start="343" data-end="532">I denna laboration ska du träna på att dela upp ett program i <strong data-start="405" data-end="436">Model–View–Controller (MVC)</strong>.<br data-start="437" data-end="440">Målet är att du ska kunna organiserar kod så att ansvarsfördelningen blir tydlig:</p>
+<ul data-start="534" data-end="784">
+<li data-start="534" data-end="629">
+<p data-start="536" data-end="629"><strong data-start="536" data-end="545">Model</strong> – innehåller spelets data och för enkelhetens skull använd klassen <code>QuoridorEngine</code> för regler och beräkningar så slippr du lägga ner tid på något som du redan kan från tidigare kurser du har läst.</p>
+</li>
+<li data-start="630" data-end="699">
+<p data-start="632" data-end="699"><strong data-start="632" data-end="640">View</strong> – ansvarar för presentationen (text- och GUI-baserad).</p>
+</li>
+<li data-start="700" data-end="784">
+<p data-start="702" data-end="784"><strong data-start="702" data-end="716">Controller</strong> – tar emot användarens kommandon och förmedlar dem till modellen.</p>
+</li>
+</ul>
+<p data-start="786" data-end="990">Du ska alltså inte skriva hela spelets logik själv. I stället finns en färdig klass, <strong data-start="871" data-end="891"><code data-start="873" data-end="889">QuoridorEngine</code></strong>, som du ska använda den som en <strong data-start="919" data-end="930">wrapper</strong> i klassen <code>QuoridorModel</code> för att kontrollera drag och uppdatera spelets tillstånd.</p>
+<hr data-start="992" data-end="995">
+<h2 data-start="997" data-end="1006">Roller</h2>
+<p data-start="1007" data-end="1080">Under arbetet med laborationen ska alla gruppmedlemmar ha följande roller:</p>
+<ul data-start="1082" data-end="1601">
+<li data-start="1082" data-end="1255">
+<p data-start="1084" data-end="1255"><strong data-start="1084" data-end="1096">Designer</strong> – börjar med att ta fram en UML-bild över hur Model, View och Controller ska samspela. Designern bestämmer även om interface behövs för att isolera delarna.</p>
+</li>
+<li data-start="1256" data-end="1515">
+<h2 id="mockdesc"></h2>
+<p data-start="1258" data-end="1515"><strong data-start="1258" data-end="1282">Utvecklare 1, 2, 3 …</strong> – ansvarar för implementationen av respektive klass. Ni ska kunna arbeta parallellt och oberoende från varandras arbete, vilket innebär att koden för en klass inte behöver vara färdig för att andra klasser ska kunna utvecklas. För detta ändamål kan <strong data-start="1488" data-end="1503">mock-objekt</strong> användas.<br><br></p>
+<p data-start="123" data-end="160">I MVC-mönstret gäller vissa regler:</p>
+<ul data-start="161" data-end="341">
+<li data-start="161" data-end="234">
+<p data-start="163" data-end="234"><strong data-start="163" data-end="172">Model</strong> får inte känna till vare sig <strong data-start="202" data-end="210">View</strong> eller <strong data-start="217" data-end="231">Controller</strong>. &nbsp; Model&nbsp;</p>
+</li>
+<li data-start="235" data-end="278">
+<p data-start="237" data-end="278"><strong data-start="237" data-end="245">View</strong> ska bara känna till <strong data-start="266" data-end="275">Model</strong>.</p>
+</li>
+<li data-start="279" data-end="341">
+<p data-start="281" data-end="341"><strong data-start="281" data-end="295">Controller</strong> ska känna till både <strong data-start="316" data-end="325">Model</strong> och <strong data-start="330" data-end="338">View</strong>.</p>
+</li>
+</ul>
+<p data-start="343" data-end="590">När flera utvecklare arbetar parallellt kan det uppstå problem om någon del inte är klar i tid. Anta att modellen (Model) inte är färdig. Då skulle utvecklaren som bygger vyn (View) egentligen behöva vänta – men det skulle fördröja hela arbetet.</p>
+<p data-start="592" data-end="765">För att lösa detta använder man <strong data-start="624" data-end="639">mock-objekt</strong> (låtsasobjekt). Ett mock-objekt fungerar som en tillfällig stand-in för modellen, så att vyn kan testas och utvecklas ändå.</p>
+<p data-start="767" data-end="1101">Till exempel eftersom vyn bara behöver vissa delar av modellen, är det smart att först definiera ett <strong data-start="855" data-end="868">interface</strong> för modellen. Både den riktiga modellen och mock-objektet kan sedan implementera samma interface. På så sätt kan vyn jobba mot interfacet och inte bry sig om ifall det bakomliggande objektet är en riktig modell eller bara en mock. PÅ samma sätt behöver kontrollern sina Mock-objekt.</p>
+<p data-start="1103" data-end="1225">Man kan tänka på det som att en skådespelare övar sina repliker med en stand-in innan den riktiga skådspelaren dyker upp.</p>
+</li>
+<li data-start="1516" data-end="1601">
+<p data-start="1518" data-end="1601"><strong data-start="1518" data-end="1529">Testare</strong> – skriver JUnit-tester för Model och dess samspel med QuoridorEngine.</p>
+</li>
+</ul>
+<hr data-start="1647" data-end="1650">
+<h3 data-start="66" data-end="89">Quoridor</h3>
+<p data-start="90" data-end="297">Quoridor är ett brädspel för 2–4 spelare, men i denna labb ska du utveckla<strong> endast för 2 spelare</strong>. Spelet går ut på <strong data-start="219" data-end="296">att få sin spelpjäs att nå motsatta sidan av spelplanen före motståndaren</strong>. Här finns en youtube video som visar spelet: <a href="https://www.youtube.com/watch?v=6ISruhN0Hc0">https://www.youtube.com/watch?v=6ISruhN0Hc0</a></p>
+<hr data-start="299" data-end="302">
+<h3 data-start="304" data-end="319">Spelplan</h3>
+<ul data-start="320" data-end="651">
+<li data-start="320" data-end="365">
+<p data-start="322" data-end="365">En kvadratisk spelplan med <strong data-start="349" data-end="362">9×9 rutor</strong>.</p>
+</li>
+<li data-start="366" data-end="507">
+<p data-start="368" data-end="426">Varje spelare startar i mitten av varsin sida av brädet:</p>
+<ul data-start="429" data-end="507">
+<li data-start="429" data-end="470">
+<p data-start="431" data-end="470">Spelare 1 börjar raden längst upp i mitten.</p>
+</li>
+<li data-start="473" data-end="507">
+<p data-start="475" data-end="507">Spelare 2 raden längst ner i mitten.</p>
+</li>
+</ul>
+</li>
+<li data-start="508" data-end="651">
+<p data-start="510" data-end="651">Utöver pjäserna har varje spelare 10 <strong data-start="539" data-end="549">väggar</strong>. Väggarna är små “plankor” som placeras mellan två rutor och blockar vägen. <span>En vägg är lika lång som </span><strong data-start="929" data-end="942">två rutor</strong><span>. Den placeras mellan rutorna, antingen horisontellt eller vertikalt. När en vägg placeras blockeras två intilliggande gångar mellan rutorna.</span></p>
+</li>
+</ul>
+<hr data-start="913" data-end="916">
+<h3 data-start="918" data-end="936">Spelregler</h3>
+<p data-start="937" data-end="988">Varje tur får en spelare välja <strong data-start="968" data-end="987">ett av två följande drag</strong>:</p>
+<ol data-start="990" data-end="1583">
+<li data-start="990" data-end="1223">
+<p data-start="993" data-end="1012"><strong data-start="993" data-end="1012">Flytta sin pjäs</strong></p>
+<ul data-start="1016" data-end="1223">
+<li data-start="1016" data-end="1058">
+<p data-start="1018" data-end="1058">Flytta ett steg upp/ner/vänster/höger.</p>
+</li>
+<li data-start="1062" data-end="1146">
+<p data-start="1064" data-end="1146">Om motståndaren står framför och ingen vägg blockerar bakom, kan man hoppa över, om mostråndaren står framför och bakom motståndaren finns en vägg, då får man gå <strong>snett</strong> åt sidan istället.</p>
+</li>
+</ul>
+</li>
+<li data-start="1225" data-end="1583">
+<p data-start="1228" data-end="1247"><strong data-start="1228" data-end="1247">Placera en vägg</strong></p>
+<ul data-start="1251" data-end="1583">
+<li data-start="1251" data-end="1312">
+<p data-start="1253" data-end="1312">Väggen är två rutor lång och placeras mellan rutlinjerna. Alltså på grund av att väggen ät två rutor lång:</p>
+<ul data-start="1251" data-end="1583">
+<li data-start="1251" data-end="1312">
+<p data-start="1253" data-end="1312">Om man vill ha en horisontell vägg mellan två intilliggande rutor i kolumn 9 så ska man placera väggen i 8:e kolumnen. Medan när man vill ha en vägg mellan två intilliggande rutor i kolumn 1 så ska man välja kolumn 1.</p>
+</li>
+<li>Om man vill ha en vertikal vägg mellan två intilliggande rutor i rad 9 så ska man placera väggen i 8:e raden. Medan när man vill ha en vägg mellan två intilliggande rutor i rad 1 så ska man välja rad 1.</li>
+<li data-start="1251" data-end="1312">Om på brädan finns endast plats för <strong>en halv-vägg (en ruta)</strong> så kan man inte placera någon vägg där eftersom väggarna vi har är dubbel så långa.</li>
+</ul>
+</li>
+<li data-start="1316" data-end="1364">
+<p data-start="1318" data-end="1364">En vägg blockerar rörelser mellan två rutor.</p>
+</li>
+<li data-start="1368" data-end="1500">
+<p data-start="1370" data-end="1500">Man får <strong data-start="1378" data-end="1386">inte</strong> placera väggar så att en spelare blir helt instängd – det måste alltid finnas minst en väg fram till mållinjen.</p>
+</li>
+<li data-start="1504" data-end="1583">
+<p data-start="1506" data-end="1583">När man placerat en vägg, förbrukas den (man har alltså ett begränsat antal). Man får inte omplacera väggar som har använts.</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr data-start="1585" data-end="1588">
+<h3 data-start="1590" data-end="1605">Strategi</h3>
+<ul data-start="1606" data-end="1918">
+<li data-start="1606" data-end="1760">
+<p data-start="1608" data-end="1760">Spelet är en blandning av <strong data-start="1634" data-end="1646">vägbygge</strong> (försöka skapa en snabb väg till mållinjen) och <strong data-start="1695" data-end="1712">väggplacering</strong> (försöka blockera och fördröja motståndaren).</p>
+</li>
+<li data-start="1761" data-end="1918">
+<p data-start="1763" data-end="1918">En nyckelstrategi är att placera väggar för att tvinga motståndaren till längre omvägar, samtidigt som man själv försöker hålla en så kort väg som möjligt.</p>
+</li>
+</ul>
+<h2 data-start="1652" data-end="1669">QuoridorEngine</h2>
+<p data-start="1670" data-end="1759">Ni får tillgång till källkod för färdiga klasserna <code data-start="1707" data-end="1723">QuoridorEngine</code> och <code>BoardState</code>.<br data-start="1724" data-end="1727">Syftet med de klasserna är att:</p>
+<ul data-start="1761" data-end="2029">
+<li data-start="1761" data-end="1892">
+<p data-start="1763" data-end="1892">erbjuda metoder för att kontrollera spelets regler (t.ex. om en flytt är giltig, om en vägg kan placeras, om någon har vunnit),</p>
+</li>
+<li data-start="1893" data-end="1949">
+<p data-start="1895" data-end="1949">hålla Speltillstånd och uppdatera speltillståndet utifrån en gjord handling,</p>
+</li>
+<li data-start="1950" data-end="2029">
+<p data-start="1952" data-end="2029">avlasta er från komplicerad kod som består av många <code data-start="2004" data-end="2008">if</code>-satser och loopar.</p>
+</li>
+</ul>
+<p data-start="2031" data-end="2045"><strong data-start="2031" data-end="2043">Viktigt:</strong></p>
+<ul data-start="2046" data-end="2284">
+<li data-start="2046" data-end="2089">
+<p data-start="2048" data-end="2089"><code data-start="2048" data-end="2064">QuoridorEngine</code> och <code>BoardState</code> är inte hela modellen.</p>
+</li>
+<li data-start="2090" data-end="2201">
+<p data-start="2092" data-end="2201">Er egen <strong data-start="2100" data-end="2115">Model-klass</strong> ansvarar för att <strong data-start="2133" data-end="2154">hålla tillståndet</strong> (brädet, spelarnas positioner, väggar osv.) med hjälp av klassen <strong><code>BoardState</code></strong> som ni har fått i git-kontot det också.</p>
+</li>
+<li data-start="2202" data-end="2284">
+<p data-start="2204" data-end="2284">Tillsammans utgör din<strong data-start="2222" data-end="2251">&nbsp;Modelklass + <code>BoardState</code> + QuoridorEngine</strong> den kompletta <strong data-start="2266" data-end="2275">Model</strong> i MVC.</p>
+</li>
+</ul>
+<p data-start="2286" data-end="2321">Exempel på användning i er Model:</p>
+<pre data-start="2286" data-end="2321">public class QuoridorModel {<br>&nbsp; &nbsp; private BoardState board;&nbsp;<br>&nbsp; &nbsp; private int currentPlayer = 1; //aktuell spelare är spelare 1<br>&nbsp; &nbsp; private String message = "tur för spelare 1:";<br>&nbsp; &nbsp; public boolean movePlayer(int player, int toR, int toC) {<br>  &nbsp;     if (QuoridorEngine.isValidMove(board, player, toR, toC)) {<br>  &nbsp; &nbsp; &nbsp;     board = QuoridorEngine.applyMove(board, player, toR, toC);<br>  &nbsp; &nbsp; &nbsp;     return true;<br>  &nbsp;     }<br>  &nbsp;     return false;<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp;&nbsp;<br>  &nbsp; public boolean placeWall(int i, int j, boolean vertical) {<br>  &nbsp; &nbsp; &nbsp; if (QuoridorEngine.canPlaceWall(board, i, j, vertical)) {<br>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; board = QuoridorEngine.applyWall(board, player,i , j, vertical));<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return true;<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; return false;<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; public boolean hasWinner() {<br>&nbsp; &nbsp; &nbsp; &nbsp; return QuoridorEngine.hasWinner(board);<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp; //här kan det komma flera metoder...<br>}</pre>
+<hr data-start="2989" data-end="2992">
+<h2 data-start="2994" data-end="3004">Uppgift1: Textbaserad version</h2>
+<p>Gör ett textbaserat Quridorspel.</p>
+<ol data-start="3005" data-end="3807">
+<li data-start="3005" data-end="3163">
+<p data-start="3008" data-end="3057"><strong data-start="3008" data-end="3023">Designa UML</strong> för hela programmet enligt MVC.<br>Tänk på att du har flera utvecklare som ska implementera var sin del oberoende av varandra&nbsp;</p>
+<ul data-start="3061" data-end="3163">
+<li data-start="3061" data-end="3130">Bestäm vilka interface som ska finnas i Model, View och Controller.</li>
+<li data-start="3061" data-end="3130">
+<p data-start="3063" data-end="3130">Bestäm vilka klasser som ska finnas i Model, View och Controller.</p>
+</li>
+<li data-start="3134" data-end="3163">
+<p data-start="3136" data-end="3163">Bestäm ansvarsfördelning.</p>
+</li>
+</ul>
+</li>
+<li data-start="3165" data-end="3405">
+<p data-start="3168" data-end="3192"><strong data-start="3168" data-end="3190">Implementera Model</strong></p>
+<ul data-start="3196" data-end="3405">
+<li data-start="3196" data-end="3254">
+<p data-start="3198" data-end="3254">Skapa en <code data-start="3207" data-end="3222">QuoridorModel</code> som håller spelets tillstånd.</p>
+</li>
+<li data-start="3258" data-end="3324">
+<p data-start="3260" data-end="3324">Använd <code data-start="3267" data-end="3283">QuoridorEngine</code> för regelkontroller och uppdateringar.</p>
+</li>
+<li data-start="3328" data-end="3405">
+<p data-start="3330" data-end="3405">Implementera enkla metoder som <code data-start="3361" data-end="3373">movePlayer</code>, <code data-start="3375" data-end="3386">placeWall</code> och <code data-start="3391" data-end="3402">hasWinner</code>.</p>
+</li>
+</ul>
+</li>
+<li data-start="3407" data-end="3516">
+<p data-start="3410" data-end="3433"><strong data-start="3410" data-end="3431">Implementera View</strong></p>
+<ul data-start="3437" data-end="3516">
+<li data-start="3437" data-end="3516">
+<p data-start="3439" data-end="3516">Skapa en textbaserad <span style="text-decoration: line-through;">eller GUI-baserad</span>&nbsp;vy som kan visa brädet och spelets status.</p>
+</li>
+</ul>
+</li>
+<li data-start="3518" data-end="3695">
+<p data-start="3521" data-end="3550"><strong data-start="3521" data-end="3548">Implementera Controller</strong></p>
+<ul data-start="3554" data-end="3695">
+<li data-start="3554" data-end="3635">
+<p data-start="3556" data-end="3635">Hantera användarens kommandon (t.ex. via tangentbord eller knapptryckningar).</p>
+</li>
+<li data-start="3639" data-end="3695">
+<p data-start="3641" data-end="3695">Anropa metoder i Model för att utföra drag och uppdatera View.</p>
+</li>
+</ul>
+</li>
+<li data-start="3697" data-end="3807">
+<p data-start="3700" data-end="3721"><strong data-start="3700" data-end="3719">Testa med JUnit</strong></p>
+<ul data-start="3725" data-end="3807">
+<li data-start="3725" data-end="3762">
+<p data-start="3727" data-end="3762">Skriv tester för Model-metoderna.</p>
+</li>
+<li data-start="3766" data-end="3807">
+<p data-start="3768" data-end="3807">Testa både giltiga och ogiltiga drag.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>&nbsp;</p>
+<h2 data-start="151" data-end="193"><strong data-start="151" data-end="191">Uppgift2 : En version med grafiskt användargränssnitt</strong></h2>
+<p data-start="195" data-end="271">Uppgiften är att skapa ett grafiskt användargränssnitt (GUI) för spelet.</p>
+<ul data-start="273" data-end="543">
+<li data-start="273" data-end="430">
+<p data-start="275" data-end="430"><strong data-start="275" data-end="289">Inmatning:</strong> Du bestämmer själv vilka grafiska komponenter som ska användas för att ange spelarens drag (placering av väggar och förflyttning av pjäs).</p>
+</li>
+<li data-start="431" data-end="543">
+<p data-start="433" data-end="543"><strong data-start="433" data-end="452">Visning (View):</strong> Du väljer också vilka komponenter som ska representera spelplanen och spelets tillstånd.</p>
+</li>
+</ul>
+<p data-start="545" data-end="745">Notera att vissa komponenter kan fungera både som <strong data-start="595" data-end="603">view</strong> och <strong data-start="608" data-end="622">controller</strong>. Till exempel kan en <code data-start="644" data-end="653">JButton</code> både visa en ruta med en pjäs (som text/bild på knappen) och samtidigt användas för att ange nästa destinationsruta i ett drag.</p>
+<p data-start="747" data-end="768"><strong data-start="747" data-end="766">Krav på design:</strong></p>
+<ol data-start="769" data-end="1012">
+<li data-start="769" data-end="882">
+<p data-start="772" data-end="882">Det grafiska användargränssnittet ska implementera samma <em data-start="829" data-end="845">view-interface</em> som det textbaserade gränssnittet.</p>
+</li>
+<li data-start="883" data-end="1012">
+<p data-start="886" data-end="1012">Det grafiska gränssnittet ska, utöver detta, också kunna implementera samma <em data-start="962" data-end="984">controller-interface</em> som kontrollern använder.</p>
+</li>
+</ol>
+<p data-start="1014" data-end="1207">Målet är att du ska reflektera över hur man kan återanvända samma logik oavsett om interaktionen sker via text eller grafik, och hur ett gränssnitt kan fylla flera roller i en MVC-arkitektur.</p>
+<hr data-start="3809" data-end="3812">
+<h2 data-start="3814" data-end="3828">Redovisning</h2>
+<p data-start="3829" data-end="3862">Vid redovisningen ska du kunna:</p>
+<ul data-start="3863" data-end="4044">
+<li data-start="3968" data-end="4001">
+<p data-start="3970" data-end="4001">Demonstrera spelet i körning.</p>
+</li>
+<li data-start="3922" data-end="3967">
+<p data-start="3924" data-end="3967">Visa din UML och motivera dina designval med avseende på MVC.</p>
+</li>
+<li>Förklara hur din Model, View och Controller samspelar.</li>
+<li data-start="4002" data-end="4044">
+<p data-start="4004" data-end="4044">Köra JUnit-tester och visa resultaten.</p>
+</li>
+</ul>
+<h3 data-start="2546" data-end="2579">⚠️ Glöm inte att lägga upp din kod på KTH-git&nbsp;</h3>
+<p><a name="x2"></a></p>
+<h2>Extrauppgift X2<br><br></h2>
+<h3><strong>Lägg till designmönstret <em>Observer</em></strong></h3>
+<p><a name="x2"></a></p>
+<p>Under arbetet med grunduppgiften har du haft olika roller under utvecklingen av ditt MVC-projekt.<br>Nu är det dags att ta en ny roll — som om du vore en ny utvecklare som tagit över någon annans kod.<br>Du har fått en färdig kodbas (den kod du själv skrev som lösning till grunduppgiften MVC) och du har fått i uppdraget att <strong>implementera designmönstret Observer</strong>.</p>
+<hr>
+<h3>Uppgiftens mål</h3>
+<p>I lösningen för grunduppgiften är det <strong>Controller</strong> som meddelar <strong>View</strong> att modellen har uppdaterats.<br>Enligt <em>Observer</em>-mönstret ska det istället vara <strong>själva modellen</strong> som meddelar vyn (eller vyerna) när ny data finns tillgänglig.</p>
+<p>Målet är därför att <strong>utöka </strong>(genom arv) modellen så att:</p>
+<ul>
+<li>
+<p>modellen (Observable) kan <strong>registrera</strong> och <strong>avregistrera</strong> flera olika vyer (grafisk, textbaserad,…),</p>
+</li>
+<li>
+<p>och endast de vyer som är registrerade får en notifikation när modellens data har ändrats.</p>
+</li>
+</ul>
+<hr>
+<h3>Två möjliga vägar</h3>
+<p>Du kan välja mellan två sätt att angripa problemet:</p>
+<ol>
+<li>
+<p><strong>Modifiera befintlig kod</strong><br>Du sätter dig i den existerande koden och ändrar den tills Observer-funktionaliteten finns på plats.<br>Det fungerar, men kan vara riskabelt och tidskrävande. Dessutom riskerar man att tidigare struktur (i detta fall MVC) förstörs.</p>
+</li>
+<li>
+<p><strong>Utöka utan att ändra befintlig kod</strong><br>Du försöker istället <strong>lägga till ny kod</strong> som utökar den befintliga lösningen – utan att ändra en enda rad i lösningen till grunduppgiften.<br>Detta tillvägagångssätt följer <em>Open/Closed-principen</em>:</p>
+<blockquote>
+<p><em>"En klass ska vara öppen för utökning men stängd för modifiering."</em></p>
+</blockquote>
+</li>
+</ol>
+<p>I denna uppgift är det alltså <strong>alternativ 2</strong> du ska välja.</p>
+<hr>
+<h3><span style="font-family: inherit;">Att tänka på</span></h3>
+<h3><span style="font-family: inherit; font-size: 1rem;">Syftet är inte bara att få mönstret att fungera, utan att förstå hur man kan </span><strong style="font-family: inherit; font-size: 1rem;">bygga vidare på befintlig kod utan att bryta dess struktur</strong><span style="font-family: inherit; font-size: 1rem;">.</span></h3>
+<p>Detta är en mycket vanlig situation i verkliga projekt.</p>
+<p>Observer-mönstret kommer dessutom att behandlas mer ingående i kommande undervisning.<br>Den här extrauppgiften är därför ett sätt för dig att <strong>förbereda dig inför den delen av kursen</strong>, inte att redan kunna allt om mönstret.<br>Du behöver alltså inte oroa dig om allt inte känns helt klart just nu — förklaringen kommer snart!</p>
+<hr>
+<h3>Sammanfattning</h3>
+<p><strong>Din uppgift är att:</strong></p>
+<ul>
+<li>
+<p>skapa en ny interface, <code>MyObservable</code>, som har metoddeklarationerna</p>
+<ul>
+<li>
+<p><code>void addObserver(MyObserver o);</code></p>
+</li>
+<li>
+<p><code>void removeObserver(MyObserver o)</code></p>
+</li>
+<li>
+<p><code>void notifyObservers().</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>skapa en ny klass, <code>ObservableModel,</code> som ärver från modellen från grunduppgiften &nbsp;och implementerar interfacet&nbsp;</p>
+</li>
+<li>
+<p>skapa ett interface <code>MyObserver</code> som har metoden <code>void update();</code> och låta dina vyer implementera det,</p>
+</li>
+<li>skapa en eller flera klasser för vyer, <code>MyView</code>, som måste implementera <code>MyObserver</code> och kan ärva från View (textbaserade eller/och grafisk) i grunduppgiften för att slippa skriva om "samma" kod.&nbsp;</li>
+<li>
+<p>och koppla ihop allt så att vyerna får besked <strong>automatiskt</strong> när modellen ändras.</p>
+</li>
+<li>du behöver skriva ett main-klass för Observer-mönstret. I den ska du skapa objekt av <code>ObservableModel</code> och MyView och ev andra vyer.</li>
+</ul>
+<p>Allt detta <strong>utan att ändra en enda rad</strong> i dina befintliga MVC-klasser.</p>
+</body></html>

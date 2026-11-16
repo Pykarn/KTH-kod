@@ -1,0 +1,141 @@
+
+<meta charset = utf8>
+<h3>Svar och lösningar till tentamen i DD1385 2019-01-09</h3>
+
+<table width = 800><td>
+
+<b>1)</b>&nbsp;&nbsp;&nbsp;
+A: Observer&nbsp;&nbsp;&nbsp;B: Template Method&nbsp;&nbsp;&nbsp;C: Proxy
+&nbsp;&nbsp;&nbsp;D: Strategy&nbsp;&nbsp;&nbsp;E: Iterator
+<p>
+
+  <b>2)</b>&nbsp;&nbsp;&nbsp; Man behöver en klass som är <i>lyssnarklass</i>.
+  Den klassen ska implementera interfacet <i>ActionListener</i> som har en enda
+  metod, <i>actionPerformed</i>. I den metoden definieras det som ska hända
+  när man trycker på knappen. <p>
+      <pre>
+	class Listener implements ActionListener {
+	    public void actionPerformed (ActionEvent e) {
+	        System.out.println("Du tryckte på knappen");
+	    }
+	    // Klassen kan ha annat innehåll också
+	}
+      </pre>
+
+  Ett objekt av lyssnarklassen måste kopplas till
+  knappen med hjälp av metoden <i>addActionListener()</i>. Så här kan det se ut:<p>
+  <pre>        button.addActionListner(theListener);</pre>
+<p>
+  Parametern <i>theListener</i> är (referens till) det aktuella
+  lyssnarobjektet. Ovanstående, fast utan exakt rätta namn, räcker för att få 2p. <p>
+  Två specialfall: (1) <i>theListener</i> kan ersättas med <i>this</i>, om knappen skapas inuti den klass som utgör lyssnarklassen. (2) Man kan skapa lyssnarklassen <i>och</i> lyssnarobjektet på parameterplatsen. Lyssnarklassen blir då en anonym inre klass. Tentander som beskrivit endast ett specialfall fick också 2p.<p>
+
+<b>3)</b>&nbsp;&nbsp;&nbsp; UML-diagrammet finns i ett eget pdf-dokument.
+  
+<p>
+
+      
+  <b>4a)</b>&nbsp;&nbsp; Decorator.<br>
+  <b>4b)</b>&nbsp;&nbsp; Anrop av superklassens konstruktor.<br>
+  <b>4c)</b>&nbsp;&nbsp; Modifieraren <i>private</i> på en variabel eller metod innebär att variabeln/metoden endast är åtkomlig inom klassen där den skapats, alltså inte från andra klasser eller från subklasser till aktuell klass.<p>  
+
+      
+  <b>5a)</b>&nbsp;&nbsp;&nbsp;Alla klasser ärver från klassen <i>Object</i> utan att man anger det explicit. Metoden <i>equals()</i> finns i <i>Object</i> och är public och ärvs således av alla klasser.<br>
+  <b>5b)</b>&nbsp;&nbsp;&nbsp;Jämförelsen <i>c1==c2</i> avser innehållen i referensvariablerna <i>c1</i> och <i>c2</i>. Variablerna innehåller referenserna (adresserna) till de två objekten. Det är två objekt som ligger på olika ställen i minnet. Att objektens innehåll är lika spelar ingen roll här.<p>
+      <b>5c)</b>&nbsp;&nbsp;&nbsp;Metoden <i>equals()</i> finns för att smidigt
+      kunna ange egna villkor för att objekt är likadana inuti. Vi definierar om metoden enligt följande i klassen <i>Car</i>: <pre>
+	public boolean equals(Object other) {
+	    if ( !(other instanceof Car)) return false;
+	    Car otherCar = (Car) other;
+	    return this.name.equals(otherCar.name) && this.year==otherCar.year;
+	}	</pre>
+Kommentarer: Parametertypen här måste vara <i>Object</i> eftersom metoden ärvs från klassen <i>Object</i>. Omkvalificering till <i>Car</i> behvövs innan man använder attribut från klassen Car. 
+<p>
+
+<b>6)</b>&nbsp;&nbsp;&nbsp;Klassen <i>A</i> måste implementera interfacet <i>Comparable</i> eller ännu hellre <i>Comparable&lt;A&gt;</i>. Klassen måste ha en metod som anger ordningen mellan två A-objekt genom att returnera ett heltal som är negativt, noll (vid likhet) eller positivt.
+<pre>
+    class A implements Comparable&lt;A&gt;{
+        public int compareTo(A other) {
+            // returnerar heltal beroende på
+            // ordningen mellan this och other
+        }
+    }</pre>
+  
+    
+
+<b>7a)</b>&nbsp;&nbsp;&nbsp;<b>A</b> går inte att kompilera. Metoden kräver ett objekt av <i>RoundedShape</i>. Då fungerar <i>RoundedShape</i> och dess subklasser. Dessa ÄR <i>RoundedShape</i>. <i>Shape</i> är superklass till <i>RoundedShape</i> och fungerar inte då den inte har alla egenskaper som <i>RoundedShape</i> har. <br>
+
+<b>7b)</b>&nbsp;&nbsp;&nbsp; Det som krävs här är en omkvalificering av referensen <i>sc</i> från nuvarande <i>Shape</i> till <i>Circle</i>. Det går bra eftersom <i>sc</i> refererar till ett <i>Circle</i>-objekt. Så här ska satsen se ut:
+<pre> Circle cc = (Circle) sc;</pre>
+<p>
+
+
+  <b>8)</b>&nbsp;&nbsp;&nbsp;Rätta svar är
+  <b>B</b>, <b>D</b> och <b>E</b>.
+<p>
+
+
+  <b>9)</b>&nbsp;&nbsp;&nbsp; Polymorfism betyder <i>mångformig</i>. Det står i detta sammanhang för att
+  ett objekt av en viss typ (supertypen) kan representeras av flera olika subtyper. Supertypen är mångformig och subtyperna är de olika formerna. En abstrakt metod i supertypen ges olika definitioner i subtyperna. Anropet <font size = +2><code>obj.m()</code></font> där referensen obj är av
+  supertypen, 
+  anropar olika metoder beroende på vilken typ av objekt som obj refererar till. <br>
+  <i>Dynamisk bindning</i> = Först vid exekvering (dynamiskt) och inte vid kompilering bestäms
+  vilken metod (vilken kod) som exekveras i anropet <font size = +2><code>obj.m()</code></font>. 
+  
+<p>
+
+  <b>10a)</b>&nbsp;&nbsp;&nbsp; Syftet med Singleton är att säkerställa att det endast kan skapas ett enda objekt av klassen.<br>&nbsp;<br>
+  Här följer den rättade klassen för <b>b,c,d</b>:
+ <font size=+1>
+   <pre>
+     public class Singleton {
+         private static Singleton theOnly; 
+         private Singleton() {...}
+         public static Singleton getInstance() {
+             if (theOnly == null) theOnly = new Singleton();
+             return theOnly;
+         }
+     }
+   </pre>
+   </font>
+   <b>10b)</b> Referensen till det enda objektet måste vara static, annars skulle det krävas att man skapar ett objekt innan elementet används vilket kräver flera objekt. Det är orimligt och stämmer inte med Singleton. Måste också vara private för inte kunna tilldelas värde (null) utifrån och därigenom framtvinga att flera objekt skapas. Även final är bra vilket gör att den bara kan tilldelas värde en gång. <br> 
+   <b>10c)</b> Konstruktorn måste vara private, annars är det fritt fram att skapa många objekt. <br>
+   <b>10d)</b> getInstance() måste vara static så att den kan anropas oberoende av objekt av Singleton. Annars krävs det ett Singleton-objekt innan man kan få tag på det enda Singleton-objektet vilket är orimligt. <br>
+   <b>10e)</b> Med enum-typer i Java kan man enkelt göra Singleton och dess motsvarigheter som tillåter N st objekt. 
+
+<p>
+
+
+  <b>11a)</b>&nbsp;&nbsp;&nbsp; Objektet som refereras med <i>cObject</i> ska vara av typen <i>Comparator</i>. <i>Comparator</i> är ett <i>interface</i> med en enda metod <i>compare(obj1,obj2)</i>, där två objekt jämförs och ett heltal returneras. Heltalet anger ordningen mellan elementen enligt samma princip som för metoden <i>compareTo(obj)</i> interfacet <i>Comparable</i>.<br>
+  Klassen kan för <i>cObject</i> kan se ut så här. Antag att objekten i listan är v typen A. <br> <pre>
+
+    class CompareA implements Comparator<A> {
+        public int compare(A obj1, A obj2) {
+            // om obj1 och obj2 är lika så returneras 0
+            // om obj1 kommer före obj2 returneras heltal < 0
+	    // om obj1 kommer efter obj2 returneras heltal > 0
+        }
+    }
+</pre>
+    
+  <b>11b)</b>&nbsp;&nbsp;1) Objekten i <i>lista</i> har redan en naturlig ordning genom <i>implements Comparable</i> och man vill sortera i en annan ordning.&nbsp;
+  (2) Objekten i <i>lista</i> har ingen naturlig ordning och det är inte heller möjligt eller önskvärt att ge dem en sådan.<br>
+  <b>11c)</b>&nbsp;&nbsp; Mönstret är <i>Strategy</i>
+  <p>
+
+    <b>12)</b> <br>
+   
+<font size = +1><code><b>a1.start();</b></code></font>  // Trådens start-metod medför att tråden exekverar koden i run-metoden parallellt/simultant med main-tråden <p>
+
+<font size = +1><code><b>a1.run();</b></code></font>    // Koden i run kommer att börja exekvera i main-tråden<p>
+
+På tentan krävdes endast förklaring av <i>omöjliga</i> scenarier, dvs bara
+alternativ C). För A) och B) krävdes bara svaren möjlig eller omöjlig.  <p>
+
+<b>A)</b> Möjlig: texten "3 running” kan skrivas ut två gånger efter varandra. Ett scenario kan vara detta: första gången skrivs texten ut av tråden a1 och omedelbart avbryts tråden och läggs i en pool för att fortsätta köra senare, sedan exekveras a1.run() vilket gör att ”3 running” skrivs ut en gång till eftersom att värdet av variabeln v har inte hunnit minska till 2. Sedan fortsätter exekveringen och v minskas till 0 och då avslutas exekvering avwhile-satsen i a1.run(), sedan fortsätter tråden sin exekvering vilket gör att v ändras till -1 och på samma sätt avslutas exekvering av while-satsen i tråden a1 och exekvering av tråden avslutas med.<p>
+
+<b>B)</b> Möjlig: texten ”0 running” kan skrivas ut, ett scenario kan vara detta: Tråden börjar exekvera och skriver ut ”3 running”, ”2 running” och ”1 running” och omedelbart efter detta och innan värdet av variabeln v minskas till 0 avbryts tråden och läggs i poolen för att fortsätta köra senare. Sedan startar a1.run() exekvera så lång som exekvering av while-satsens villkor, men inte utsrift-satsen och då avbryts main-tråden för att fortsätta exekvera senare och tråden ska fortsätta sin exekvering. Tråden kommer att minska värdet av v till 0 och avslutas tråden där. Nu kommer main-tråden fortsätta sin exekvering och eftersom att v har blivit 0 så skrivs ut ”0 running” och därefter v minskas till -1 och avslutas main-tråden med. <p>
+
+<b>C)</b> Inte möjlig: De två parallella exekveringarna använder samma variabel v. Värdet av v kan bara minskas eller vara samma i två följande utskrifter, men aldrig öka. 
+
+
